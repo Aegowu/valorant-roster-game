@@ -88,14 +88,28 @@ function makeRegion(key, label, sub) {
   };
 }
 
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
 function buildTeamYearRosters() {
   const rosters = {};
+
   Object.keys(teamPlayerPools).forEach((team) => {
     rosters[team] = {};
-    YEARS.forEach((year, yearIndex) => {
-      const pool = teamPlayerPools[team];
-      rosters[team][year] = roles.map((role, roleIndex) => {
-        const playerName = pool[(yearIndex + roleIndex) % pool.length];
+
+    YEARS.forEach((year) => {
+      const pool = shuffle(teamPlayerPools[team]);
+
+      // assign unique players to roles (no repeats)
+      rosters[team][year] = roles.map((role, idx) => {
+        const playerName = pool[idx % pool.length];
+
         return {
           name: playerName,
           naturalRole: role.key,
@@ -104,6 +118,7 @@ function buildTeamYearRosters() {
       });
     });
   });
+
   return rosters;
 }
 
@@ -192,11 +207,26 @@ function setScreen(screen) {
 function renderSlots(container) {
   container.innerHTML = roles.map((role) => {
     const pick = state.picks.find((item) => item.roleKey === role.key);
+
+    if (!pick) {
+      return `
+        <article class="slot is-open">
+          <span class="slot-role">${role.label}</span>
+          <strong class="slot-player">-</strong>
+        </article>
+      `;
+    }
+
+    const tags = pick.roleTags?.length
+      ? pick.roleTags.join(", ")
+      : pick.role;
+
     return `
-      <article class="slot ${pick ? "is-filled" : "is-open"}">
+      <article class="slot is-filled">
         <span class="slot-role">${role.label}</span>
-        <strong class="slot-player">${pick ? pick.name : "-"}</strong>
-        ${pick ? `<span class="slot-role">${pick.team} / ${pick.year}</span>` : ""}
+        <strong class="slot-player">${pick.name}</strong>
+        <span class="slot-role">${pick.team} / ${pick.year}</span>
+        <small>${tags}</small>
       </article>
     `;
   }).join("");
@@ -308,3 +338,9 @@ document.addEventListener("click", (event) => {
   const draftTarget = event.target.closest("[data-draft]");
   if (draftTarget) draftPlayer(draftTarget.dataset.draft);
 });
+
+function getPlayerRoleTags(player) {
+  return roles
+    .filter((r) => player.ratings[r.key] >= 85)
+    .map((r) => r.label);
+}
