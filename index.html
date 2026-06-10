@@ -1,77 +1,135 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Valorant Roster Game</title>
-</head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Radiant Road Valorant - Build the perfect VCT roster</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="app" id="app">
+      <section class="screen start-screen" data-screen="start">
+        <div class="scanline"></div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="spike-core"></div>
+          <div class="spike-ring ring-a"></div>
+          <div class="spike-ring ring-b"></div>
+          <div class="agent-card card-a"></div>
+          <div class="agent-card card-b"></div>
+          <div class="agent-card card-c"></div>
+        </div>
 
-<body>
-  <h1>Build your Valorant roster</h1>
+        <p class="eyebrow">The Valorant esports roster challenge</p>
+        <h1 class="hero-title">Radiant<br>Road<br><span>VCT</span></h1>
+        <p class="hero-copy">
+          Spin a region, team and year from 2020 onward. Draft one player from
+          that year's roster, then roll a fresh team for the next pick.
+        </p>
 
-  <button onclick="generateTeam()">Generate Random Team</button>
+        <div class="road" aria-label="season checkpoints">
+          <span>Kickoff</span>
+          <b>&gt;</b>
+          <span>Masters 1</span>
+          <b>&gt;</b>
+          <span>Stage 1</span>
+          <b>&gt;</b>
+          <span>Masters 2</span>
+          <b>&gt;</b>
+          <span>Champions</span>
+        </div>
 
-  <h2 id="team"></h2>
+        <button class="btn primary big" data-action="start">
+          <span class="play-icon">&gt;</span>
+          Start Run
+        </button>
 
-  <hr>
+        <div class="intro-grid">
+          <article class="info-card">
+            <span class="info-icon">V</span>
+            <div>
+              <h2>Roll A Team</h2>
+              <p>Each roll displays that team's year-specific roster for any roles you still need to fill.</p>
+            </div>
+          </article>
+          <article class="info-card">
+            <span class="info-icon">R</span>
+            <div>
+              <h2>3 Rerolls</h2>
+              <p>Use one reroll each for Region, Team and Year. Drafting a player spins a fresh team.</p>
+            </div>
+          </article>
+        </div>
 
-  <p>Duelist:</p>
-  <select id="duelist">
-    <option value="10">TenZ</option>
-    <option value="9">Derke</option>
-  </select>
+        <p class="disclaimer">
+          Radiant Road VCT is an unofficial fan game. It is not endorsed by Riot Games.
+        </p>
+      </section>
 
-  <p>Initiator:</p>
-  <select id="initiator">
-    <option value="9">chronicle</option>
-    <option value="8">Shao</option>
-  </select>
+      <section class="screen game-screen is-hidden" data-screen="game">
+        <header class="topbar">
+          <button class="brand-button" data-action="reset" aria-label="Return to start">
+            <span>Radiant Road</span><strong>VCT</strong>
+          </button>
+          <div class="draft-status">
+            <span data-bind="phase">Draft</span>
+            <strong data-bind="pickCount">Pick 1/5</strong>
+          </div>
+        </header>
 
-  <p>Controller:</p>
-  <select id="controller">
-    <option value="9">Mako</option>
-    <option value="8">Marved</option>
-  </select>
+        <section class="slots" aria-label="drafted roster" data-bind="slots"></section>
 
-  <p>Sentinel:</p>
-  <select id="sentinel">
-    <option value="9">less</option>
-    <option value="8">s0m</option>
-  </select>
+        <section class="spin-panel">
+          <div class="region-kicker" data-bind="regionKicker">Americas / North America</div>
+          <div class="draw-grid">
+            <article class="draw-card">
+              <span>Region</span>
+              <strong data-bind="region">-</strong>
+            </article>
+            <article class="draw-card">
+              <span>Team</span>
+              <strong data-bind="team">-</strong>
+            </article>
+            <article class="draw-card">
+              <span>Year</span>
+              <strong data-bind="year">-</strong>
+            </article>
+          </div>
 
-  <p>IGL / Flex:</p>
-  <select id="flex">
-    <option value="9">Boaster</option>
-    <option value="8">FNS</option>
-  </select>
+          <div class="reroll-grid">
+            <button class="btn reroll" data-action="rerollRegion">Reroll Region <span data-bind="regionRolls">1</span></button>
+            <button class="btn reroll" data-action="rerollTeam">Reroll Team <span data-bind="teamRolls">1</span></button>
+            <button class="btn reroll" data-action="rerollYear">Reroll Year <span data-bind="yearRolls">1</span></button>
+          </div>
+          <p class="microcopy">Drafting a player automatically rolls a new team for the next pick.</p>
+        </section>
 
-  <br><br>
+        <section class="candidate-section">
+          <div class="section-head">
+            <span data-bind="openRoles">Team players - open: Duelist / Initiator / Controller / Sentinel / Flex</span>
+          </div>
+          <div class="candidate-grid" data-bind="candidates"></div>
+        </section>
+      </section>
 
-  <button onclick="calculate()">Get Score</button>
+      <section class="screen result-screen is-hidden" data-screen="result">
+        <p class="eyebrow">Run Complete</p>
+        <h1 class="result-title">Your Radiant Road</h1>
+        <section class="final-roster" data-bind="finalRoster"></section>
+        <div class="score-card">
+          <span>Synergy Rating</span>
+          <strong data-bind="score">0</strong>
+          <p data-bind="scoreText"></p>
+        </div>
+        <button class="btn primary big" data-action="reset">Run It Back</button>
+      </section>
+    </main>
 
-  <h2 id="result"></h2>
+    <footer>
+      <a href="https://www.riotgames.com/en/legal" target="_blank" rel="noreferrer">Riot Legal</a>
+      <span>/</span>
+      <span>Unofficial fan project</span>
+    </footer>
 
-  <script>
-    const teams = ["Fnatic", "LOUD", "DRX", "NRG", "Paper Rex", "Sentinels"]
-    const years = [2021, 2022, 2023, 2024]
-
-    function generateTeam() {
-      let team = teams[Math.floor(Math.random() * teams.length)]
-      let year = years[Math.floor(Math.random() * years.length)]
-
-      document.getElementById("team").innerText =
-        "Generated Team: " + team + " (" + year + ")"
-    }
-
-    function calculate() {
-      let total =
-        Number(document.getElementById("duelist").value) +
-        Number(document.getElementById("initiator").value) +
-        Number(document.getElementById("controller").value) +
-        Number(document.getElementById("sentinel").value) +
-        Number(document.getElementById("flex").value)
-
-      document.getElementById("result").innerText =
-        "Your roster score is: " + total
-    }
-  </script>
-</body>
+    <script src="app.js"></script>
+  </body>
 </html>
