@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Valorant Roster Game</title>
+</head>
+
+<body>
+  <h1>Build your Valorant roster</h1>
+
+  <button onclick="generateTeam()">Generate Random Team</button>
+
+  <h2 id="team"></h2>
+
+  <hr>
+
+  <p>Duelist:</p>
+  <select id="duelist">
+    <option value="10">TenZ</option>
+    <option value="9">Derke</option>
+  </select>
+
+  <p>Initiator:</p>
+  <select id="initiator">
+    <option value="9">chronicle</option>
+    <option value="8">Shao</option>
+  </select>
+
+  <p>Controller:</p>
+  <select id="controller">
+    <option value="9">Mako</option>
+    <option value="8">Marved</option>
+  </select>
+
+  <p>Sentinel:</p>
+  <select id="sentinel">
+    <option value="9">less</option>
+    <option value="8">s0m</option>
+  </select>
+
+  <p>IGL / Flex:</p>
+  <select id="flex">
+    <option value="9">Boaster</option>
+    <option value="8">FNS</option>
+  </select>
+
+  <br><br>
+
+  <button onclick="calculate()">Get Score</button>
+
+  <h2 id="result"></h2>
+
+  <script>
+    const teams = ["Fnatic", "LOUD", "DRX", "NRG", "Paper Rex", "Sentinels"]
+    const years = [2021, 2022, 2023, 2024]
+
+    function generateTeam() {
+      let team = teams[Math.floor(Math.random() * teams.length)]
+      let year = years[Math.floor(Math.random() * years.length)]
+
+      document.getElementById("team").innerText =
+        "Generated Team: " + team + " (" + year + ")"
+    }
+
+    function calculate() {
+      let total =
+        Number(document.getElementById("duelist").value) +
+        Number(document.getElementById("initiator").value) +
+        Number(document.getElementById("controller").value) +
+        Number(document.getElementById("sentinel").value) +
+        Number(document.getElementById("flex").value)
+
+      document.getElementById("result").innerText =
+        "Your roster score is: " + total
+    }
+  </script>
+</body>
+</html>
