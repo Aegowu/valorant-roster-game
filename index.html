@@ -55,7 +55,7 @@
             <span class="info-icon">R</span>
             <div>
               <h2>3 Rerolls</h2>
-              <p>Use one reroll each for Region, Team and Year. Drafting a player spins a fresh team.</p>
+              <p>Use three full rerolls to spin a new Region, Team and Year together.</p>
             </div>
           </article>
         </div>
@@ -96,9 +96,7 @@
           </div>
 
           <div class="reroll-grid">
-            <button class="btn reroll" data-action="rerollRegion">Reroll Region <span data-bind="regionRolls">1</span></button>
-            <button class="btn reroll" data-action="rerollTeam">Reroll Team <span data-bind="teamRolls">1</span></button>
-            <button class="btn reroll" data-action="rerollYear">Reroll Year <span data-bind="yearRolls">1</span></button>
+            <button class="btn reroll full-reroll" data-action="rerollDraw">Full Reroll <span data-bind="rerolls">3</span></button>
           </div>
           <p class="microcopy">Drafting a player automatically rolls a new team for the next pick.</p>
         </section>
@@ -130,6 +128,7 @@
       <span>Unofficial fan project</span>
     </footer>
 
+    <script src="data/major-data.js"></script>
     <script src="app.js"></script>
   </body>
 </html>

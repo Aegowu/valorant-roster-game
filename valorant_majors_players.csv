@@ -1,0 +1,1089 @@
+year,event,player,team,region,role,rating,agents,rounds
+2021,Masters 2,TenZ,SEN,Americas,Duelist,1.35,"reyna,jett,raze",201
+2021,Masters 2,ScreaM,TL,EMEA,Flex,1.22,"sage,phoenix",193
+2021,Masters 2,ShahZaM,SEN,Americas,Flex,1.19,"jett,sova",201
+2021,Masters 2,Lakia,NU,China,Flex,1.15,"sova,raze",222
+2021,Masters 2,Sacy,VKS,Americas,Initiator,1.15,sova,128
+2021,Masters 2,L1NK,TL,EMEA,Controller,1.14,"brimstone,omen",193
+2021,Masters 2,Klaus,KRÜ,Americas,Flex,1.14,"killjoy,skye",109
+2021,Masters 2,Patiphan,X10,Pacific,Flex,1.12,"sage,jett,viper",129
+2021,Masters 2,SicK,SEN,Americas,Duelist,1.11,"sova,phoenix,raze",201
+2021,Masters 2,Mistic,FNC,EMEA,Flex,1.11,"viper,skye",355
+2021,Masters 2,Zellsis,V1,Americas,Flex,1.09,"killjoy,phoenix",233
+2021,Masters 2,Jamppi,TL,EMEA,Flex,1.07,"jett,killjoy",193
+2021,Masters 2,effys,V1,Americas,Flex,1.06,"sage,sova",233
+2021,Masters 2,Derke,FNC,EMEA,Flex,1.06,"jett,sova",355
+2021,Masters 2,foxz,X10,Pacific,Flex,1.04,"sova,jett",129
+2021,Masters 2,MAGNUM,FNC,EMEA,Sentinel,1.04,"killjoy,cypher,skye",355
+2021,Masters 2,penny,V1,Americas,Duelist,1.03,jett,233
+2021,Masters 2,dapr,SEN,Americas,Sentinel,1.03,"sage,cypher,viper",201
+2021,Masters 2,gaabxx,SHK,China,Flex,1.02,"sage,viper,raze",91
+2021,Masters 2,neth,CR,Pacific,Sentinel,1.02,killjoy,87
+2021,Masters 2,doma,FNC,EMEA,Flex,1.01,"sage,omen,raze",355
+2021,Masters 2,Mazino,KRÜ,Americas,Flex,1.00,"viper,sage",109
+2021,Masters 2,peri,NU,China,Controller,1.00,"astra,omen",222
+2021,Masters 2,soulcas,TL,EMEA,Initiator,0.98,"skye,sova",193
+2021,Masters 2,sScary,X10,Pacific,Controller,0.94,"astra,viper",129
+2021,Masters 2,Munchkin,CR,Pacific,Duelist,0.93,"phoenix,sage,raze",87
+2021,Masters 2,Boaster,FNC,EMEA,Initiator,0.93,"sova,astra,skye",355
+2021,Masters 2,prozin,SHK,China,Duelist,0.92,"raze,phoenix",91
+2021,Masters 2,Kryptix,TL,EMEA,Flex,0.91,"viper,killjoy",193
+2021,Masters 2,saadhak,VKS,Americas,Sentinel,0.90,"killjoy,cypher",128
+2021,Masters 2,Sushiboys,X10,Pacific,Sentinel,0.89,"killjoy,cypher",129
+2021,Masters 2,zepher,CR,Pacific,Duelist,0.88,jett,87
+2021,Masters 2,zombs,SEN,Americas,Controller,0.88,"viper,astra",201
+2021,Masters 2,vanity,V1,Americas,Controller,0.88,"astra,omen",233
+2021,Masters 2,bnj,KRÜ,Americas,Initiator,0.87,"sova,raze,skye",109
+2021,Masters 2,allow,NU,China,Duelist,0.87,jett,222
+2021,Masters 2,Crws,X10,Pacific,Initiator,0.87,"skye,breach",129
+2021,Masters 2,jammyz,V1,Americas,Flex,0.86,"viper,killjoy",233
+2021,Masters 2,Suggest,NU,China,Initiator,0.85,"raze,skye,breach",222
+2021,Masters 2,delz1k,KRÜ,Americas,Controller,0.85,"sage,brimstone,omen",109
+2021,Masters 2,Medusa,CR,Pacific,Initiator,0.83,sova,87
+2021,Masters 2,sutecas,VKS,Americas,Controller,0.81,"omen,astra",128
+2021,Masters 2,solo,NU,China,Sentinel,0.80,"breach,killjoy,cypher",222
+2021,Masters 2,NagZ,KRÜ,Americas,Flex,0.78,"jett,sage",109
+2021,Masters 2,deNaro,SHK,China,Initiator,0.77,sova,91
+2021,Masters 2,gtn,VKS,Americas,Duelist,0.76,"raze,yoru",128
+2021,Masters 2,light,SHK,China,Controller,0.69,"omen,brimstone",91
+2021,Masters 2,frz,VKS,Americas,Duelist,0.69,"phoenix,jett",128
+2021,Masters 2,rion,CR,Pacific,Controller,0.68,"astra,viper,omen",87
+2021,Masters 2,fra,SHK,China,Sentinel,0.60,"killjoy,skye,sage",91
+2021,Masters 3,yay,ENVY,Americas,Duelist,1.33,jett,248
+2021,Masters 3,nAts,GMB,EMEA,Flex,1.26,"viper,cypher",306
+2021,Masters 3,Chronicle,GMB,EMEA,Controller,1.26,"sova,viper,brimstone",306
+2021,Masters 3,TenZ,SEN,Americas,Duelist,1.25,"reyna,jett,raze",243
+2021,Masters 3,cNed,ACE,EMEA,Flex,1.24,"jett,sage",213
+2021,Masters 3,heat,VKS,Americas,Duelist,1.23,jett,131
+2021,Masters 3,MaKo,VS,Pacific,Controller,1.20,"astra,viper",144
+2021,Masters 3,keloqz,G2,Americas,Flex,1.18,"jett,sage,skye",275
+2021,Masters 3,Laz,ZETA,Pacific,Initiator,1.18,"sova,skye,cypher",92
+2021,Masters 3,nitr0,100T,Americas,Controller,1.16,"omen,viper,astra",208
+2021,Masters 3,nukkye,G2,Americas,Duelist,1.15,"sage,raze,reyna",275
+2021,Masters 3,sheydos,GMB,EMEA,Flex,1.14,"skye,reyna",306
+2021,Masters 3,zeek,ACE,EMEA,Duelist,1.11,"sova,raze,phoenix",213
+2021,Masters 3,murizzz,VKS,Americas,Duelist,1.11,"reyna,raze,phoenix",131
+2021,Masters 3,stax,VS,Pacific,Initiator,1.10,"breach,sage,skye",144
+2021,Masters 3,Hiko,100T,Americas,Flex,1.09,"sova,viper",208
+2021,Masters 3,d3ffo,GMB,EMEA,Duelist,1.09,jett,306
+2021,Masters 3,crashies,ENVY,Americas,Flex,1.09,"sova,viper",248
+2021,Masters 3,ShahZaM,SEN,Americas,Flex,1.08,"jett,sova",243
+2021,Masters 3,BuZz,VS,Pacific,Duelist,1.07,jett,144
+2021,Masters 3,v1xen,VKS,Americas,Controller,1.07,"viper,astra",131
+2021,Masters 3,Izzy,SUP,EMEA,Duelist,1.06,"jett,raze",166
+2021,Masters 3,SicK,SEN,Americas,Flex,1.05,"sage,phoenix,skye",243
+2021,Masters 3,Victor,ENVY,Americas,Flex,1.04,"raze,skye",248
+2021,Masters 3,Marved,ENVY,Americas,Controller,1.04,"viper,astra",248
+2021,Masters 3,takej,ZETA,Pacific,Flex,1.04,"reyna,sage,skye",92
+2021,Masters 3,Asuna,100T,Americas,Duelist,1.04,"jett,reyna",208
+2021,Masters 3,Rb,VS,Pacific,Initiator,1.03,"skye,sova,raze",144
+2021,Masters 3,NagZ,KRÜ,Americas,Flex,1.03,"jett,sage",186
+2021,Masters 3,koldamenta,G2,Americas,Initiator,1.02,"sova,skye,killjoy",275
+2021,Masters 3,russ,SUP,EMEA,Initiator,1.02,"sova,skye",166
+2021,Masters 3,Turko,SUP,EMEA,Flex,1.02,"sage,skye",166
+2021,Masters 3,Bunny,F4Q,Pacific,Duelist,1.01,"raze,jett",190
+2021,Masters 3,AvovA,G2,Americas,Controller,1.01,"astra,sage,omen",275
+2021,Masters 3,keznit,KRÜ,Americas,Duelist,1.00,"skye,raze,reyna",186
+2021,Masters 3,starxo,ACE,EMEA,Flex,0.99,"sage,skye",213
+2021,Masters 3,Redgar,GMB,EMEA,Flex,0.99,"astra,sage,sova",306
+2021,Masters 3,Brave,SUP,EMEA,Controller,0.98,"omen,astra,viper",166
+2021,Masters 3,Ethan,100T,Americas,Flex,0.98,"skye,omen",208
+2021,Masters 3,pAura,SUP,EMEA,Sentinel,0.97,"killjoy,viper,cypher",166
+2021,Masters 3,neth,CR,Pacific,Flex,0.96,"raze,sage,astra",118
+2021,Masters 3,Mixwell,G2,Americas,Sentinel,0.95,"skye,killjoy,sage",275
+2021,Masters 3,Medusa,CR,Pacific,Sentinel,0.95,cypher,64
+2021,Masters 3,zombs,SEN,Americas,Controller,0.94,"astra,viper",243
+2021,Masters 3,f0rsakeN,PRX,Pacific,Duelist,0.93,"jett,reyna",110
+2021,Masters 3,krain,LBR,Pacific,Initiator,0.93,"sova,breach,skye",78
+2021,Masters 3,d4v41,PRX,Pacific,Flex,0.92,"skye,sage,jett",110
+2021,Masters 3,Esperanza,F4Q,Pacific,Flex,0.91,"sova,sage,viper",190
+2021,Masters 3,JhoW,VKS,Americas,Sentinel,0.91,"sage,killjoy",131
+2021,Masters 3,delz1k,KRÜ,Americas,Controller,0.91,"astra,brimstone,sage",186
+2021,Masters 3,crow,ZETA,Pacific,Initiator,0.90,"breach,viper,sova",92
+2021,Masters 3,Klaus,KRÜ,Americas,Initiator,0.90,"sova,killjoy,skye",186
+2021,Masters 3,Bazzi,CR,Pacific,Initiator,0.89,"breach,sova",54
+2021,Masters 3,Benkai,PRX,Pacific,Sentinel,0.88,"cypher,killjoy",110
+2021,Masters 3,k1Ng,VS,Pacific,Sentinel,0.88,killjoy,129
+2021,Masters 3,zunba,F4Q,Pacific,Flex,0.87,"astra,skye,yoru",190
+2021,Masters 3,ade,CR,Pacific,Controller,0.87,"astra,viper,brimstone",118
+2021,Masters 3,steel,100T,Americas,Flex,0.84,"kayo,killjoy,viper",208
+2021,Masters 3,ntk,VKS,Americas,Flex,0.84,"sova,sage",131
+2021,Masters 3,Mazino,KRÜ,Americas,Sentinel,0.84,"killjoy,sage,viper",186
+2021,Masters 3,liazzi,LBR,Pacific,Flex,0.84,"jett,killjoy",78
+2021,Masters 3,dapr,SEN,Americas,Flex,0.84,"viper,sova,cypher",243
+2021,Masters 3,Munchkin,CR,Pacific,Duelist,0.82,"jett,reyna,raze",118
+2021,Masters 3,shion,LBR,Pacific,Initiator,0.82,"breach,reyna,skye",78
+2021,Masters 3,Kiles,ACE,EMEA,Flex,0.82,"killjoy,viper,sova",213
+2021,Masters 3,pleets,LBR,Pacific,Flex,0.81,"astra,sage",78
+2021,Masters 3,shiba,PRX,Pacific,Flex,0.76,"sova,sage",110
+2021,Masters 3,Efina,F4Q,Pacific,Sentinel,0.75,killjoy,190
+2021,Masters 3,mindfreak,PRX,Pacific,Controller,0.75,"astra,viper",110
+2021,Masters 3,Myssen,LBR,Pacific,Flex,0.74,"skye,viper,cypher",78
+2021,Masters 3,BONECOLD,ACE,EMEA,Controller,0.73,"astra,brimstone,omen",213
+2021,Masters 3,Fisker,CR,Pacific,Flex,0.72,"skye,jett",118
+2021,Masters 3,fiveK,F4Q,Pacific,Flex,0.71,"reyna,skye",190
+2021,Masters 3,FiNESSE,ENVY,Americas,Sentinel,0.70,"killjoy,viper,cypher",248
+2021,Masters 3,Lakia,VS,Pacific,Initiator,0.65,skye,15
+2021,Masters 3,Reita,ZETA,Pacific,Duelist,0.57,jett,92
+2021,Masters 3,makiba,ZETA,Pacific,Controller,0.51,"astra,viper",57
+2021,Masters 3,barce,ZETA,Pacific,Controller,0.46,brimstone,35
+2021,Champions,Derke,FNC,EMEA,Duelist,1.28,"jett,raze",207
+2021,Champions,Sacy,VKS,Americas,Initiator,1.27,"sova,breach",145
+2021,Champions,heat,VKS,Americas,Duelist,1.21,jett,98
+2021,Champions,Chronicle,GMB,EMEA,Flex,1.19,"sova,killjoy,brimstone",356
+2021,Champions,yay,ENVY,Americas,Duelist,1.19,jett,156
+2021,Champions,leaf,C9,Americas,Flex,1.19,"jett,skye",236
+2021,Champions,crashies,ENVY,Americas,Flex,1.18,"sova,viper",156
+2021,Champions,ScreaM,TL,EMEA,Duelist,1.17,"jett,reyna",187
+2021,Champions,cNed,ACE,EMEA,Flex,1.15,"jett,sage",290
+2021,Champions,nzr,FUR,Americas,Flex,1.15,"sova,viper",134
+2021,Champions,dispenser,TS,Pacific,Sentinel,1.14,"sage,cypher,killjoy",163
+2021,Champions,ShahZaM,SEN,Americas,Initiator,1.14,"sova,skye,breach",199
+2021,Champions,zeek,ACE,EMEA,Duelist,1.14,"reyna,raze,kayo",290
+2021,Champions,Sushiboys,X10,Pacific,Sentinel,1.12,"cypher,jett,killjoy",208
+2021,Champions,Nivera,TL,EMEA,Flex,1.11,"sova,killjoy,viper",187
+2021,Champions,nAts,GMB,EMEA,Flex,1.11,"viper,cypher",356
+2021,Champions,doma,FNC,EMEA,Initiator,1.10,"sage,kayo,breach",207
+2021,Champions,Patiphan,X10,Pacific,Duelist,1.10,"jett,reyna,raze",208
+2021,Champions,saadhak,VKS,Americas,Sentinel,1.09,"sage,killjoy,viper",145
+2021,Champions,keznit,KRÜ,Americas,Duelist,1.09,"reyna,breach,raze",317
+2021,Champions,DubsteP,TS,Pacific,Duelist,1.09,jett,163
+2021,Champions,xeta,C9,Americas,Initiator,1.07,"sova,breach",236
+2021,Champions,d3ffo,GMB,EMEA,Duelist,1.06,"jett,raze,skye",356
+2021,Champions,Bazzi,CR,Pacific,Initiator,1.06,sova,40
+2021,Champions,TenZ,SEN,Americas,Duelist,1.06,jett,199
+2021,Champions,SicK,SEN,Americas,Flex,1.05,"skye,sage",199
+2021,Champions,BuZz,VS,Pacific,Duelist,1.05,"jett,raze",170
+2021,Champions,MaKo,VS,Pacific,Controller,1.04,"astra,viper",170
+2021,Champions,starxo,ACE,EMEA,Flex,1.04,"sage,skye,viper",290
+2021,Champions,MAGNUM,FNC,EMEA,Sentinel,1.03,"killjoy,cypher",207
+2021,Champions,mwzera,VKS,Americas,Initiator,1.02,"sova,skye",98
+2021,Champions,Mazino,KRÜ,Americas,Initiator,1.01,"sova,cypher,skye",317
+2021,Champions,Witz,TS,Pacific,Duelist,1.01,"reyna,skye,raze",163
+2021,Champions,L1NK,TL,EMEA,Flex,1.00,"astra,cypher,breach",187
+2021,Champions,Rb,VS,Pacific,Initiator,1.00,"skye,sova,sage",170
+2021,Champions,foxz,X10,Pacific,Initiator,1.00,"sova,skye,kayo",208
+2021,Champions,sutecas,VKS,Americas,Controller,1.00,"viper,astra",145
+2021,Champions,stax,VS,Pacific,Initiator,0.99,"breach,skye,kayo",170
+2021,Champions,LAMMYSNAX,FS,Pacific,Initiator,0.99,"skye,sova,viper",82
+2021,Champions,Marved,ENVY,Americas,Controller,0.99,"viper,astra",156
+2021,Champions,xand,FUR,Americas,Duelist,0.99,jett,134
+2021,Champions,BONECOLD,ACE,EMEA,Controller,0.98,"sova,brimstone,omen",290
+2021,Champions,qck,FUR,Americas,Flex,0.97,"sage,viper,skye",134
+2021,Champions,sheydos,GMB,EMEA,Flex,0.96,"reyna,skye,sage",356
+2021,Champions,Redgar,GMB,EMEA,Flex,0.96,"sage,sova,astra",356
+2021,Champions,NagZ,KRÜ,Americas,Flex,0.96,"jett,sage",317
+2021,Champions,mitch,C9,Americas,Sentinel,0.96,"sage,killjoy,cypher",236
+2021,Champions,Boaster,FNC,EMEA,Controller,0.95,"sova,astra,viper",207
+2021,Champions,soulcas,TL,EMEA,Initiator,0.94,"kayo,sova,raze",187
+2021,Champions,BORKUM,TS,Pacific,Controller,0.94,"viper,astra,omen",163
+2021,Champions,JessieVash,TS,Pacific,Flex,0.94,"sova,sage",163
+2021,Champions,gtn,VKS,Americas,Duelist,0.93,"jett,raze",145
+2021,Champions,k1Ng,VS,Pacific,Sentinel,0.93,"killjoy,cypher,astra",147
+2021,Champions,Jamppi,TL,EMEA,Flex,0.92,"killjoy,jett,sova",187
+2021,Champions,Xeppaa,C9,Americas,Flex,0.91,"raze,kayo",236
+2021,Champions,sScary,X10,Pacific,Controller,0.90,"viper,astra",208
+2021,Champions,Lakia,VS,Pacific,Initiator,0.90,sova,23
+2021,Champions,Mistic,FNC,EMEA,Controller,0.90,"viper,astra",207
+2021,Champions,Klaus,KRÜ,Americas,Flex,0.90,"killjoy,viper,sova",317
+2021,Champions,dapr,SEN,Americas,Sentinel,0.90,"cypher,killjoy,viper",199
+2021,Champions,FiNESSE,ENVY,Americas,Flex,0.90,"killjoy,viper",156
+2021,Champions,vanity,C9,Americas,Controller,0.89,"viper,astra",236
+2021,Champions,Khalil,FUR,Americas,Flex,0.89,"killjoy,astra",134
+2021,Champions,SuperBusS,FS,Pacific,Controller,0.88,"astra,viper",82
+2021,Champions,zombs,SEN,Americas,Controller,0.88,"astra,viper",199
+2021,Champions,Crws,X10,Pacific,Initiator,0.88,"kayo,sage,breach",208
+2021,Champions,murizzz,VKS,Americas,Sentinel,0.86,"killjoy,sage,reyna",98
+2021,Champions,Kiles,ACE,EMEA,Sentinel,0.85,"viper,cypher,killjoy",290
+2021,Champions,PTC,FS,Pacific,Initiator,0.83,"breach,skye,jett",82
+2021,Champions,delz1k,KRÜ,Americas,Controller,0.83,"astra,sage,viper",317
+2021,Champions,Munchkin,CR,Pacific,Initiator,0.83,"kayo,sova,cypher",76
+2021,Champions,mazin,FUR,Americas,Initiator,0.82,"astra,skye,breach",134
+2021,Champions,JohnOlsen,FS,Pacific,Flex,0.82,"jett,skye",82
+2021,Champions,neth,CR,Pacific,Flex,0.81,"sage,breach",76
+2021,Champions,Fisker,CR,Pacific,Duelist,0.80,jett,76
+2021,Champions,frz,VKS,Americas,Flex,0.80,"reyna,skye,sage",145
+2021,Champions,SantaGolf,FS,Pacific,Sentinel,0.79,cypher,82
+2021,Champions,Medusa,CR,Pacific,Sentinel,0.79,killjoy,36
+2021,Champions,Victor,ENVY,Americas,Initiator,0.79,"kayo,skye,reyna",156
+2021,Champions,v1xen,VKS,Americas,Controller,0.67,"viper,astra",98
+2021,Champions,JhoW,VKS,Americas,Sentinel,0.63,"sage,viper,cypher",98
+2021,Champions,ade,CR,Pacific,Controller,0.57,"viper,astra",76
+2022,Masters 1,MaKo,KRX,Pacific,Controller,1.29,"viper,omen,astra",271
+2022,Masters 1,ScreaM,TL,EMEA,Flex,1.20,"jett,kayo,sage",243
+2022,Masters 1,yay,OPTC,Americas,Flex,1.19,"chamber,jett",468
+2022,Masters 1,aspas,LOUD,Americas,Duelist,1.18,"jett,raze",240
+2022,Masters 1,Sayaplayer,TGRD,Americas,Duelist,1.17,"jett,raze",108
+2022,Masters 1,Marved,OPTC,Americas,Controller,1.16,"viper,brimstone,omen",468
+2022,Masters 1,hoody,G2,Americas,Initiator,1.15,"sage,skye,sova",128
+2022,Masters 1,SugarZ3ro,ZETA,Pacific,Controller,1.15,"viper,astra",431
+2022,Masters 1,sScary,XIA,China,Controller,1.14,"viper,omen,astra",163
+2022,Masters 1,xand,NIP,Americas,Duelist,1.13,"kayo,raze,jett",147
+2022,Masters 1,Sacy,LOUD,Americas,Initiator,1.12,"sova,breach",240
+2022,Masters 1,f0rsakeN,PRX,Pacific,Duelist,1.12,"jett,yoru",209
+2022,Masters 1,stax,KRX,Pacific,Initiator,1.10,"kayo,breach,skye",271
+2022,Masters 1,Jamppi,TL,EMEA,Initiator,1.10,"breach,jett,sova",243
+2022,Masters 1,Enzo,FNC,EMEA,Flex,1.08,"sova,sage,viper",85
+2022,Masters 1,Zest,KRX,Pacific,Flex,1.08,"sova,sage",271
+2022,Masters 1,Benkai,PRX,Pacific,Initiator,1.06,"cypher,breach,sova",209
+2022,Masters 1,Nivera,TL,EMEA,Sentinel,1.06,"chamber,killjoy,cypher",243
+2022,Masters 1,Jinggg,PRX,Pacific,Duelist,1.06,"reyna,raze,kayo",209
+2022,Masters 1,Mixwell,G2,Americas,Flex,1.05,"chamber,jett",128
+2022,Masters 1,cauanzin,NIP,Americas,Initiator,1.04,"sova,sage,kayo",147
+2022,Masters 1,crashies,OPTC,Americas,Initiator,1.03,"sova,skye,kayo",468
+2022,Masters 1,Victor,OPTC,Americas,Duelist,1.03,"kayo,raze,neon",468
+2022,Masters 1,Laz,ZETA,Pacific,Sentinel,1.02,"chamber,killjoy,viper",431
+2022,Masters 1,BuZz,KRX,Pacific,Sentinel,1.00,"jett,killjoy,chamber",271
+2022,Masters 1,Less,LOUD,Americas,Flex,0.99,"viper,killjoy",240
+2022,Masters 1,Mistic,FNC,EMEA,Controller,0.99,"omen,brimstone,viper",85
+2022,Masters 1,TENNN,ZETA,Pacific,Flex,0.98,"sage,skye,raze",431
+2022,Masters 1,Sushiboys,XIA,China,Sentinel,0.97,"killjoy,cypher",163
+2022,Masters 1,L1NK,TL,EMEA,Controller,0.97,"brimstone,omen,astra",243
+2022,Masters 1,NagZ,KRÜ,Americas,Sentinel,0.96,"chamber,jett,sage",89
+2022,Masters 1,bnj,NIP,Americas,Controller,0.96,"omen,viper,brimstone",147
+2022,Masters 1,H1ber,FNC,EMEA,Duelist,0.96,"jett,raze,chamber",85
+2022,Masters 1,keznit,KRÜ,Americas,Duelist,0.96,"jett,chamber,raze",89
+2022,Masters 1,valyn,TGRD,Americas,Controller,0.95,"viper,omen,brimstone",108
+2022,Masters 1,d4v41,PRX,Pacific,Initiator,0.94,"sova,skye,killjoy",209
+2022,Masters 1,JonahP,TGRD,Americas,Controller,0.94,"omen,breach,viper",108
+2022,Masters 1,soulcas,TL,EMEA,Duelist,0.93,"neon,sova,raze",243
+2022,Masters 1,Dep,ZETA,Pacific,Flex,0.93,"jett,viper,sage",431
+2022,Masters 1,Surf,XIA,China,Duelist,0.92,jett,163
+2022,Masters 1,pANcada,LOUD,Americas,Sentinel,0.91,"sage,omen,chamber",240
+2022,Masters 1,nukkye,G2,Americas,Duelist,0.90,"raze,sova,jett",128
+2022,Masters 1,bezn1,NIP,Americas,Sentinel,0.89,"killjoy,cypher,sage",147
+2022,Masters 1,Klaus,KRÜ,Americas,Initiator,0.88,"breach,kayo,viper",89
+2022,Masters 1,crow,ZETA,Pacific,Initiator,0.87,"sova,breach,skye",431
+2022,Masters 1,neT,TGRD,Americas,Sentinel,0.86,"chamber,killjoy,cypher",108
+2022,Masters 1,mindfreak,PRX,Pacific,Controller,0.85,"omen,brimstone,viper",209
+2022,Masters 1,foxz,XIA,China,Initiator,0.85,"sova,skye,sage",163
+2022,Masters 1,trent,TGRD,Americas,Initiator,0.84,"sova,skye,breach",108
+2022,Masters 1,AvovA,G2,Americas,Flex,0.83,"omen,kayo",128
+2022,Masters 1,Jonn,NIP,Americas,Duelist,0.83,"jett,reyna,sage",147
+2022,Masters 1,FiNESSE,OPTC,Americas,Sentinel,0.81,"sage,killjoy,viper",468
+2022,Masters 1,delz1k,KRÜ,Americas,Controller,0.81,"brimstone,omen",89
+2022,Masters 1,saadhak,LOUD,Americas,Initiator,0.80,"chamber,breach,kayo",240
+2022,Masters 1,Rb,KRX,Pacific,Duelist,0.80,"sage,jett,raze",271
+2022,Masters 1,Crws,XIA,China,Flex,0.77,"sage,breach",163
+2022,Masters 1,MAGNUM,FNC,EMEA,Sentinel,0.77,"killjoy,viper,cypher",85
+2022,Masters 1,Meddo,G2,Americas,Flex,0.73,"breach,viper,cypher",128
+2022,Masters 1,Mazino,KRÜ,Americas,Initiator,0.68,"sage,sova,skye",89
+2022,Masters 1,Boaster,FNC,EMEA,Initiator,0.58,"kayo,skye,breach",85
+2022,Masters 2,Cryocells,XSET,Americas,Flex,1.29,"chamber,jett",119
+2022,Masters 2,Sayf,GLD,EMEA,Flex,1.22,"chamber,jett,skye",229
+2022,Masters 2,Shao,FPX,EMEA,Initiator,1.19,"sage,fade,sova",554
+2022,Masters 2,yay,OPTC,Americas,Sentinel,1.16,chamber,393
+2022,Masters 2,Leo,GLD,EMEA,Initiator,1.16,"fade,breach,sova",229
+2022,Masters 2,trexx,GLD,EMEA,Flex,1.16,"raze,cypher,kayo",229
+2022,Masters 2,ardiis,FPX,EMEA,Flex,1.15,"chamber,kayo,jett",554
+2022,Masters 2,SUYGETSU,FPX,EMEA,Sentinel,1.14,"viper,sage,cypher",340
+2022,Masters 2,saadhak,LOUD,Americas,Initiator,1.13,"sage,breach,kayo",136
+2022,Masters 2,zekken,XSET,Americas,Duelist,1.13,"jett,raze,sova",119
+2022,Masters 2,MaKo,KRX,Pacific,Controller,1.13,"astra,viper,omen",253
+2022,Masters 2,mindfreak,PRX,Pacific,Controller,1.12,"astra,viper,brimstone",244
+2022,Masters 2,Meteor,NTH,Pacific,Duelist,1.11,"jett,neon,chamber",150
+2022,Masters 2,Tacolilla,LEV,Americas,Sentinel,1.11,chamber,222
+2022,Masters 2,Alfajer,FNC,EMEA,Sentinel,1.10,"killjoy,raze,sage",234
+2022,Masters 2,keznit,KRÜ,Americas,Flex,1.09,"raze,kayo",182
+2022,Masters 2,stax,KRX,Pacific,Initiator,1.09,"kayo,skye,breach",253
+2022,Masters 2,Derke,FNC,EMEA,Flex,1.09,"chamber,raze",234
+2022,Masters 2,Marved,OPTC,Americas,Controller,1.08,"omen,brimstone,kayo",393
+2022,Masters 2,d4v41,PRX,Pacific,Initiator,1.08,"kayo,chamber,fade",244
+2022,Masters 2,Surf,XIA,China,Flex,1.05,"chamber,jett",142
+2022,Masters 2,pANcada,LOUD,Americas,Controller,1.05,"brimstone,omen,sage",136
+2022,Masters 2,sScary,XIA,China,Controller,1.05,"viper,astra,omen",142
+2022,Masters 2,BuZz,KRX,Pacific,Sentinel,1.04,"killjoy,chamber",253
+2022,Masters 2,aspas,LOUD,Americas,Duelist,1.04,"raze,chamber,jett",136
+2022,Masters 2,Jinggg,PRX,Pacific,Duelist,1.04,"raze,sage,neon",244
+2022,Masters 2,foxz,XIA,China,Initiator,1.02,"skye,fade,sova",142
+2022,Masters 2,Zyppan,FPX,EMEA,Initiator,1.00,"raze,kayo,skye",554
+2022,Masters 2,Boaster,FNC,EMEA,Controller,1.00,"viper,omen,astra",234
+2022,Masters 2,Enzo,FNC,EMEA,Initiator,1.00,"sova,fade,viper",234
+2022,Masters 2,koldamenta,GLD,EMEA,Controller,1.00,"astra,brimstone,viper",229
+2022,Masters 2,JoXJo,NTH,Pacific,Initiator,1.00,"fade,breach,skye",150
+2022,Masters 2,crashies,OPTC,Americas,Initiator,1.00,"skye,kayo,sova",393
+2022,Masters 2,Mazino,KRÜ,Americas,Initiator,0.98,"sage,fade,skye",182
+2022,Masters 2,f0rsakeN,PRX,Pacific,Duelist,0.98,"chamber,neon,yoru",244
+2022,Masters 2,Melser,LEV,Americas,Controller,0.98,"astra,viper,omen",222
+2022,Masters 2,adverso,LEV,Americas,Initiator,0.96,"sova,breach,viper",222
+2022,Masters 2,Benkai,PRX,Pacific,Initiator,0.95,"fade,breach,sage",244
+2022,Masters 2,Zest,KRX,Pacific,Initiator,0.95,"fade,sova,brimstone",253
+2022,Masters 2,Rb,KRX,Pacific,Duelist,0.95,"jett,neon,raze",253
+2022,Masters 2,Shyy,LEV,Americas,Initiator,0.94,"fade,skye,kayo",222
+2022,Masters 2,Crws,XIA,China,Initiator,0.93,"brimstone,kayo,breach",142
+2022,Masters 2,BcJ,XSET,Americas,Flex,0.92,"skye,omen",119
+2022,Masters 2,NagZ,KRÜ,Americas,Sentinel,0.91,chamber,182
+2022,Masters 2,Victor,OPTC,Americas,Duelist,0.90,"neon,raze,jett",393
+2022,Masters 2,Klaus,KRÜ,Americas,Flex,0.88,"breach,viper",182
+2022,Masters 2,Less,LOUD,Americas,Sentinel,0.86,"chamber,viper,killjoy",136
+2022,Masters 2,FiNESSE,OPTC,Americas,Initiator,0.85,"breach,viper,fade",393
+2022,Masters 2,xnfri,NTH,Pacific,Initiator,0.85,"kayo,chamber,skye",150
+2022,Masters 2,Sushiboys,XIA,China,Flex,0.84,"raze,killjoy",142
+2022,Masters 2,SEIDER,FPX,EMEA,Controller,0.84,"viper,omen,sage",214
+2022,Masters 2,kiNgg,LEV,Americas,Duelist,0.83,"kayo,raze,neon",222
+2022,Masters 2,delz1k,KRÜ,Americas,Controller,0.83,"brimstone,omen,sova",182
+2022,Masters 2,Sacy,LOUD,Americas,Initiator,0.81,"breach,fade,sova",136
+2022,Masters 2,ANGE1,FPX,EMEA,Initiator,0.81,"fade,kayo,brimstone",554
+2022,Masters 2,Derialy,NTH,Pacific,Sentinel,0.79,"killjoy,brimstone,sage",150
+2022,Masters 2,Mistic,FNC,EMEA,Initiator,0.78,"sage,breach,kayo",234
+2022,Masters 2,dephh,XSET,Americas,Flex,0.75,"breach,brimstone,sage",119
+2022,Masters 2,AYRIN,XSET,Americas,Controller,0.74,"omen,viper,killjoy",119
+2022,Masters 2,BlackWiz,NTH,Pacific,Controller,0.72,"astra,fade,omen",150
+2022,Masters 2,Russ,GLD,EMEA,Flex,0.66,"kayo,sage,viper",229
+2022,Champions,kiNgg,LEV,Americas,Flex,1.31,"raze,kayo,viper",179
+2022,Champions,yay,OPTC,Americas,Flex,1.30,"chamber,jett",492
+2022,Champions,Laz,ZETA,Pacific,Initiator,1.27,"kayo,chamber,skye",148
+2022,Champions,Derke,FNC,EMEA,Flex,1.22,"chamber,jett",319
+2022,Champions,pANcada,LOUD,Americas,Controller,1.21,"omen,viper,astra",366
+2022,Champions,Shao,FPX,EMEA,Initiator,1.18,"sage,fade,sova",357
+2022,Champions,Less,LOUD,Americas,Sentinel,1.16,"killjoy,chamber,cypher",366
+2022,Champions,Cryocells,XSET,Americas,Flex,1.16,"chamber,jett",285
+2022,Champions,MaKo,KRX,Pacific,Controller,1.14,"astra,omen,viper",416
+2022,Champions,Will,100T,Americas,Duelist,1.13,"raze,chamber,jett",157
+2022,Champions,SUYGETSU,FPX,EMEA,Sentinel,1.13,"viper,cypher,sage",357
+2022,Champions,Sacy,LOUD,Americas,Initiator,1.13,"sova,fade",366
+2022,Champions,Alfajer,FNC,EMEA,Duelist,1.12,"neon,raze,killjoy",319
+2022,Champions,Zyppan,FPX,EMEA,Initiator,1.11,"raze,skye,kayo",357
+2022,Champions,bang,100T,Americas,Controller,1.11,"astra,brimstone,omen",157
+2022,Champions,ScreaM,TL,EMEA,Duelist,1.10,"raze,phoenix",257
+2022,Champions,Mazino,KRÜ,Americas,Initiator,1.10,"sage,skye,kayo",144
+2022,Champions,Mistic,FNC,EMEA,Initiator,1.08,"skye,breach,sage",319
+2022,Champions,keznit,KRÜ,Americas,Initiator,1.08,"kayo,raze,fade",144
+2022,Champions,Jamppi,TL,EMEA,Sentinel,1.07,"chamber,sage",257
+2022,Champions,NagZ,KRÜ,Americas,Sentinel,1.07,"chamber,sage,killjoy",144
+2022,Champions,CHICHOO,EDG,China,Controller,1.06,"viper,sage,omen",107
+2022,Champions,ZmjjKK,EDG,China,Flex,1.06,"chamber,raze",107
+2022,Champions,Melser,LEV,Americas,Controller,1.06,"omen,astra,brimstone",179
+2022,Champions,xffero,BME,EMEA,Controller,1.06,"viper,astra,breach",131
+2022,Champions,saadhak,LOUD,Americas,Initiator,1.05,"kayo,viper,skye",366
+2022,Champions,ardiis,FPX,EMEA,Sentinel,1.04,"chamber,kayo,cypher",357
+2022,Champions,BuZz,KRX,Pacific,Duelist,1.04,"jett,chamber,raze",416
+2022,Champions,sScary,XIA,China,Controller,1.04,"viper,omen",103
+2022,Champions,crashies,OPTC,Americas,Initiator,1.03,"sova,skye,kayo",492
+2022,Champions,Crws,XIA,China,Controller,1.02,"omen,astra,sage",103
+2022,Champions,dgzin,FUR,Americas,Flex,1.02,"jett,chamber,kayo",113
+2022,Champions,d4v41,PRX,Pacific,Sentinel,1.02,"sage,chamber,skye",174
+2022,Champions,Smoggy,EDG,China,Flex,1.02,"kayo,jett",63
+2022,Champions,BcJ,XSET,Americas,Initiator,1.01,"omen,fade,sova",285
+2022,Champions,fl1pzjder,BME,EMEA,Flex,1.01,"kayo,viper,chamber",131
+2022,Champions,Shyy,LEV,Americas,Initiator,1.00,"fade,kayo",179
+2022,Champions,nzr,FUR,Americas,Initiator,0.99,"sova,fade",113
+2022,Champions,aspas,LOUD,Americas,Duelist,0.99,"jett,raze,chamber",366
+2022,Champions,qck,FUR,Americas,Sentinel,0.98,"killjoy,raze,sage",113
+2022,Champions,stax,KRX,Pacific,Initiator,0.98,"fade,breach,skye",416
+2022,Champions,zekken,XSET,Americas,Duelist,0.97,"neon,raze,kayo",285
+2022,Champions,Enzo,FNC,EMEA,Initiator,0.96,"fade,viper,sova",319
+2022,Champions,Boaster,FNC,EMEA,Controller,0.96,"astra,brimstone,viper",319
+2022,Champions,Victor,OPTC,Americas,Duelist,0.96,"jett,raze,neon",492
+2022,Champions,Tacolilla,LEV,Americas,Flex,0.95,"chamber,skye",179
+2022,Champions,Dep,ZETA,Pacific,Duelist,0.95,"jett,neon,omen",148
+2022,Champions,Marved,OPTC,Americas,Controller,0.95,"kayo,brimstone,astra",492
+2022,Champions,delz1k,KRÜ,Americas,Controller,0.94,"viper,brimstone,omen",144
+2022,Champions,Zest,KRX,Pacific,Initiator,0.94,"sova,fade",416
+2022,Champions,AYRIN,XSET,Americas,Controller,0.94,"sage,viper,astra",285
+2022,Champions,Jinggg,PRX,Pacific,Duelist,0.93,"raze,sage,reyna",174
+2022,Champions,SugarZ3ro,ZETA,Pacific,Controller,0.93,"astra,brimstone,omen",148
+2022,Champions,Rb,KRX,Pacific,Sentinel,0.93,"kayo,killjoy,chamber",416
+2022,Champions,adverso,LEV,Americas,Initiator,0.92,"breach,sova,viper",179
+2022,Champions,mindfreak,PRX,Pacific,Controller,0.92,"astra,viper,brimstone",174
+2022,Champions,f0rsakeN,PRX,Pacific,Duelist,0.91,"chamber,jett,yoru",174
+2022,Champions,blaZek1ng,BME,EMEA,Initiator,0.91,"sova,fade,brimstone",131
+2022,Champions,dimasick,TL,EMEA,Controller,0.90,"omen,brimstone,sova",257
+2022,Champions,Nivera,TL,EMEA,Initiator,0.90,"breach,kayo,viper",257
+2022,Champions,dephh,XSET,Americas,Initiator,0.90,"breach,kayo,cypher",285
+2022,Champions,Benkai,PRX,Pacific,Sentinel,0.88,"fade,cypher,sage",174
+2022,Champions,stellar,100T,Americas,Sentinel,0.88,"viper,sage,cypher",157
+2022,Champions,Derrek,100T,Americas,Initiator,0.86,"fade,sova,breach",157
+2022,Champions,soulcas,TL,EMEA,Initiator,0.86,"fade,skye,kayo",257
+2022,Champions,FiNESSE,OPTC,Americas,Initiator,0.85,"viper,breach,fade",492
+2022,Champions,foxz,XIA,China,Duelist,0.85,"phoenix,yoru,sova",103
+2022,Champions,Life,EDG,China,Duelist,0.82,jett,44
+2022,Champions,Haodong,EDG,China,Controller,0.82,"astra,viper,breach",107
+2022,Champions,TENNN,ZETA,Pacific,Flex,0.82,"killjoy,raze,kayo",148
+2022,Champions,Klaus,KRÜ,Americas,Initiator,0.80,"sova,viper,kayo",144
+2022,Champions,Famouz,BME,EMEA,Flex,0.80,"chamber,raze,kayo",131
+2022,Champions,nobody,EDG,China,Initiator,0.79,"fade,sova",107
+2022,Champions,Khalil,FUR,Americas,Controller,0.77,"omen,viper",113
+2022,Champions,Asuna,100T,Americas,Flex,0.77,"sage,skye,raze",157
+2022,Champions,Surf,XIA,China,Flex,0.73,"chamber,jett",103
+2022,Champions,Sushiboys,XIA,China,Initiator,0.73,"breach,sova,killjoy",103
+2022,Champions,mazin,FUR,Americas,Initiator,0.70,"kayo,breach,jett",113
+2022,Champions,crow,ZETA,Pacific,Initiator,0.69,"fade,breach,skye",148
+2022,Champions,ANGE1,FPX,EMEA,Controller,0.66,"fade,brimstone,omen",357
+2022,Champions,BerserX,BME,EMEA,Duelist,0.66,"jett,skye,neon",131
+2023,LOCKIN,k1Ng,GEN,Pacific,Flex,1.45,"viper,kayo",48
+2023,LOCKIN,trexx,MKOI,EMEA,Initiator,1.39,sova,46
+2023,LOCKIN,Shao,NAVI,EMEA,Flex,1.32,"fade,sage,astra",182
+2023,LOCKIN,Leo,FNC,EMEA,Initiator,1.30,"sova,sage,fade",307
+2023,LOCKIN,MaKo,KRX,Pacific,Controller,1.28,"viper,astra,omen",276
+2023,LOCKIN,sh1n,KC,EMEA,Flex,1.27,"viper,fade,raze",103
+2023,LOCKIN,Nivera,KC,EMEA,Controller,1.27,"omen,astra",103
+2023,LOCKIN,mwzera,FUR,Americas,Initiator,1.27,"fade,skye,sova",76
+2023,LOCKIN,Shyy,LEV,Americas,Sentinel,1.26,killjoy,125
+2023,LOCKIN,nAts,TL,EMEA,Flex,1.25,"viper,cypher",41
+2023,LOCKIN,CHICHOO,EDG,China,Flex,1.25,"killjoy,viper",71
+2023,LOCKIN,Twisten,VIT,EMEA,Duelist,1.24,"jett,raze",104
+2023,LOCKIN,Ethan,EG,Americas,Initiator,1.21,"yoru,kayo,breach",89
+2023,LOCKIN,Cloud,GIA,EMEA,Initiator,1.20,sova,97
+2023,LOCKIN,crashies,NRG,Americas,Initiator,1.20,"sova,killjoy,breach",184
+2023,LOCKIN,Less,LOUD,Americas,Flex,1.19,"viper,killjoy",380
+2023,LOCKIN,leaf,C9,Americas,Sentinel,1.19,"cypher,killjoy,viper",89
+2023,LOCKIN,Emman,RRQ,Pacific,Flex,1.19,"reyna,kayo",40
+2023,LOCKIN,Zyppan,NAVI,EMEA,Initiator,1.18,kayo,182
+2023,LOCKIN,MOLSI,VIT,EMEA,Initiator,1.17,"raze,kayo,fade",104
+2023,LOCKIN,kiNgg,LEV,Americas,Initiator,1.16,"kayo,viper,breach",125
+2023,LOCKIN,nukkye,GIA,EMEA,Flex,1.15,"breach,sage",97
+2023,LOCKIN,JessieVash,TS,Pacific,Initiator,1.15,"sova,fade",79
+2023,LOCKIN,Xeppaa,C9,Americas,Initiator,1.15,"skye,sova",89
+2023,LOCKIN,foxz,TLN,Pacific,Initiator,1.15,"skye,kayo,fade",157
+2023,LOCKIN,frz,MIBR,Americas,Sentinel,1.14,"killjoy,cypher",45
+2023,LOCKIN,qRaxs,FUT,EMEA,Initiator,1.14,"kayo,fade",107
+2023,LOCKIN,Derke,FNC,EMEA,Duelist,1.13,"jett,raze",307
+2023,LOCKIN,murizzz,MIBR,Americas,Initiator,1.13,"breach,kayo",45
+2023,LOCKIN,ceNder,VIT,EMEA,Sentinel,1.12,"cypher,killjoy",104
+2023,LOCKIN,keloqz,TH,EMEA,Duelist,1.12,jett,42
+2023,LOCKIN,yay,C9,Americas,Sentinel,1.12,"chamber,sage,jett",89
+2023,LOCKIN,s0m,NRG,Americas,Controller,1.12,"viper,omen,astra",184
+2023,LOCKIN,qw1,FUT,EMEA,Duelist,1.11,"neon,jett",107
+2023,LOCKIN,aspas,LOUD,Americas,Duelist,1.11,jett,380
+2023,LOCKIN,ardiis,NRG,Americas,Sentinel,1.11,"sage,jett,killjoy",184
+2023,LOCKIN,Chronicle,FNC,EMEA,Initiator,1.10,"breach,raze,kayo",307
+2023,LOCKIN,TS,GEN,Pacific,Controller,1.10,"astra,brimstone",48
+2023,LOCKIN,Alfajer,FNC,EMEA,Sentinel,1.09,"killjoy,cypher",307
+2023,LOCKIN,cNed,NAVI,EMEA,Duelist,1.09,"jett,raze",182
+2023,LOCKIN,takej,DFM,Pacific,Controller,1.08,viper,20
+2023,LOCKIN,Monyet,GE,Pacific,Controller,1.08,"astra,omen",58
+2023,LOCKIN,ZmjjKK,EDG,China,Duelist,1.08,jett,71
+2023,LOCKIN,Jinggg,PRX,Pacific,Flex,1.07,"raze,sage",38
+2023,LOCKIN,zeek,TH,EMEA,Flex,1.07,"kayo,killjoy",42
+2023,LOCKIN,Mixwell,TH,EMEA,Initiator,1.07,"breach,kayo",42
+2023,LOCKIN,invy,TS,Pacific,Initiator,1.07,"kayo,breach,killjoy",79
+2023,LOCKIN,dgzin,FUR,Americas,Duelist,1.06,"neon,jett",76
+2023,LOCKIN,BcJ,EG,Americas,Controller,1.06,"astra,omen",89
+2023,LOCKIN,garnetS,TLN,Pacific,Duelist,1.05,"raze,neon,jett",157
+2023,LOCKIN,BuZz,KRX,Pacific,Duelist,1.04,"jett,raze,killjoy",276
+2023,LOCKIN,jawgemo,EG,Americas,Duelist,1.04,"jett,raze",89
+2023,LOCKIN,YuChEn,FPX,EMEA,Controller,1.04,viper,59
+2023,LOCKIN,bang,100T,Americas,Controller,1.04,"viper,astra,omen",175
+2023,LOCKIN,Meteor,GEN,Pacific,Duelist,1.03,"jett,raze",48
+2023,LOCKIN,heat,MIBR,Americas,Duelist,1.03,"raze,neon",45
+2023,LOCKIN,cauanzin,LOUD,Americas,Initiator,1.03,"skye,breach",380
+2023,LOCKIN,Cryocells,100T,Americas,Duelist,1.03,"omen,raze,jett",175
+2023,LOCKIN,Rb,KRX,Pacific,Flex,1.02,"astra,kayo,killjoy",276
+2023,LOCKIN,MOJJ,FUT,EMEA,Flex,1.02,"killjoy,viper",107
+2023,LOCKIN,Yuicaw,FPX,EMEA,Sentinel,1.02,"killjoy,chamber,jett",59
+2023,LOCKIN,SUYGETSU,NAVI,EMEA,Sentinel,1.01,"cypher,killjoy,viper",182
+2023,LOCKIN,stellar,100T,Americas,Sentinel,1.01,"killjoy,cypher",175
+2023,LOCKIN,Boostio,EG,Americas,Sentinel,1.00,killjoy,89
+2023,LOCKIN,TenZ,SEN,Americas,Flex,1.00,"jett,sage",39
+2023,LOCKIN,Boaster,FNC,EMEA,Controller,1.00,"astra,omen,brimstone",307
+2023,LOCKIN,Asuna,100T,Americas,Initiator,1.00,"sage,kayo,breach",175
+2023,LOCKIN,Tacolilla,LEV,Americas,Duelist,1.00,"jett,raze",125
+2023,LOCKIN,Fit1nho,GIA,EMEA,Duelist,1.00,"jett,raze",97
+2023,LOCKIN,tuyz,LOUD,Americas,Controller,0.99,"harbor,brimstone,astra",380
+2023,LOCKIN,Jamppi,TL,EMEA,Duelist,0.99,"jett,raze",41
+2023,LOCKIN,Zellsis,C9,Americas,Duelist,0.98,"neon,phoenix,sage",89
+2023,LOCKIN,ANGE1,NAVI,EMEA,Flex,0.98,"omen,cypher,sova",182
+2023,LOCKIN,Sushiboys,TLN,Pacific,Flex,0.98,"killjoy,astra",157
+2023,LOCKIN,jzz,MIBR,Americas,Initiator,0.97,"fade,breach",45
+2023,LOCKIN,stax,KRX,Pacific,Initiator,0.97,"kayo,fade,breach",276
+2023,LOCKIN,vanity,C9,Americas,Controller,0.96,"omen,astra,killjoy",89
+2023,LOCKIN,sheydos,MKOI,EMEA,Sentinel,0.96,killjoy,46
+2023,LOCKIN,Derrek,100T,Americas,Initiator,0.95,"sova,fade,breach",175
+2023,LOCKIN,QutionerX,BBL,EMEA,Duelist,0.95,"yoru,jett",60
+2023,LOCKIN,hoody,GIA,EMEA,Sentinel,0.94,killjoy,97
+2023,LOCKIN,t3xture,GE,Pacific,Duelist,0.94,"raze,jett",58
+2023,LOCKIN,SugarZ3ro,ZETA,Pacific,Controller,0.94,"omen,astra",41
+2023,LOCKIN,xffero,RRQ,Pacific,Flex,0.93,"omen,fade",40
+2023,LOCKIN,fl1pzjder,RRQ,Pacific,Flex,0.93,"breach,viper",40
+2023,LOCKIN,Zest,KRX,Pacific,Initiator,0.93,"sova,fade,killjoy",276
+2023,LOCKIN,C0M,EG,Americas,Initiator,0.92,"fade,sova,kayo",89
+2023,LOCKIN,pANcada,SEN,Americas,Controller,0.91,"omen,viper",39
+2023,LOCKIN,rhyme,GIA,EMEA,Controller,0.91,"astra,viper,omen",97
+2023,LOCKIN,ScreaM,KC,EMEA,Initiator,0.91,"skye,kayo",103
+2023,LOCKIN,FiNESSE,NRG,Americas,Flex,0.90,"killjoy,breach,viper",184
+2023,LOCKIN,Crws,TLN,Pacific,Controller,0.90,"omen,brimstone,viper",157
+2023,LOCKIN,Laz,ZETA,Pacific,Sentinel,0.90,killjoy,41
+2023,LOCKIN,Mazino,LEV,Americas,Controller,0.90,"omen,astra,brimstone",125
+2023,LOCKIN,AtaKaptan,FUT,EMEA,Flex,0.89,"sage,astra,breach",107
+2023,LOCKIN,JitBoyS,TLN,Pacific,Initiator,0.89,"breach,kayo,harbor",157
+2023,LOCKIN,Brave,BBL,EMEA,Controller,0.89,"astra,omen",60
+2023,LOCKIN,nobody,EDG,China,Initiator,0.89,"sova,breach,kayo",71
+2023,LOCKIN,MrFaliN,FUT,EMEA,Flex,0.87,"omen,killjoy,sova",107
+2023,LOCKIN,Reita,DFM,Pacific,Initiator,0.87,sova,37
+2023,LOCKIN,Victor,NRG,Americas,Initiator,0.87,"kayo,killjoy,skye",184
+2023,LOCKIN,Destrian,VIT,EMEA,Controller,0.87,"omen,astra,harbor",104
+2023,LOCKIN,Redgar,TL,EMEA,Initiator,0.87,"sova,breach",41
+2023,LOCKIN,xand,KRÜ,Americas,Flex,0.87,"kayo,neon",41
+2023,LOCKIN,Turko,BBL,EMEA,Initiator,0.87,"breach,kayo",60
+2023,LOCKIN,Khalil,FUR,Americas,Controller,0.86,"astra,killjoy,omen",76
+2023,LOCKIN,Newzera,KC,EMEA,Initiator,0.86,"sova,breach,harbor",103
+2023,LOCKIN,DaveeyS,KRÜ,Americas,Flex,0.86,"killjoy,raze",41
+2023,LOCKIN,Lmemore,RRQ,Pacific,Sentinel,0.86,"cypher,sage",40
+2023,LOCKIN,xms,KC,EMEA,Sentinel,0.86,"killjoy,cypher",103
+2023,LOCKIN,saadhak,LOUD,Americas,Flex,0.85,"killjoy,raze,viper",380
+2023,LOCKIN,qck,FUR,Americas,Sentinel,0.85,"cypher,viper,killjoy",76
+2023,LOCKIN,AAAAY,FPX,EMEA,Initiator,0.85,skye,59
+2023,LOCKIN,mazin,FUR,Americas,Initiator,0.84,"skye,harbor,kayo",76
+2023,LOCKIN,ban,T1,Pacific,Sentinel,0.84,killjoy,20
+2023,LOCKIN,RgLMeister,MIBR,Americas,Controller,0.83,"omen,brimstone",45
+2023,LOCKIN,Munchkin,T1,Pacific,Controller,0.83,astra,20
+2023,LOCKIN,BORKUM,TS,Pacific,Controller,0.83,"viper,brimstone,harbor",79
+2023,LOCKIN,Sayaplayer,T1,Pacific,Duelist,0.82,jett,20
+2023,LOCKIN,carpe,T1,Pacific,Initiator,0.82,sova,20
+2023,LOCKIN,Smoggy,EDG,China,Flex,0.82,"harbor,raze,fade",71
+2023,LOCKIN,AYRIN,GE,Pacific,Flex,0.82,"viper,killjoy",58
+2023,LOCKIN,nzr,LEV,Americas,Initiator,0.82,"sova,skye,fade",125
+2023,LOCKIN,Jremy,TS,Pacific,Flex,0.82,"sage,raze,kayo",79
+2023,LOCKIN,SouhcNi,BBL,EMEA,Initiator,0.82,sova,60
+2023,LOCKIN,AsLanM4shadoW,BBL,EMEA,Sentinel,0.81,killjoy,60
+2023,LOCKIN,nizhaoTZH,FPX,EMEA,Controller,0.81,"omen,astra",59
+2023,LOCKIN,Sacy,SEN,Americas,Initiator,0.81,skye,39
+2023,LOCKIN,Haodong,EDG,China,Controller,0.80,"viper,omen,astra",71
+2023,LOCKIN,Sayf,TL,EMEA,Flex,0.80,"killjoy,kayo",41
+2023,LOCKIN,Dep,ZETA,Pacific,Duelist,0.80,jett,41
+2023,LOCKIN,f0rsakeN,PRX,Pacific,Flex,0.79,"chamber,jett",38
+2023,LOCKIN,BONECOLD,VIT,EMEA,Initiator,0.78,"sage,fade,breach",104
+2023,LOCKIN,BerLIN,FPX,EMEA,Initiator,0.78,fade,59
+2023,LOCKIN,Boo,TH,EMEA,Flex,0.77,"cypher,sova",42
+2023,LOCKIN,Bazzi,GE,Pacific,Initiator,0.77,"skye,fade,breach",58
+2023,LOCKIN,eKo,GEN,Pacific,Flex,0.76,"skye,neon",48
+2023,LOCKIN,DubsteP,TS,Pacific,Sentinel,0.74,"killjoy,cypher,astra",79
+2023,LOCKIN,EJAY,RRQ,Pacific,Duelist,0.74,neon,16
+2023,LOCKIN,Melser,KRÜ,Americas,Controller,0.74,omen,41
+2023,LOCKIN,axeddy,KRÜ,Americas,Initiator,0.73,"sova,breach",41
+2023,LOCKIN,Benkai,PRX,Pacific,Sentinel,0.73,"sage,killjoy",38
+2023,LOCKIN,mindfreak,PRX,Pacific,Controller,0.73,"omen,astra",38
+2023,LOCKIN,Anthem,DFM,Pacific,Sentinel,0.72,killjoy,37
+2023,LOCKIN,Wolfen,MKOI,EMEA,Duelist,0.71,jett,46
+2023,LOCKIN,xnfri,DFM,Pacific,Flex,0.71,"astra,raze",37
+2023,LOCKIN,xeta,T1,Pacific,Initiator,0.71,kayo,20
+2023,LOCKIN,Suggest,DFM,Pacific,Initiator,0.71,"breach,kayo",37
+2023,LOCKIN,starxo,MKOI,EMEA,Flex,0.70,"sage,breach",46
+2023,LOCKIN,Secret,GEN,Pacific,Initiator,0.70,"kayo,breach",48
+2023,LOCKIN,SkRossi,GE,Pacific,Initiator,0.67,"sage,kayo,sova",58
+2023,LOCKIN,koldamenta,MKOI,EMEA,Controller,0.64,"viper,omen",46
+2023,LOCKIN,d4v41,PRX,Pacific,Initiator,0.63,"skye,fade",38
+2023,LOCKIN,AvovA,TH,EMEA,Controller,0.62,"astra,omen",42
+2023,LOCKIN,crow,ZETA,Pacific,Initiator,0.61,"sova,kayo",41
+2023,LOCKIN,dephh,SEN,Americas,Flex,0.57,"killjoy,astra",39
+2023,LOCKIN,zekken,SEN,Americas,Flex,0.53,"breach,raze",39
+2023,LOCKIN,TENNN,ZETA,Pacific,Initiator,0.53,"kayo,sova",41
+2023,LOCKIN,soulcas,TL,EMEA,Flex,0.52,"sage,astra",41
+2023,LOCKIN,NagZ,KRÜ,Americas,Flex,0.49,"jett,killjoy",41
+2023,LOCKIN,2GE,RRQ,Pacific,Controller,0.47,astra,24
+2023,LOCKIN,Seoldam,DFM,Pacific,Duelist,0.22,jett,17
+2023,Masters Tokyo,Alfajer,FNC,EMEA,Sentinel,1.33,"killjoy,cypher",210
+2023,Masters Tokyo,Leo,FNC,EMEA,Initiator,1.31,"fade,skye",210
+2023,Masters Tokyo,Chronicle,FNC,EMEA,Flex,1.19,"breach,viper",210
+2023,Masters Tokyo,ZmjjKK,EDG,China,Duelist,1.15,"jett,gekko,raze",341
+2023,Masters Tokyo,Rb,KRX,Pacific,Initiator,1.15,"fade,harbor,sova",231
+2023,Masters Tokyo,Shao,NAVI,EMEA,Flex,1.14,"fade,killjoy,astra",124
+2023,Masters Tokyo,SUYGETSU,NAVI,EMEA,Sentinel,1.14,"cypher,viper,killjoy",124
+2023,Masters Tokyo,s0m,NRG,Americas,Controller,1.13,"omen,astra,harbor",351
+2023,Masters Tokyo,Demon1,EG,Americas,Flex,1.11,"jett,brimstone,chamber",401
+2023,Masters Tokyo,aspas,LOUD,Americas,Duelist,1.11,"neon,jett",80
+2023,Masters Tokyo,Sayf,TL,EMEA,Duelist,1.11,"jett,raze",169
+2023,Masters Tokyo,MaKo,KRX,Pacific,Controller,1.09,"brimstone,viper,omen",231
+2023,Masters Tokyo,Ethan,EG,Americas,Initiator,1.09,"skye,breach,kayo",401
+2023,Masters Tokyo,Smoggy,EDG,China,Flex,1.08,"breach,killjoy,jett",341
+2023,Masters Tokyo,Derke,FNC,EMEA,Duelist,1.08,raze,210
+2023,Masters Tokyo,Jinggg,PRX,Pacific,Duelist,1.08,"raze,phoenix,sage",333
+2023,Masters Tokyo,d4v41,PRX,Pacific,Flex,1.08,"viper,skye,killjoy",333
+2023,Masters Tokyo,YHchen,ASE,Pacific,Initiator,1.08,"breach,kayo",101
+2023,Masters Tokyo,Victor,NRG,Americas,Duelist,1.06,"kayo,neon,raze",351
+2023,Masters Tokyo,qw1,FUT,EMEA,Duelist,1.05,"jett,neon,raze",162
+2023,Masters Tokyo,cNed,NAVI,EMEA,Duelist,1.05,"jett,raze",124
+2023,Masters Tokyo,Munchkin,T1,Pacific,Flex,1.04,"killjoy,skye",173
+2023,Masters Tokyo,ardiis,NRG,Americas,Sentinel,1.03,"jett,killjoy,sage",351
+2023,Masters Tokyo,CHICHOO,EDG,China,Sentinel,1.03,"killjoy,cypher,viper",341
+2023,Masters Tokyo,C0M,EG,Americas,Initiator,1.02,"viper,breach,sova",401
+2023,Masters Tokyo,AtaKaptan,FUT,EMEA,Controller,1.02,"astra,viper,breach",162
+2023,Masters Tokyo,jawgemo,EG,Americas,Controller,1.02,"raze,omen,astra",401
+2023,Masters Tokyo,nAts,TL,EMEA,Sentinel,1.02,"killjoy,cypher,viper",169
+2023,Masters Tokyo,Boostio,EG,Americas,Flex,1.01,"astra,killjoy,reyna",401
+2023,Masters Tokyo,monk,ASE,Pacific,Flex,1.00,"killjoy,viper",101
+2023,Masters Tokyo,BuZz,KRX,Pacific,Duelist,1.00,"killjoy,raze,jett",231
+2023,Masters Tokyo,Boaster,FNC,EMEA,Controller,1.00,"brimstone,astra,omen",210
+2023,Masters Tokyo,soulcas,TL,EMEA,Initiator,0.98,"skye,sage,fade",169
+2023,Masters Tokyo,Less,LOUD,Americas,Flex,0.98,"viper,killjoy",80
+2023,Masters Tokyo,Haodong,EDG,China,Controller,0.98,"brimstone,omen,harbor",341
+2023,Masters Tokyo,Life,ASE,Pacific,Duelist,0.98,jett,101
+2023,Masters Tokyo,mindfreak,PRX,Pacific,Controller,0.97,"astra,brimstone,omen",333
+2023,Masters Tokyo,crashies,NRG,Americas,Initiator,0.96,"sova,skye",351
+2023,Masters Tokyo,f0rsakeN,PRX,Pacific,Flex,0.96,"jett,harbor,cypher",333
+2023,Masters Tokyo,nobody,EDG,China,Initiator,0.96,"skye,sova",341
+2023,Masters Tokyo,qRaxs,FUT,EMEA,Initiator,0.95,"kayo,gekko",162
+2023,Masters Tokyo,MrFaliN,FUT,EMEA,Initiator,0.94,"skye,omen,sova",162
+2023,Masters Tokyo,MOJJ,FUT,EMEA,Sentinel,0.93,"cypher,killjoy,viper",162
+2023,Masters Tokyo,Sayaplayer,T1,Pacific,Duelist,0.93,"raze,jett",173
+2023,Masters Tokyo,FiNESSE,NRG,Americas,Flex,0.92,"killjoy,viper,breach",351
+2023,Masters Tokyo,carpe,T1,Pacific,Initiator,0.92,"brimstone,breach,skye",173
+2023,Masters Tokyo,Jamppi,TL,EMEA,Initiator,0.89,"breach,skye,killjoy",169
+2023,Masters Tokyo,Foxy9,KRX,Pacific,Duelist,0.89,"raze,jett",83
+2023,Masters Tokyo,stax,KRX,Pacific,Initiator,0.87,"breach,skye,kayo",231
+2023,Masters Tokyo,Zyppan,NAVI,EMEA,Initiator,0.85,"kayo,fade,skye",124
+2023,Masters Tokyo,ban,T1,Pacific,Controller,0.85,"jett,omen,harbor",173
+2023,Masters Tokyo,xeta,T1,Pacific,Initiator,0.84,"breach,sova,viper",173
+2023,Masters Tokyo,Zest,KRX,Pacific,Initiator,0.84,"brimstone,fade,sova",148
+2023,Masters Tokyo,bunt,ASE,Pacific,Controller,0.83,"brimstone,harbor,omen",101
+2023,Masters Tokyo,ANGE1,NAVI,EMEA,Initiator,0.83,"omen,sova,kayo",124
+2023,Masters Tokyo,tuyz,LOUD,Americas,Controller,0.82,omen,80
+2023,Masters Tokyo,cgrs,PRX,Pacific,Initiator,0.78,"skye,gekko,breach",333
+2023,Masters Tokyo,cauanzin,LOUD,Americas,Initiator,0.78,"breach,sova,skye",80
+2023,Masters Tokyo,Redgar,TL,EMEA,Controller,0.76,omen,169
+2023,Masters Tokyo,zjc,ASE,Pacific,Initiator,0.73,"raze,skye,sova",101
+2023,Masters Tokyo,saadhak,LOUD,Americas,Flex,0.61,"kayo,viper",80
+2023,Champions,Demon1,EG,Americas,Flex,1.26,"jett,chamber,astra",459
+2023,Champions,Leo,FNC,EMEA,Initiator,1.23,"sova,fade,skye",270
+2023,Champions,Alfajer,FNC,EMEA,Sentinel,1.22,"killjoy,cypher,chamber",270
+2023,Champions,AAAAY,FPX,EMEA,Initiator,1.22,"skye,gekko",85
+2023,Champions,keznit,KRÜ,Americas,Duelist,1.21,"raze,jett",90
+2023,Champions,MrFaliN,FUT,EMEA,Initiator,1.16,"killjoy,breach,fade",216
+2023,Champions,Cloud,GIA,EMEA,Initiator,1.15,"skye,sova",161
+2023,Champions,aspas,LOUD,Americas,Duelist,1.15,"raze,jett",515
+2023,Champions,Less,LOUD,Americas,Flex,1.14,"killjoy,viper",515
+2023,Champions,whzy,BLG,China,Duelist,1.13,"raze,jett",237
+2023,Champions,SUYGETSU,NAVI,EMEA,Sentinel,1.12,"viper,cypher,killjoy",204
+2023,Champions,cauanzin,LOUD,Americas,Initiator,1.12,"fade,skye,sova",515
+2023,Champions,Victor,NRG,Americas,Flex,1.11,"raze,killjoy,kayo",130
+2023,Champions,Sayaplayer,T1,Pacific,Duelist,1.11,"jett,raze",129
+2023,Champions,cNed,NAVI,EMEA,Sentinel,1.09,"killjoy,neon,sage",204
+2023,Champions,d4v41,PRX,Pacific,Flex,1.08,"viper,skye,killjoy",358
+2023,Champions,Sayf,TL,EMEA,Duelist,1.08,"breach,raze,jett",92
+2023,Champions,nAts,TL,EMEA,Flex,1.08,"viper,killjoy",92
+2023,Champions,jawgemo,EG,Americas,Controller,1.08,"omen,astra,raze",459
+2023,Champions,hoody,GIA,EMEA,Controller,1.08,"omen,viper,kayo",161
+2023,Champions,CHICHOO,EDG,China,Sentinel,1.07,"viper,killjoy,cypher",358
+2023,Champions,Fit1nho,GIA,EMEA,Duelist,1.07,"raze,jett",161
+2023,Champions,something,PRX,Pacific,Duelist,1.07,"jett,breach,reyna",358
+2023,Champions,Ethan,EG,Americas,Initiator,1.06,"kayo,skye,yoru",459
+2023,Champions,C0M,EG,Americas,Flex,1.06,"sova,viper",459
+2023,Champions,MaKo,KRX,Pacific,Controller,1.06,"omen,brimstone",283
+2023,Champions,DaveeyS,KRÜ,Americas,Sentinel,1.06,"chamber,killjoy",90
+2023,Champions,yosemite,BLG,China,Flex,1.05,"viper,killjoy",237
+2023,Champions,Derke,FNC,EMEA,Duelist,1.04,"raze,jett",270
+2023,Champions,s0m,NRG,Americas,Controller,1.03,"omen,astra,brimstone",130
+2023,Champions,Zest,KRX,Pacific,Flex,1.02,"viper,sova",283
+2023,Champions,Shao,NAVI,EMEA,Initiator,1.01,"fade,skye,sova",204
+2023,Champions,f0rsakeN,PRX,Pacific,Flex,1.01,"skye,killjoy,harbor",358
+2023,Champions,ZmjjKK,EDG,China,Duelist,1.01,"raze,chamber,jett",358
+2023,Champions,BuZz,KRX,Pacific,Duelist,1.00,"raze,jett",283
+2023,Champions,mindfreak,PRX,Pacific,Controller,1.00,"astra,brimstone,viper",358
+2023,Champions,Jinggg,PRX,Pacific,Duelist,1.00,"raze,phoenix",358
+2023,Champions,ardiis,NRG,Americas,Sentinel,0.98,"killjoy,jett,chamber",130
+2023,Champions,xeta,T1,Pacific,Flex,0.98,"viper,sova",129
+2023,Champions,qRaxs,FUT,EMEA,Initiator,0.98,"kayo,gekko",216
+2023,Champions,nobody,EDG,China,Initiator,0.98,"skye,sova,fade",358
+2023,Champions,AtaKaptan,FUT,EMEA,Controller,0.98,"brimstone,omen",216
+2023,Champions,tuyz,LOUD,Americas,Controller,0.98,"omen,astra,harbor",515
+2023,Champions,crashies,NRG,Americas,Initiator,0.97,"skye,sova",130
+2023,Champions,MOJJ,FUT,EMEA,Flex,0.97,"viper,killjoy",216
+2023,Champions,Munchkin,T1,Pacific,Initiator,0.97,"killjoy,breach,skye",129
+2023,Champions,Dep,ZETA,Pacific,Flex,0.96,"neon,killjoy",79
+2023,Champions,Smoggy,EDG,China,Duelist,0.96,"jett,raze,kayo",358
+2023,Champions,stax,KRX,Pacific,Initiator,0.95,"fade,skye,kayo",283
+2023,Champions,Biank,BLG,China,Initiator,0.95,"fade,skye,sova",237
+2023,Champions,rhyme,GIA,EMEA,Controller,0.94,"breach,brimstone,omen",161
+2023,Champions,Lysoar,FPX,EMEA,Flex,0.94,"killjoy,viper",85
+2023,Champions,Chronicle,FNC,EMEA,Initiator,0.94,"breach,viper,kayo",270
+2023,Champions,saadhak,LOUD,Americas,Initiator,0.94,"viper,breach,kayo",515
+2023,Champions,Boaster,FNC,EMEA,Controller,0.94,"brimstone,astra,omen",270
+2023,Champions,nukkye,GIA,EMEA,Sentinel,0.92,"cypher,killjoy",161
+2023,Champions,Yuicaw,FPX,EMEA,Duelist,0.91,"jett,raze",85
+2023,Champions,Knight,BLG,China,Flex,0.90,"omen,cypher,breach",237
+2023,Champions,Haodong,EDG,China,Controller,0.89,"astra,brimstone,omen",358
+2023,Champions,Zyppan,NAVI,EMEA,Initiator,0.89,"raze,breach,kayo",204
+2023,Champions,Rb,KRX,Pacific,Flex,0.88,"killjoy,yoru",283
+2023,Champions,Boostio,EG,Americas,Sentinel,0.88,"killjoy,brimstone,chamber",459
+2023,Champions,qw1,FUT,EMEA,Duelist,0.86,"jett,raze",216
+2023,Champions,ban,T1,Pacific,Controller,0.86,"harbor,omen",129
+2023,Champions,FiNESSE,NRG,Americas,Flex,0.84,"viper,killjoy",130
+2023,Champions,NagZ,KRÜ,Americas,Controller,0.79,viper,90
+2023,Champions,DK,BLG,China,Controller,0.79,"killjoy,omen,brimstone",237
+2023,Champions,soulcas,TL,EMEA,Flex,0.79,"astra,skye",92
+2023,Champions,ANGE1,NAVI,EMEA,Controller,0.78,"omen,brimstone,sova",204
+2023,Champions,Jamppi,TL,EMEA,Flex,0.78,"neon,chamber,breach",92
+2023,Champions,nizhaoTZH,FPX,EMEA,Controller,0.75,"astra,viper,harbor",85
+2023,Champions,Redgar,TL,EMEA,Controller,0.74,"sova,astra,omen",92
+2023,Champions,Klaus,KRÜ,Americas,Initiator,0.74,skye,90
+2023,Champions,Melser,KRÜ,Americas,Controller,0.69,"astra,harbor,omen",90
+2023,Champions,BerLIN,FPX,EMEA,Controller,0.68,"omen,harbor,raze",85
+2023,Champions,carpe,T1,Pacific,Initiator,0.68,"skye,killjoy,fade",129
+2023,Champions,TENNN,ZETA,Pacific,Duelist,0.66,raze,79
+2023,Champions,Laz,ZETA,Pacific,Flex,0.66,"chamber,viper",79
+2023,Champions,SugarZ3ro,ZETA,Pacific,Controller,0.64,"brimstone,astra",79
+2023,Champions,crow,ZETA,Pacific,Initiator,0.47,"breach,skye",79
+2024,Masters Madrid,N4RRATE,KC,EMEA,Initiator,1.29,"gekko,fade,raze",157
+2024,Masters Madrid,Less,LOUD,Americas,Flex,1.22,"viper,cypher",250
+2024,Masters Madrid,tuyz,LOUD,Americas,Controller,1.21,"harbor,viper,omen",250
+2024,Masters Madrid,RieNs,TH,EMEA,Initiator,1.17,"gekko,sova,breach",130
+2024,Masters Madrid,MiniBoo,TH,EMEA,Duelist,1.17,"neon,yoru,raze",130
+2024,Masters Madrid,zekken,SEN,Americas,Duelist,1.15,"raze,jett",421
+2024,Masters Madrid,johnqt,SEN,Americas,Sentinel,1.12,"viper,cypher,killjoy",421
+2024,Masters Madrid,TenZ,SEN,Americas,Initiator,1.07,"omen,gekko,kayo",421
+2024,Masters Madrid,ZmjjKK,EDG,China,Duelist,1.07,"raze,kayo,jett",154
+2024,Masters Madrid,Munchkin,GEN,Pacific,Flex,1.07,"kayo,viper",328
+2024,Masters Madrid,benjyfishy,TH,EMEA,Sentinel,1.06,"killjoy,cypher,viper",130
+2024,Masters Madrid,something,PRX,Pacific,Duelist,1.06,"gekko,reyna,jett",366
+2024,Masters Madrid,Meteor,GEN,Pacific,Duelist,1.06,"killjoy,yoru,jett",328
+2024,Masters Madrid,Karon,GEN,Pacific,Controller,1.06,"viper,astra,omen",328
+2024,Masters Madrid,cauanzin,LOUD,Americas,Initiator,1.05,"sova,breach",250
+2024,Masters Madrid,f0rsakeN,PRX,Pacific,Flex,1.04,"kayo,harbor,yoru",366
+2024,Masters Madrid,MAGNUM,KC,EMEA,Initiator,1.04,"killjoy,fade,skye",157
+2024,Masters Madrid,t3xture,GEN,Pacific,Duelist,1.03,"jett,raze",328
+2024,Masters Madrid,marteen,KC,EMEA,Duelist,1.03,"jett,raze,yoru",157
+2024,Masters Madrid,Autumn,FPX,EMEA,Duelist,1.03,"jett,raze,phoenix",86
+2024,Masters Madrid,Smoggy,EDG,China,Initiator,1.02,"kayo,raze,breach",154
+2024,Masters Madrid,saadhak,LOUD,Americas,Initiator,1.01,"killjoy,kayo,sova",250
+2024,Masters Madrid,Life,FPX,EMEA,Duelist,1.00,"reyna,chamber,jett",86
+2024,Masters Madrid,d4v41,PRX,Pacific,Flex,0.98,"sage,fade,viper",366
+2024,Masters Madrid,Zellsis,SEN,Americas,Flex,0.98,"killjoy,kayo,brimstone",421
+2024,Masters Madrid,sh1n,KC,EMEA,Controller,0.96,"sage,omen,astra",157
+2024,Masters Madrid,qck,LOUD,Americas,Duelist,0.94,"jett,yoru,phoenix",250
+2024,Masters Madrid,Sacy,SEN,Americas,Initiator,0.93,"fade,gekko,skye",421
+2024,Masters Madrid,CHICHOO,EDG,China,Controller,0.89,"cypher,brimstone,viper",154
+2024,Masters Madrid,nobody,EDG,China,Initiator,0.88,"sova,skye",154
+2024,Masters Madrid,Monyet,PRX,Pacific,Controller,0.87,"omen,raze,astra",366
+2024,Masters Madrid,Boo,TH,EMEA,Controller,0.87,"omen,astra",130
+2024,Masters Madrid,mindfreak,PRX,Pacific,Controller,0.84,"viper,brimstone,omen",366
+2024,Masters Madrid,Haodong,EDG,China,Controller,0.80,"omen,cypher,viper",154
+2024,Masters Madrid,Lakia,GEN,Pacific,Initiator,0.80,"gekko,sova,skye",328
+2024,Masters Madrid,Lysoar,FPX,EMEA,Controller,0.79,viper,86
+2024,Masters Madrid,paTiTek,TH,EMEA,Flex,0.76,"viper,kayo",130
+2024,Masters Madrid,tomaszy,KC,EMEA,Controller,0.75,"viper,omen,fade",157
+2024,Masters Madrid,BerLIN,FPX,EMEA,Controller,0.72,"omen,harbor,astra",86
+2024,Masters Madrid,AAAAY,FPX,EMEA,Initiator,0.71,"gekko,sova",86
+2024,Masters Shanghai,Boo,TH,EMEA,Controller,,"viper,omen,brimstone",492
+2024,Masters Shanghai,nobody,EDG,China,Initiator,,"gekko,skye",78
+2024,Masters Shanghai,Meteor,GEN,Pacific,Sentinel,,"killjoy,yoru,cypher",388
+2024,Masters Shanghai,Karon,GEN,Pacific,Controller,,"viper,omen,astra",388
+2024,Masters Shanghai,C0M,LEV,Americas,Initiator,,"sova,fade,cypher",162
+2024,Masters Shanghai,tex,LEV,Americas,Sentinel,,"killjoy,cypher,gekko",162
+2024,Masters Shanghai,Mazino,LEV,Americas,Controller,,"harbor,omen,kayo",162
+2024,Masters Shanghai,aspas,LEV,Americas,Duelist,,"jett,raze",162
+2024,Masters Shanghai,kiNgg,LEV,Americas,Controller,,"viper,omen",162
+2024,Masters Shanghai,Jinggg,PRX,Pacific,Duelist,,"raze,reyna,sage",171
+2024,Masters Shanghai,mindfreak,PRX,Pacific,Controller,,"omen,brimstone,viper",171
+2024,Masters Shanghai,f0rsakeN,PRX,Pacific,Initiator,,"skye,breach,harbor",171
+2024,Masters Shanghai,d4v41,PRX,Pacific,Flex,,"viper,skye,sage",171
+2024,Masters Shanghai,something,PRX,Pacific,Duelist,,"jett,gekko,reyna",171
+2024,Masters Shanghai,ZmjjKK,EDG,China,Duelist,,raze,78
+2024,Masters Shanghai,Munchkin,GEN,Pacific,Flex,,"kayo,viper",388
+2024,Masters Shanghai,Haodong,EDG,China,Flex,,"cypher,gekko",78
+2024,Masters Shanghai,Smoggy,EDG,China,Controller,,omen,78
+2024,Masters Shanghai,CHICHOO,EDG,China,Controller,,"astra,viper",78
+2024,Masters Shanghai,Asuna,100T,Americas,Initiator,,"gekko,raze,kayo",188
+2024,Masters Shanghai,Boostio,100T,Americas,Sentinel,,"killjoy,gekko,cypher",188
+2024,Masters Shanghai,eeiu,100T,Americas,Initiator,,"sova,fade",188
+2024,Masters Shanghai,bang,100T,Americas,Controller,,"viper,omen",188
+2024,Masters Shanghai,Cryocells,100T,Americas,Flex,,"jett,brimstone,gekko",188
+2024,Masters Shanghai,Boaster,FNC,EMEA,Controller,,"omen,brimstone,viper",125
+2024,Masters Shanghai,Chronicle,FNC,EMEA,Initiator,,"viper,skye,kayo",125
+2024,Masters Shanghai,Leo,FNC,EMEA,Initiator,,"fade,gekko,sova",125
+2024,Masters Shanghai,Derke,FNC,EMEA,Duelist,,"raze,yoru,jett",125
+2024,Masters Shanghai,t3xture,GEN,Pacific,Duelist,,"jett,raze",388
+2024,Masters Shanghai,Lakia,GEN,Pacific,Initiator,,"gekko,fade,sova",388
+2024,Masters Shanghai,RieNs,TH,EMEA,Initiator,,"sova,breach,skye",492
+2024,Masters Shanghai,Lysoar,FPX,EMEA,Flex,,"omen,killjoy",211
+2024,Masters Shanghai,paTiTek,TH,EMEA,Initiator,,"kayo,fade,skye",492
+2024,Masters Shanghai,Wo0t,TH,EMEA,Duelist,,"jett,raze,viper",492
+2024,Masters Shanghai,benjyfishy,TH,EMEA,Sentinel,,"killjoy,cypher,viper",492
+2024,Masters Shanghai,vo0kashu,DRG,China,Sentinel,,"killjoy,cypher",85
+2024,Masters Shanghai,nizhaoTZH,DRG,China,Controller,,"viper,omen,brimstone",85
+2024,Masters Shanghai,TvirusLuke,DRG,China,Duelist,,"jett,raze",85
+2024,Masters Shanghai,Nicc,DRG,China,Initiator,,"sova,kayo,skye",85
+2024,Masters Shanghai,Shion7,DRG,China,Initiator,,"harbor,gekko,sova",85
+2024,Masters Shanghai,Autumn,FPX,EMEA,Flex,,"cypher,viper,kayo",211
+2024,Masters Shanghai,Life,FPX,EMEA,Duelist,,"yoru,raze,clove",211
+2024,Masters Shanghai,BerLIN,FPX,EMEA,Controller,,"harbor,astra,omen",211
+2024,Masters Shanghai,AAAAY,FPX,EMEA,Initiator,,"fade,gekko",211
+2024,Masters Shanghai,cNed,FUT,EMEA,Duelist,,"raze,jett,chamber",305
+2024,Masters Shanghai,carpe,T1,Pacific,Initiator,,"sova,fade,omen",103
+2024,Masters Shanghai,qRaxs,FUT,EMEA,Initiator,,"gekko,breach,kayo",305
+2024,Masters Shanghai,AtaKaptan,FUT,EMEA,Controller,,"omen,viper",305
+2024,Masters Shanghai,MrFaliN,FUT,EMEA,Initiator,,"breach,omen,sova",305
+2024,Masters Shanghai,yetujey,FUT,EMEA,Sentinel,,"cypher,killjoy,viper",305
+2024,Masters Shanghai,valyn,G2,Americas,Controller,,"astra,harbor,omen",344
+2024,Masters Shanghai,JonahP,G2,Americas,Initiator,,"viper,skye,breach",344
+2024,Masters Shanghai,leaf,G2,Americas,Sentinel,,"cypher,killjoy,viper",344
+2024,Masters Shanghai,icy,G2,Americas,Duelist,,"yoru,gekko,raze",344
+2024,Masters Shanghai,trent,G2,Americas,Initiator,,"sova,fade,gekko",344
+2024,Masters Shanghai,Rossy,T1,Pacific,Flex,,"viper,breach",103
+2024,Masters Shanghai,Sayaplayer,T1,Pacific,Duelist,,"jett,sage,raze",103
+2024,Masters Shanghai,xccurate,T1,Pacific,Sentinel,,"harbor,chamber,sage",103
+2024,Masters Shanghai,iZu,T1,Pacific,Duelist,,"yoru,reyna,omen",103
+2024,Masters Shanghai,Alfajer,FNC,EMEA,Sentinel,,"killjoy,viper,cypher",125
+2024,Champions,trexx,VIT,EMEA,Initiator,1.23,"sova,fade",151
+2024,Champions,Derke,FNC,EMEA,Duelist,1.22,"raze,yoru",293
+2024,Champions,primmie,TLN,Pacific,Flex,1.22,"yoru,sage,clove",85
+2024,Champions,Chronicle,FNC,EMEA,Flex,1.21,"viper,sova",293
+2024,Champions,keznit,KRÜ,Americas,Duelist,1.18,"neon,omen,raze",156
+2024,Champions,CHICHOO,EDG,China,Controller,1.18,"omen,viper,killjoy",449
+2024,Champions,Meteor,GEN,Pacific,Sentinel,1.17,"killjoy,yoru,cypher",153
+2024,Champions,RieNs,TH,EMEA,Initiator,1.15,"sova,gekko,viper",552
+2024,Champions,Smoggy,EDG,China,Controller,1.14,"clove,brimstone,viper",449
+2024,Champions,t3xture,GEN,Pacific,Duelist,1.14,"jett,raze",153
+2024,Champions,aspas,LEV,Americas,Duelist,1.14,"raze,jett,neon",407
+2024,Champions,zekken,SEN,Americas,Duelist,1.12,"jett,raze,neon",361
+2024,Champions,TenZ,SEN,Americas,Initiator,1.10,"omen,gekko,kayo",361
+2024,Champions,Kai,TE,China,Sentinel,1.10,"jett,cypher,killjoy",208
+2024,Champions,ZmjjKK,EDG,China,Duelist,1.10,"neon,raze,jett",449
+2024,Champions,Alfajer,FNC,EMEA,Initiator,1.09,"gekko,killjoy,breach",293
+2024,Champions,Autumn,FPX,EMEA,Flex,1.08,"viper,chamber",115
+2024,Champions,Shyy,KRÜ,Americas,Sentinel,1.07,"cypher,viper,killjoy",156
+2024,Champions,yetujey,FUT,EMEA,Flex,1.07,"cypher,viper",88
+2024,Champions,mindfreak,PRX,Pacific,Controller,1.06,"viper,omen,brimstone",140
+2024,Champions,Kicks,VIT,EMEA,Initiator,1.05,"kayo,gekko,breach",151
+2024,Champions,Flashback,KRX,Pacific,Sentinel,1.04,"cypher,viper,killjoy",238
+2024,Champions,kiNgg,LEV,Americas,Controller,1.04,"brimstone,omen,viper",407
+2024,Champions,LuoK1ng,TE,China,Controller,1.04,"omen,brimstone,astra",208
+2024,Champions,heat,KRÜ,Americas,Initiator,1.03,"breach,sova,fade",156
+2024,Champions,MaKo,KRX,Pacific,Controller,1.02,"omen,brimstone,viper",238
+2024,Champions,BuZz,KRX,Pacific,Duelist,1.01,"jett,raze,neon",238
+2024,Champions,Sacy,SEN,Americas,Initiator,1.01,"sova,fade,gekko",361
+2024,Champions,Sayf,VIT,EMEA,Duelist,1.01,"jett,neon,raze",151
+2024,Champions,johnqt,SEN,Americas,Sentinel,1.00,"cypher,deadlock,viper",361
+2024,Champions,valyn,G2,Americas,Controller,0.99,"harbor,omen,brimstone",200
+2024,Champions,S1Mon,EDG,China,Initiator,0.99,"breach,fade,kayo",449
+2024,Champions,Karon,GEN,Pacific,Controller,0.99,"omen,astra,brimstone",153
+2024,Champions,cNed,FUT,EMEA,Duelist,0.99,"jett,raze",88
+2024,Champions,Wo0t,TH,EMEA,Initiator,0.99,"gekko,fade,omen",552
+2024,Champions,Zellsis,SEN,Americas,Flex,0.98,"breach,cypher,brimstone",361
+2024,Champions,hiro,FNC,EMEA,Flex,0.98,"fade,viper,cypher",293
+2024,Champions,ban,TLN,Pacific,Flex,0.98,"skye,phoenix,deadlock",85
+2024,Champions,C0M,LEV,Americas,Initiator,0.98,"viper,sova,fade",407
+2024,Champions,Boo,TH,EMEA,Controller,0.98,"astra,brimstone,fade",552
+2024,Champions,MiniBoo,TH,EMEA,Duelist,0.97,"jett,raze,yoru",552
+2024,Champions,leaf,G2,Americas,Flex,0.97,"killjoy,viper",200
+2024,Champions,AAAAY,FPX,EMEA,Initiator,0.97,"fade,gekko",115
+2024,Champions,benjyfishy,TH,EMEA,Sentinel,0.96,"cypher,viper,killjoy",552
+2024,Champions,BerLIN,FPX,EMEA,Controller,0.96,"omen,astra,breach",115
+2024,Champions,trent,G2,Americas,Initiator,0.96,"sova,fade,gekko",200
+2024,Champions,Mazino,LEV,Americas,Initiator,0.95,"skye,deadlock,breach",407
+2024,Champions,Munchkin,GEN,Pacific,Flex,0.95,"viper,kayo",153
+2024,Champions,f0rsakeN,PRX,Pacific,Initiator,0.95,"sova,kayo,breach",140
+2024,Champions,FengF,TE,China,Sentinel,0.95,"killjoy,raze,cypher",208
+2024,Champions,BeYN,KRX,Pacific,Initiator,0.95,"sova,fade",238
+2024,Champions,qRaxs,FUT,EMEA,Initiator,0.94,"breach,fade,gekko",88
+2024,Champions,icy,G2,Americas,Duelist,0.93,"gekko,raze,yoru",200
+2024,Champions,nobody,EDG,China,Initiator,0.93,"fade,gekko,sova",449
+2024,Champions,d4v41,PRX,Pacific,Sentinel,0.93,"killjoy,fade,sage",140
+2024,Champions,something,PRX,Pacific,Flex,0.93,"jett,gekko",140
+2024,Champions,Flex1n,BLG,China,Controller,0.93,"brimstone,omen,viper",78
+2024,Champions,Foxy9,KRX,Pacific,Initiator,0.93,"breach,kayo,gekko",238
+2024,Champions,whzy,BLG,China,Duelist,0.92,"raze,neon,jett",78
+2024,Champions,runneR,VIT,EMEA,Sentinel,0.91,"killjoy,cypher,viper",151
+2024,Champions,Jinggg,PRX,Pacific,Duelist,0.91,"sage,neon,raze",140
+2024,Champions,Melser,KRÜ,Americas,Controller,0.91,"omen,harbor,brimstone",156
+2024,Champions,ceNder,VIT,EMEA,Controller,0.88,"omen,viper",151
+2024,Champions,mta,KRÜ,Americas,Initiator,0.88,"sova,kayo,gekko",156
+2024,Champions,JonahP,G2,Americas,Flex,0.88,"viper,skye",200
+2024,Champions,tex,LEV,Americas,Sentinel,0.88,"gekko,cypher,killjoy",407
+2024,Champions,heybay,TE,China,Initiator,0.86,"kayo,breach,deadlock",208
+2024,Champions,Lysoar,FPX,EMEA,Controller,0.85,"cypher,viper,omen",115
+2024,Champions,Biank,TE,China,Initiator,0.82,"sova,skye,fade",208
+2024,Champions,Knight,BLG,China,Sentinel,0.80,"cypher,breach,sage",78
+2024,Champions,AtaKaptan,FUT,EMEA,Controller,0.80,"viper,brimstone,omen",88
+2024,Champions,MrFaliN,FUT,EMEA,Initiator,0.78,"omen,gekko,breach",88
+2024,Champions,nephh,BLG,China,Initiator,0.77,"skye,fade,kayo",78
+2024,Champions,JitBoyS,TLN,Pacific,Controller,0.76,"viper,clove,omen",85
+2024,Champions,Governor,TLN,Pacific,Duelist,0.75,"neon,sova,raze",85
+2024,Champions,Boaster,FNC,EMEA,Controller,0.71,"astra,omen",293
+2024,Champions,Life,FPX,EMEA,Duelist,0.71,"yoru,raze,viper",115
+2024,Champions,Lakia,GEN,Pacific,Initiator,0.61,"skye,sova,fade",153
+2024,Champions,yosemite,BLG,China,Sentinel,0.61,"viper,cypher,killjoy",78
+2024,Champions,Crws,TLN,Pacific,Initiator,0.51,"omen,kayo,fade",85
+2025,Masters Bangkok,CHICHOO,EDG,China,Controller,1.23,"viper,vyse,omen",313
+2025,Masters Bangkok,nAts,TL,EMEA,Sentinel,1.21,"viper,chamber,cypher",155
+2025,Masters Bangkok,trent,G2,Americas,Initiator,1.21,"tejo,sova",360
+2025,Masters Bangkok,Derke,VIT,EMEA,Duelist,1.18,"raze,yoru,jett",225
+2025,Masters Bangkok,iZu,T1,Pacific,Flex,1.13,"yoru,fade,cypher",453
+2025,Masters Bangkok,free1ng,KRX,Pacific,Initiator,1.10,tejo,149
+2025,Masters Bangkok,keiko,TL,EMEA,Controller,1.09,"raze,astra,omen",155
+2025,Masters Bangkok,trexx,VIT,EMEA,Initiator,1.09,"brimstone,fade,sova",225
+2025,Masters Bangkok,BeYN,KRX,Pacific,Initiator,1.08,"breach,sova,fade",149
+2025,Masters Bangkok,BuZz,T1,Pacific,Duelist,1.08,"raze,neon,yoru",453
+2025,Masters Bangkok,valyn,G2,Americas,Controller,1.08,"brimstone,omen,astra",360
+2025,Masters Bangkok,leaf,G2,Americas,Sentinel,1.06,"vyse,viper,chamber",360
+2025,Masters Bangkok,N4RRATE,SEN,Americas,Initiator,1.05,"fade,breach,omen",103
+2025,Masters Bangkok,Meteor,T1,Pacific,Sentinel,1.04,"viper,vyse,killjoy",453
+2025,Masters Bangkok,Less,VIT,EMEA,Controller,1.03,"viper,cypher,brimstone",225
+2025,Masters Bangkok,jawgemo,G2,Americas,Duelist,1.03,"yoru,raze",360
+2025,Masters Bangkok,Sylvan,T1,Pacific,Controller,1.02,"omen,brimstone,astra",408
+2025,Masters Bangkok,ZmjjKK,EDG,China,Duelist,1.01,"jett,raze,yoru",313
+2025,Masters Bangkok,stax,T1,Pacific,Initiator,1.01,"fade,kayo,sova",453
+2025,Masters Bangkok,Smoggy,EDG,China,Controller,1.01,"omen,brimstone,astra",313
+2025,Masters Bangkok,Flashback,KRX,Pacific,Sentinel,1.00,"cypher,vyse",149
+2025,Masters Bangkok,kamo,TL,EMEA,Duelist,0.99,"yoru,jett,raze",155
+2025,Masters Bangkok,JonahP,G2,Americas,Initiator,0.98,"breach,vyse,skye",360
+2025,Masters Bangkok,Kicks,VIT,EMEA,Initiator,0.94,"skye,omen,breach",225
+2025,Masters Bangkok,nobody,EDG,China,Initiator,0.94,"tejo,fade",313
+2025,Masters Bangkok,bang,SEN,Americas,Controller,0.93,"omen,astra,viper",103
+2025,Masters Bangkok,Kai,TE,China,Flex,0.92,"vyse,jett",74
+2025,Masters Bangkok,zekken,SEN,Americas,Duelist,0.92,"raze,jett",103
+2025,Masters Bangkok,MaKo,KRX,Pacific,Controller,0.92,"omen,brimstone,astra",149
+2025,Masters Bangkok,HYUNMIN,KRX,Pacific,Duelist,0.90,yoru,149
+2025,Masters Bangkok,kamyk,TL,EMEA,Initiator,0.86,"astra,sova,tejo",155
+2025,Masters Bangkok,Biank,TE,China,Initiator,0.85,"fade,sova",74
+2025,Masters Bangkok,S1Mon,EDG,China,Initiator,0.83,"breach,kayo,fade",313
+2025,Masters Bangkok,johnqt,SEN,Americas,Flex,0.82,"viper,tejo",103
+2025,Masters Bangkok,Zellsis,SEN,Americas,Flex,0.77,"vyse,kayo,brimstone",103
+2025,Masters Bangkok,Sayf,VIT,EMEA,Flex,0.75,"tejo,vyse,jett",225
+2025,Masters Bangkok,LuoK1ng,TE,China,Controller,0.74,"omen,astra",74
+2025,Masters Bangkok,paTiTek,TL,EMEA,Initiator,0.73,"fade,vyse,breach",155
+2025,Masters Bangkok,heybay,TE,China,Initiator,0.69,"viper,kayo,breach",74
+2025,Masters Bangkok,carpe,T1,Pacific,Controller,0.63,brimstone,45
+2025,Masters Bangkok,FengF,TE,China,Flex,0.55,"raze,omen,cypher",74
+2025,Masters Toronto,t3xture,GEN,Pacific,Duelist,1.23,"neon,raze,jett",255
+2025,Masters Toronto,Spring,WOL,China,Controller,1.21,"omen,viper,astra",349
+2025,Masters Toronto,Verno,MIBR,Americas,Initiator,1.18,sova,71
+2025,Masters Toronto,Alfajer,FNC,EMEA,Duelist,1.17,"iso,raze,cypher",419
+2025,Masters Toronto,zekken,SEN,Americas,Duelist,1.17,"neon,raze,yoru",249
+2025,Masters Toronto,trent,G2,Americas,Initiator,1.17,"fade,sova,tejo",198
+2025,Masters Toronto,leaf,G2,Americas,Sentinel,1.15,"viper,killjoy,vyse",198
+2025,Masters Toronto,Chronicle,FNC,EMEA,Sentinel,1.13,"cypher,viper,sage",419
+2025,Masters Toronto,whzy,BLG,China,Duelist,1.13,"jett,neon,raze",179
+2025,Masters Toronto,f0rsakeN,PRX,Pacific,Initiator,1.12,"omen,fade,sova",387
+2025,Masters Toronto,Jinggg,PRX,Pacific,Flex,1.10,"raze,omen",387
+2025,Masters Toronto,keiko,TL,EMEA,Controller,1.10,"harbor,omen,iso",187
+2025,Masters Toronto,N4RRATE,SEN,Americas,Initiator,1.08,"fade,breach,tejo",249
+2025,Masters Toronto,d4v41,PRX,Pacific,Sentinel,1.07,"viper,vyse,sage",387
+2025,Masters Toronto,happywei,XLG,China,Sentinel,1.06,"cypher,killjoy",75
+2025,Masters Toronto,kaajak,FNC,EMEA,Duelist,1.06,"yoru,neon,jett",419
+2025,Masters Toronto,rushia,BLG,China,Controller,1.03,"harbor,omen",179
+2025,Masters Toronto,Karon,GEN,Pacific,Controller,1.03,omen,255
+2025,Masters Toronto,crashies,FNC,EMEA,Initiator,1.03,"sova,fade",419
+2025,Masters Toronto,Ash,GEN,Pacific,Initiator,1.02,"sova,tejo,fade",255
+2025,Masters Toronto,PatMen,PRX,Pacific,Initiator,1.01,"fade,viper,kayo",387
+2025,Masters Toronto,penny,TL,EMEA,Duelist,1.00,"omen,phoenix,jett",121
+2025,Masters Toronto,Munchkin,GEN,Pacific,Flex,0.99,"viper,kayo",255
+2025,Masters Toronto,bang,SEN,Americas,Controller,0.99,"omen,viper",249
+2025,Masters Toronto,johnqt,SEN,Americas,Initiator,0.99,"breach,viper,skye",249
+2025,Masters Toronto,Zellsis,SEN,Americas,Sentinel,0.99,"cypher,vyse,viper",249
+2025,Masters Toronto,jawgemo,G2,Americas,Duelist,0.98,"yoru,neon,sage",198
+2025,Masters Toronto,Monyet,RRQ,Pacific,Controller,0.97,"omen,viper,neon",100
+2025,Masters Toronto,something,PRX,Pacific,Duelist,0.96,"yoru,sova,jett",387
+2025,Masters Toronto,kamo,TL,EMEA,Flex,0.96,"clove,neon,chamber",187
+2025,Masters Toronto,Juicy,WOL,China,Duelist,0.95,"yoru,jett,raze",349
+2025,Masters Toronto,Wo0t,TH,EMEA,Initiator,0.94,"breach,gekko,jett",81
+2025,Masters Toronto,nephh,BLG,China,Initiator,0.93,"viper,breach,kayo",179
+2025,Masters Toronto,valyn,G2,Americas,Controller,0.93,omen,198
+2025,Masters Toronto,JonahP,G2,Americas,Initiator,0.93,"breach,viper,fade",198
+2025,Masters Toronto,Lysoar,WOL,China,Sentinel,0.91,"deadlock,killjoy,omen",349
+2025,Masters Toronto,SiuFatBB,WOL,China,Initiator,0.91,"sova,fade",349
+2025,Masters Toronto,paTiTek,TL,EMEA,Initiator,0.91,"kayo,sova,fade",187
+2025,Masters Toronto,Levius,BLG,China,Sentinel,0.90,"killjoy,cypher,vyse",179
+2025,Masters Toronto,xffero,RRQ,Pacific,Sentinel,0.90,"cypher,killjoy,viper",100
+2025,Masters Toronto,Yuicaw,WOL,China,Flex,0.89,"cypher,gekko,raze",349
+2025,Masters Toronto,Foxy9,GEN,Pacific,Sentinel,0.88,"killjoy,deadlock,vyse",255
+2025,Masters Toronto,Kushy,RRQ,Pacific,Flex,0.88,"sova,vyse",100
+2025,Masters Toronto,nAts,TL,EMEA,Flex,0.88,"viper,cypher",111
+2025,Masters Toronto,Rarga,XLG,China,Duelist,0.86,"neon,jett,yoru",75
+2025,Masters Toronto,RieNs,TH,EMEA,Initiator,0.85,"fade,sova,viper",81
+2025,Masters Toronto,benjyfishy,TH,EMEA,Sentinel,0.85,"killjoy,cypher",81
+2025,Masters Toronto,Jemkin,RRQ,Pacific,Duelist,0.85,"jett,raze,yoru",100
+2025,Masters Toronto,Boaster,FNC,EMEA,Controller,0.84,"omen,astra,viper",419
+2025,Masters Toronto,Knight,BLG,China,Initiator,0.83,"sova,fade,cypher",179
+2025,Masters Toronto,Serial,TL,EMEA,Sentinel,0.83,"gekko,killjoy,cypher",142
+2025,Masters Toronto,Boo,TH,EMEA,Controller,0.76,"astra,viper,omen",81
+2025,Masters Toronto,crazyguy,RRQ,Pacific,Initiator,0.75,"kayo,omen,fade",100
+2025,Masters Toronto,MiniBoo,TH,EMEA,Duelist,0.74,"yoru,neon,raze",81
+2025,Masters Toronto,xenom,MIBR,Americas,Controller,0.71,"omen,viper",71
+2025,Masters Toronto,cortezia,MIBR,Americas,Sentinel,0.69,"cypher,killjoy",71
+2025,Masters Toronto,Viva,XLG,China,Initiator,0.67,sova,75
+2025,Masters Toronto,coconut,XLG,China,Controller,0.65,"omen,viper",75
+2025,Masters Toronto,Midi,XLG,China,Initiator,0.59,"breach,gekko",75
+2025,Masters Toronto,aspas,MIBR,Americas,Duelist,0.53,"neon,jett,raze",71
+2025,Masters Toronto,artzin,MIBR,Americas,Initiator,0.51,"breach,harbor,gekko",71
+2025,Masters Toronto,tarik,tarik,Unknown,Duelist,,reyna,20
+2025,Masters Toronto,Kyedae,tarik,Unknown,Sentinel,,vyse,20
+2025,Masters Toronto,joshseki,tarik,Unknown,Controller,,astra,20
+2025,Masters Toronto,Vinnie,tarik,Unknown,Initiator,,sova,20
+2025,Masters Toronto,Yvonnie,tarik,Unknown,Sentinel,,sage,20
+2025,Masters Toronto,Disguised,Team,Unknown,Sentinel,,cypher,20
+2025,Masters Toronto,Jacob,Team,Unknown,Initiator,,gekko,20
+2025,Masters Toronto,meL,Team,Unknown,Controller,,omen,20
+2025,Masters Toronto,Sidsity,Team,Unknown,Initiator,,fade,20
+2025,Masters Toronto,TenZ,Team,Unknown,Duelist,,jett,20
+2025,Champions,aspas,MIBR,Americas,Duelist,1.33,"neon,waylay,raze",330
+2025,Champions,RieNs,TH,EMEA,Initiator,1.17,"fade,sova",256
+2025,Champions,brawk,NRG,Americas,Flex,1.16,"sova,vyse",377
+2025,Champions,kaajak,FNC,EMEA,Duelist,1.15,"yoru,waylay,raze",453
+2025,Champions,johnqt,SEN,Americas,Flex,1.14,"viper,cypher,sova",126
+2025,Champions,Smoggy,EDG,China,Controller,1.13,"omen,brimstone",119
+2025,Champions,leaf,G2,Americas,Sentinel,1.11,"cypher,viper,deadlock",268
+2025,Champions,something,PRX,Pacific,Flex,1.10,"yoru,sova",356
+2025,Champions,Knight,BLG,China,Initiator,1.10,"sova,fade",95
+2025,Champions,skuba,NRG,Americas,Sentinel,1.09,"vyse,viper,killjoy",377
+2025,Champions,SpiritZ1,DRG,China,Duelist,1.08,yoru,98
+2025,Champions,NoMan,XLG,China,Duelist,1.08,"skye,neon,jett",157
+2025,Champions,cortezia,MIBR,Americas,Sentinel,1.08,"killjoy,viper,cypher",330
+2025,Champions,Cloud,GX,EMEA,Initiator,1.07,"fade,sova,gekko",261
+2025,Champions,Chronicle,FNC,EMEA,Flex,1.07,"vyse,breach,viper",453
+2025,Champions,Alfajer,FNC,EMEA,Sentinel,1.06,"sage,cypher,tejo",391
+2025,Champions,jawgemo,G2,Americas,Duelist,1.05,"raze,yoru",268
+2025,Champions,Jinggg,PRX,Pacific,Flex,1.05,"raze,sage,omen",356
+2025,Champions,Verno,MIBR,Americas,Initiator,1.05,"sova,fade",330
+2025,Champions,ZmjjKK,EDG,China,Duelist,1.04,"yoru,neon",119
+2025,Champions,iZu,T1,Pacific,Duelist,1.04,"yoru,waylay",148
+2025,Champions,Meteor,T1,Pacific,Sentinel,1.04,"vyse,cypher",148
+2025,Champions,Flashback,KRX,Pacific,Duelist,1.04,"yoru,neon",477
+2025,Champions,valyn,G2,Americas,Controller,1.03,"omen,astra,brimstone",268
+2025,Champions,f0rsakeN,PRX,Pacific,Controller,1.03,"brimstone,omen,waylay",356
+2025,Champions,Wo0t,TH,EMEA,Flex,1.03,"viper,chamber,raze",256
+2025,Champions,happywei,XLG,China,Controller,1.03,"viper,cypher,omen",157
+2025,Champions,HYUNMIN,KRX,Pacific,Duelist,1.02,"waylay,raze",477
+2025,Champions,nAts,TL,EMEA,Flex,1.02,"cypher,viper,waylay",148
+2025,Champions,MaKo,KRX,Pacific,Controller,1.01,"omen,brimstone",477
+2025,Champions,d4v41,PRX,Pacific,Sentinel,1.01,"viper,sage,vyse",356
+2025,Champions,Viva,XLG,China,Initiator,1.01,"brimstone,sova,fade",157
+2025,Champions,westside,GX,EMEA,Sentinel,1.00,"vyse,cypher,deadlock",261
+2025,Champions,mada,NRG,Americas,Duelist,1.00,"yoru,waylay,neon",377
+2025,Champions,crashies,FNC,EMEA,Initiator,1.00,"sova,fade",453
+2025,Champions,keiko,TL,EMEA,Controller,1.00,"omen,brimstone,raze",148
+2025,Champions,Demon1,DRG,China,Sentinel,1.00,"vyse,cypher",98
+2025,Champions,nobody,EDG,China,Initiator,0.99,"sova,fade",119
+2025,Champions,s0m,NRG,Americas,Controller,0.99,"harbor,omen,viper",377
+2025,Champions,artzin,MIBR,Americas,Flex,0.99,"viper,kayo,yoru",330
+2025,Champions,DH,T1,Pacific,Controller,0.98,omen,148
+2025,Champions,trent,G2,Americas,Initiator,0.98,"fade,tejo,sova",268
+2025,Champions,zekken,SEN,Americas,Duelist,0.98,"neon,jett,raze",126
+2025,Champions,Ethan,NRG,Americas,Initiator,0.98,"omen,kayo,fade",377
+2025,Champions,ara,GX,EMEA,Duelist,0.97,"yoru,neon,jett",261
+2025,Champions,Jemkin,RRQ,Pacific,Duelist,0.97,"yoru,jett,waylay",137
+2025,Champions,BeYN,KRX,Pacific,Initiator,0.97,"sova,fade",477
+2025,Champions,xenom,MIBR,Americas,Controller,0.97,"omen,brimstone,astra",330
+2025,Champions,Rarga,XLG,China,Duelist,0.96,"raze,yoru,sage",157
+2025,Champions,N4RRATE,SEN,Americas,Initiator,0.95,"fade,sova,omen",126
+2025,Champions,doma,FNC,EMEA,Flex,0.94,"tejo,killjoy",62
+2025,Champions,nephh,BLG,China,Flex,0.94,"breach,deadlock,omen",95
+2025,Champions,Levius,BLG,China,Sentinel,0.93,"cypher,viper,vyse",95
+2025,Champions,MiniBoo,TH,EMEA,Duelist,0.93,"yoru,raze,waylay",256
+2025,Champions,kamo,TL,EMEA,Duelist,0.93,"jett,raze,yoru",148
+2025,Champions,Flickless,GX,EMEA,Initiator,0.92,"viper,breach,kayo",261
+2025,Champions,Monyet,RRQ,Pacific,Duelist,0.92,"omen,raze,neon",137
+2025,Champions,Kushy,RRQ,Pacific,Initiator,0.91,"sova,kayo,fade",137
+2025,Champions,Nicc,DRG,China,Initiator,0.91,"breach,fade,sova",98
+2025,Champions,JonahP,G2,Americas,Initiator,0.91,"sage,fade,sova",268
+2025,Champions,benjyfishy,TH,EMEA,Sentinel,0.89,"vyse,deadlock,cypher",256
+2025,Champions,Boaster,FNC,EMEA,Controller,0.89,"omen,astra",453
+2025,Champions,CHICHOO,EDG,China,Sentinel,0.89,"sage,viper,cypher",119
+2025,Champions,Boo,TH,EMEA,Controller,0.88,"astra,omen,brimstone",256
+2025,Champions,trexx,TL,EMEA,Initiator,0.87,"sova,gekko,fade",148
+2025,Champions,free1ng,KRX,Pacific,Sentinel,0.86,"cypher,viper,vyse",477
+2025,Champions,xffero,RRQ,Pacific,Flex,0.85,"cypher,viper",137
+2025,Champions,BuZz,T1,Pacific,Duelist,0.85,neon,148
+2025,Champions,Flex1n,DRG,China,Controller,0.84,omen,98
+2025,Champions,Akeman,DRG,China,Duelist,0.84,"waylay,neon",98
+2025,Champions,PatMen,PRX,Pacific,Initiator,0.84,"fade,viper,sova",356
+2025,Champions,grubinho,GX,EMEA,Controller,0.83,"omen,astra",261
+2025,Champions,crazyguy,RRQ,Pacific,Initiator,0.82,"tejo,sova,breach",137
+2025,Champions,Jieni7,EDG,China,Duelist,0.82,"neon,breach,waylay",119
+2025,Champions,paTiTek,TL,EMEA,Initiator,0.81,"kayo,skye,omen",148
+2025,Champions,Zellsis,SEN,Americas,Sentinel,0.80,"vyse,breach,killjoy",126
+2025,Champions,bang,SEN,Americas,Controller,0.79,"omen,astra",126
+2025,Champions,coconut,XLG,China,Controller,0.77,"gekko,omen,astra",157
+2025,Champions,stax,T1,Pacific,Initiator,0.75,"fade,sova",148
+2025,Champions,rushia,BLG,China,Controller,0.72,"omen,viper,harbor",95
+2025,Champions,whzy,BLG,China,Duelist,0.63,"neon,raze,yoru",95
