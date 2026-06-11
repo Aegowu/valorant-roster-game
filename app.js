@@ -25,12 +25,20 @@ const teamYearRosters = buildTeamYearRosters();
 
 let state = createFreshState();
 
+const regionKeyMap = {
+  "AMER": "Americas",
+  "CN": "China",
+  "APAC": "Pacific",
+  "EMEA": "EMEA"
+};
+
 function makeRegion(key, label) {
-  const regionTeamNames = majorData.regionTeams[label] || [];
+  const dataKey = regionKeyMap[label] || label;
+  const regionTeamNames = majorData.regionTeams[dataKey] || [];
   return {
     key,
     label,
-    sub: majorData.regionSubs[label] || label,
+    sub: majorData.regionSubs[dataKey] || label,
     teams: Object.fromEntries(regionTeamNames.map((team) => [
       team,
       YEARS.filter((year) => majorData.teamYearRosters[team]?.[year]?.length)
