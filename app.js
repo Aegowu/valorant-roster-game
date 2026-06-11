@@ -14,6 +14,13 @@ const roles = [
   { key: "flex", label: "Flex" }
 ];
 
+const regionKeyMap = {
+  "AMER": "Americas",
+  "CN": "China",
+  "APAC": "Pacific",
+  "EMEA": "EMEA"
+};
+
 const regions = [
   makeRegion("americas", "AMER"),
   makeRegion("china", "CN"),
@@ -24,13 +31,6 @@ const regions = [
 const teamYearRosters = buildTeamYearRosters();
 
 let state = createFreshState();
-
-const regionKeyMap = {
-  "AMER": "Americas",
-  "CN": "China",
-  "APAC": "Pacific",
-  "EMEA": "EMEA"
-};
 
 function makeRegion(key, label) {
   const dataKey = regionKeyMap[label] || label;
