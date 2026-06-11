@@ -28,6 +28,8 @@ const regions = [
   makeRegion("emea", "EMEA")
 ].filter((region) => Object.keys(region.teams).length);
 
+console.log(regions.map(r => r.label + ': ' + Object.keys(r.teams).length + ' teams'));
+
 const teamYearRosters = buildTeamYearRosters();
 
 let state = createFreshState();
