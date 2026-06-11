@@ -15,13 +15,11 @@ const roles = [
 ];
 
 const regions = [
-  makeRegion("amer", "AMER"),
-  makeRegion("cn", "CN"),
+  makeRegion("americas", "AMER"),
+  makeRegion("china", "CN"),
   makeRegion("apac", "APAC"),
   makeRegion("emea", "EMEA")
 ].filter((region) => Object.keys(region.teams).length);
-
-console.log(regions.map(r => r.label + ': ' + Object.keys(r.teams).length + ' teams'));
 
 const teamYearRosters = buildTeamYearRosters();
 
@@ -231,7 +229,6 @@ function randomPreviewDraw(finalDraw, reels) {
 
 async function animateDrawChange(finalDraw, reels) {
   setRollingState(true);
-  document.querySelector('[data-bind="candidates"]').innerHTML = "";
   for (let tick = 0; tick < 10; tick += 1) {
     setDrawDisplay(randomPreviewDraw(finalDraw, reels));
     await sleep(42 + tick * 12);
@@ -355,7 +352,7 @@ function simulatePlacement(score, maxPlace) {
   // Build weights: place 1 gets the most weight for a high-score team.
   // Weight for place p = (maxPlace - p + 1) ^ strength
   // strength scales with score: low score (~62) strength ~0.6, high score (~99) strength ~2.5
-  const strength = 0.6 + ((score - 62) / 37) * 1.9;
+  const strength = 0.8 + ((score - 62) / 37) * 3.7;
   const weights = [];
   for (let p = 1; p <= maxPlace; p++) {
     weights.push(Math.pow(maxPlace - p + 1, strength));
@@ -473,7 +470,7 @@ function placementClass(place, maxPlace) {
   if (place <= Math.ceil(maxPlace / 2)) return "result-mid";
   return "result-low";
 }
- 
+
 function simRowHTML(r, spinning = false) {
   if (r.dnq) {
     return `
@@ -507,16 +504,16 @@ function simRowHTML(r, spinning = false) {
     </div>
   `;
 }
- 
+
 function randomPlaceLabel(maxPlace) {
   return placeLabel(Math.ceil(Math.random() * maxPlace));
 }
- 
+
 async function renderSimulation(score) {
   const results = simulateSeason(score);
   const container = document.querySelector('[data-bind="simulation"]');
   if (!container) return;
- 
+
   // Render all rows as pending placeholders first
   container.innerHTML = results.map((r) => `
     <div class="sim-row sim-pending">
@@ -525,11 +522,11 @@ async function renderSimulation(score) {
       <span class="sim-note"></span>
     </div>
   `).join("");
- 
+
   // Animate each row one at a time
   for (let i = 0; i < results.length; i++) {
     const r = results[i];
- 
+
     if (r.dnq) {
       await sleep(300);
       const rows = container.querySelectorAll(".sim-row");
@@ -537,25 +534,26 @@ async function renderSimulation(score) {
       await sleep(200);
       continue;
     }
- 
+
     // Spin the place label
     const rows = container.querySelectorAll(".sim-row");
     rows[i].className = "sim-row sim-spinning";
     rows[i].querySelector(".sim-place").textContent = "—";
- 
+
     for (let t = 0; t < 10; t++) {
       await sleep(60 + t * 15);
       const currentRows = container.querySelectorAll(".sim-row");
       const placeEl = currentRows[i]?.querySelector(".sim-place");
       if (placeEl) placeEl.textContent = randomPlaceLabel(r.maxPlace);
     }
- 
+
     // Reveal final result
     const finalRows = container.querySelectorAll(".sim-row");
     if (finalRows[i]) finalRows[i].outerHTML = simRowHTML(r);
     await sleep(350);
   }
 }
+
 // ─── Result Screen ────────────────────────────────────────────────────────────
 
 function renderResult() {
@@ -566,20 +564,15 @@ function renderResult() {
   const yearSpread = Math.max(...years) - Math.min(...years);
   const validRatings = state.picks.map((pick) => pick.rating).filter((r) => Number.isFinite(r));
   const averageRating = validRatings.length ? validRatings.reduce((a, b) => a + b, 0) / validRatings.length : 70;
-  const score = Math.max(60, Math.min(99, Math.round(averageRating + Math.max(0, 8 - yearSpread))));
+  const score = Math.max(62, Math.min(99, Math.round(averageRating + teams * 1.5 + Math.max(0, 8 - yearSpread))));
 
   document.querySelector('[data-bind="score"]').textContent = score;
   document.querySelector('[data-bind="scoreText"]').textContent =
     score > 90 ? "A frightening international superteam." :
-    score > 80 ? "Balanced, explosive and ready to complete." :
-    score > 70 ? "High potential, but something is lacking." :
-    "Underwhelming...";
+    score > 80 ? "Balanced, explosive and ready for playoffs." :
+    "High upside, but the comms room might get spicy.";
 
-  renderSimulation(score).then(() => {
-    document.querySelectorAll("[data-action]").forEach((btn) => {
-      btn.disabled = false;
-    });
-  });
+  renderSimulation(score);
 }
 
 // ─── Draft Logic ──────────────────────────────────────────────────────────────
@@ -602,16 +595,12 @@ async function draftPlayer(candidateId, selectedRoleKey) {
     rating: candidate.ratings[selectedRole.key]
   });
 
-  renderSlots(document.querySelector('[data-bind="slots"]'));
-
   if (state.picks.length === roles.length) {
     renderResult();
     setScreen("result");
     return;
   }
 
-  document.querySelector('[data-bind="candidates"]').innerHTML = "";
-  await sleep(400);
   const draw = randomItem(rerollDrawOptions());
   if (!draw) return;
   await animateDrawChange(draw, ["region", "team", "year"]);
