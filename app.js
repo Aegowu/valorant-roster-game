@@ -586,7 +586,8 @@ async function handleAction(action) {
 
   if (action === "resimulate") {
     const scoreEl = document.querySelector('[data-bind="score"]');
-    if (scoreEl) renderSimulation(parseInt(scoreEl.textContent, 10));
+    const score = scoreEl ? parseInt(scoreEl.textContent, 10) : 75;
+    if (!isNaN(score)) renderSimulation(score);
   }
 }
 
