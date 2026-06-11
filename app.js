@@ -231,12 +231,6 @@ function randomPreviewDraw(finalDraw, reels) {
 
 async function animateDrawChange(finalDraw, reels) {
   setRollingState(true);
-  document.querySelector('[data-bind="slots"]').innerHTML = roles.map((role) => `
-    <article class="slot is-open">
-      <span class="slot-role">${role.label}</span>
-      <strong class="slot-player">-</strong>
-    </article>
-  `).join("");
   for (let tick = 0; tick < 10; tick += 1) {
     setDrawDisplay(randomPreviewDraw(finalDraw, reels));
     await sleep(42 + tick * 12);
