@@ -2530,18 +2530,18 @@ window.valorantMajorData = {
     "Alfajer": {
       "2022": {
         "duelist": 83,
-        "sentinel": 82
+        "sentinel": 86
       },
       "2023": {
         "sentinel": 96
       },
       "2024": {
         "initiator": 81,
-        "sentinel": 10
+        "sentinel": 82
       },
       "2025": {
-        "duelist": 86,
-        "sentinel": 79
+        "duelist": 84,
+        "sentinel": 86
       }
     },
     "allow": {
@@ -2586,13 +2586,13 @@ window.valorantMajorData = {
     },
     "aspas": {
       "2022": {
-        "duelist": 87
+        "duelist": 95
       },
       "2023": {
-        "duelist": 85
+        "duelist": 92
       },
       "2024": {
-        "duelist": 84
+        "duelist": 91
       },
       "2025": {
         "duelist": 96
@@ -2603,10 +2603,10 @@ window.valorantMajorData = {
         "duelist": 78
       },
       "2022": {
-        "flex": 60
+        "flex": 70
       },
       "2024": {
-        "initiator": 10
+        "flex": 73
       }
     },
     "AtaKaptan": {
@@ -2745,21 +2745,21 @@ window.valorantMajorData = {
     },
     "Boaster": {
       "2021": {
-        "controller": 72,
+        "controller": 84,
         "initiator": 70
       },
       "2022": {
-        "controller": 75,
+        "controller": 82,
         "initiator": 48
       },
       "2023": {
-        "controller": 75
+        "controller": 86
       },
       "2024": {
-        "controller": 56
+        "controller": 79
       },
       "2025": {
-        "controller": 68
+        "controller": 76
       }
     },
     "BONECOLD": {
@@ -2796,7 +2796,7 @@ window.valorantMajorData = {
     },
     "brawk": {
       "2025": {
-        "flex": 85
+        "flex": 89
       }
     },
     "Bunny": {
@@ -2876,11 +2876,11 @@ window.valorantMajorData = {
         "sentinel": 80
       },
       "2024": {
-        "controller": 87
+        "controller": 89
       },
       "2025": {
-        "controller": 90,
-        "sentinel": 68
+        "controller": 87,
+        "sentinel": 85
       }
     },
     "Chronicle": {
@@ -2911,7 +2911,7 @@ window.valorantMajorData = {
     },
     "cNed": {
       "2021": {
-        "flex": 91
+        "flex": 93
       },
       "2023": {
         "duelist": 78,
@@ -2936,13 +2936,13 @@ window.valorantMajorData = {
         "flex": 87
       },
       "2022": {
-        "initiator": 77
+        "initiator": 82
       },
       "2023": {
-        "initiator": 73
+        "initiator": 83
       },
       "2025": {
-        "initiator": 77
+        "initiator": 83
       }
     },
     "crazyguy": {
@@ -2992,18 +2992,18 @@ window.valorantMajorData = {
         "flex": 70
       },
       "2022": {
-        "initiator": 80,
+        "initiator": 82,
         "sentinel": 76
       },
       "2023": {
-        "flex": 80
+        "flex": 85
       },
       "2024": {
-        "flex": 74,
+        "flex": 82,
         "sentinel": 70
       },
       "2025": {
-        "sentinel": 80
+        "sentinel": 82
       }
     },
     "dapr": {
@@ -3027,10 +3027,11 @@ window.valorantMajorData = {
     },
     "Demon1": {
       "2023": {
-        "flex": 92
+        "duelist": 97,
+        "controller": 82,
       },
       "2025": {
-        "sentinel": 75
+        "duelist": 78
       }
     },
     "deNaro": {
@@ -3153,13 +3154,13 @@ window.valorantMajorData = {
     },
     "Ethan": {
       "2021": {
-        "flex": 74
+        "flex": 79
       },
       "2023": {
-        "initiator": 81
+        "initiator": 86
       },
       "2025": {
-        "initiator": 74
+        "initiator": 83
       }
     },
     "f0rsakeN": {
@@ -3170,13 +3171,14 @@ window.valorantMajorData = {
         "duelist": 83
       },
       "2023": {
-        "flex": 76
+        "flex": 84
       },
       "2024": {
-        "flex": 78,
+        "flex": 87,
         "initiator": 72
       },
       "2025": {
+        "flex": 92,
         "controller": 77,
         "initiator": 83
       }
@@ -3196,15 +3198,15 @@ window.valorantMajorData = {
     },
     "FiNESSE": {
       "2021": {
-        "flex": 69,
-        "sentinel": 56
+        "flex": 79,
+        "sentinel": 76
       },
       "2022": {
         "initiator": 65,
-        "sentinel": 63
+        "sentinel": 83
       },
       "2023": {
-        "flex": 70
+        "flex": 75
       }
     },
     "Fisker": {
@@ -3414,10 +3416,11 @@ window.valorantMajorData = {
     },
     "jawgemo": {
       "2023": {
-        "controller": 80
+        "controller": 80,
+        "duelist": 87
       },
       "2025": {
-        "duelist": 78
+        "duelist": 84
       }
     },
     "Jemkin": {
@@ -3442,13 +3445,13 @@ window.valorantMajorData = {
     },
     "Jinggg": {
       "2022": {
-        "duelist": 79
+        "duelist": 82
       },
       "2023": {
-        "duelist": 80
+        "duelist": 88
       },
       "2024": {
-        "duelist": 69
+        "duelist": 84
       },
       "2025": {
         "flex": 82
@@ -3512,7 +3515,7 @@ window.valorantMajorData = {
     },
     "kaajak": {
       "2025": {
-        "duelist": 85
+        "duelist": 87
       }
     },
     "Kai": {
@@ -3536,10 +3539,10 @@ window.valorantMajorData = {
     },
     "Karon": {
       "2024": {
-        "controller": 79
+        "controller": 85
       },
       "2025": {
-        "controller": 77
+        "controller": 82
       }
     },
     "keiko": {
@@ -3663,8 +3666,8 @@ window.valorantMajorData = {
     },
     "Lakia": {
       "2021": {
-        "flex": 85,
-        "initiator": 69
+        "duelist": 69,
+        "initiator": 83
       },
       "2024": {
         "initiator": 62
@@ -3692,34 +3695,34 @@ window.valorantMajorData = {
         "flex": 87
       },
       "2024": {
-        "flex": 73,
-        "sentinel": 10
+        "flex": 83,
+        "sentinel": 82
       },
       "2025": {
-        "sentinel": 85
+        "sentinel": 87
       }
     },
     "Leo": {
       "2022": {
-        "initiator": 85
+        "initiator": 88
       },
       "2023": {
-        "initiator": 95
+        "initiator": 97
       },
       "2024": {
-        "initiator": 10
+        "initiator": 80
       }
     },
     "Less": {
       "2022": {
         "flex": 74,
-        "sentinel": 85
+        "sentinel": 92
       },
       "2023": {
-        "flex": 84
+        "sentinel": 89
       },
       "2024": {
-        "flex": 89
+        "sentinel": 89
       },
       "2025": {
         "controller": 77
@@ -3773,7 +3776,7 @@ window.valorantMajorData = {
     },
     "mada": {
       "2025": {
-        "duelist": 75
+        "duelist": 84
       }
     },
     "MAGNUM": {
@@ -3794,19 +3797,19 @@ window.valorantMajorData = {
     },
     "MaKo": {
       "2021": {
-        "controller": 88
+        "controller": 90
       },
       "2022": {
         "controller": 94
       },
       "2023": {
-        "controller": 81
+        "controller": 88
       },
       "2024": {
-        "controller": 76
+        "controller": 80
       },
       "2025": {
-        "controller": 76
+        "controller": 80
       }
     },
     "marteen": {
@@ -3877,10 +3880,10 @@ window.valorantMajorData = {
       },
       "2024": {
         "duelist": 79,
-        "sentinel": 86
+        "sentinel": 89
       },
       "2025": {
-        "sentinel": 78
+        "sentinel": 84
       }
     },
     "Midi": {
@@ -4019,15 +4022,15 @@ window.valorantMajorData = {
     },
     "nAts": {
       "2021": {
-        "flex": 92
+        "sentinel": 92
       },
       "2023": {
         "flex": 80,
-        "sentinel": 76
+        "sentinel": 86
       },
       "2025": {
         "flex": 76,
-        "sentinel": 89
+        "sentinel": 92
       }
     },
     "nephh": {
@@ -4146,7 +4149,7 @@ window.valorantMajorData = {
     },
     "PatMen": {
       "2025": {
-        "initiator": 76
+        "initiator": 79
       }
     },
     "pAura": {
@@ -4287,15 +4290,15 @@ window.valorantMajorData = {
     },
     "s0m": {
       "2023": {
-        "controller": 83
+        "controller": 84
       },
       "2025": {
-        "controller": 74
+        "controller": 87
       }
     },
     "S1Mon": {
       "2024": {
-        "initiator": 74
+        "initiator": 78
       },
       "2025": {
         "initiator": 64
@@ -4306,11 +4309,11 @@ window.valorantMajorData = {
         "sentinel": 81
       },
       "2022": {
-        "initiator": 83
+        "initiator": 86
       },
       "2023": {
-        "flex": 50,
-        "initiator": 71
+        "flex": 70,
+        "initiator": 76
       },
       "2024": {
         "initiator": 76
@@ -4318,13 +4321,13 @@ window.valorantMajorData = {
     },
     "Sacy": {
       "2021": {
-        "initiator": 93
+        "initiator": 90
       },
       "2022": {
-        "initiator": 83
+        "initiator": 93
       },
       "2024": {
-        "initiator": 76
+        "initiator": 86
       }
     },
     "SantaGolf": {
@@ -4384,7 +4387,7 @@ window.valorantMajorData = {
     },
     "ShahZaM": {
       "2021": {
-        "flex": 87,
+        "duelist": 87,
         "initiator": 84
       }
     },
@@ -4427,7 +4430,7 @@ window.valorantMajorData = {
     },
     "SicK": {
       "2021": {
-        "duelist": 82,
+        "duelist": 85,
         "flex": 78
       }
     },
@@ -4443,7 +4446,7 @@ window.valorantMajorData = {
     },
     "skuba": {
       "2025": {
-        "sentinel": 81
+        "sentinel": 85
       }
     },
     "Smoggy": {
@@ -4581,10 +4584,10 @@ window.valorantMajorData = {
     },
     "SUYGETSU": {
       "2022": {
-        "sentinel": 84
+        "sentinel": 85
       },
       "2023": {
-        "sentinel": 84
+        "sentinel": 87
       }
     },
     "Sylvan": {
@@ -4594,7 +4597,7 @@ window.valorantMajorData = {
     },
     "t3xture": {
       "2024": {
-        "duelist": 84
+        "duelist": 92
       },
       "2025": {
         "duelist": 90
@@ -4626,13 +4629,15 @@ window.valorantMajorData = {
     },
     "TenZ": {
       "2021": {
-        "duelist": 98
+        "duelist": 99
       },
       "2024": {
+        "duelist": 82,
         "initiator": 82
       },
       "2025": {
-        "duelist": 10
+        "controller": 86,
+        "duelist": 76
       }
     },
     "tex": {
@@ -4647,10 +4652,10 @@ window.valorantMajorData = {
     },
     "trent": {
       "2022": {
-        "initiator": 65
+        "initiator": 77
       },
       "2024": {
-        "initiator": 72
+        "initiator": 79
       },
       "2025": {
         "initiator": 89
@@ -4692,13 +4697,13 @@ window.valorantMajorData = {
     },
     "valyn": {
       "2022": {
-        "controller": 72
+        "controller": 79
       },
       "2024": {
-        "controller": 74
+        "controller": 81
       },
       "2025": {
-        "controller": 80
+        "controller": 84
       }
     },
     "vanity": {
@@ -4767,12 +4772,12 @@ window.valorantMajorData = {
     },
     "Wo0t": {
       "2024": {
-        "duelist": 10,
-        "initiator": 74
+        "duelist": 83,
+        "initiator": 82
       },
       "2025": {
-        "flex": 77,
-        "initiator": 71
+        "flex": 82,
+        "initiator": 79
       }
     },
     "xand": {
@@ -4826,8 +4831,8 @@ window.valorantMajorData = {
         "duelist": 96
       },
       "2022": {
-        "flex": 95,
-        "sentinel": 85
+        "duelist": 84,
+        "sentinel": 97
       }
     },
     "yetujey": {
@@ -4872,7 +4877,7 @@ window.valorantMajorData = {
         "duelist": 83
       },
       "2024": {
-        "duelist": 85
+        "duelist": 88
       },
       "2025": {
         "duelist": 86
@@ -4886,8 +4891,8 @@ window.valorantMajorData = {
         "flex": 74
       },
       "2025": {
-        "flex": 60,
-        "sentinel": 74
+        "flex": 75,
+        "sentinel": 80
       }
     },
     "zepher": {
@@ -4912,16 +4917,16 @@ window.valorantMajorData = {
     },
     "ZmjjKK": {
       "2022": {
-        "flex": 79
+        "flex": 80
       },
       "2023": {
-        "duelist": 85
+        "duelist": 87
       },
       "2024": {
-        "duelist": 82
+        "duelist": 94
       },
       "2025": {
-        "duelist": 78
+        "duelist": 82
       }
     },
     "zombs": {
@@ -6510,7 +6515,7 @@ window.valorantMajorData = {
           "year": 2021,
           "roles": {
             "initiator": 70,
-            "controller": 72
+            "controller": 84
           },
           "agents": [
             "sova",
@@ -7883,7 +7888,7 @@ window.valorantMajorData = {
           "team": "GEN",
           "year": 2024,
           "roles": {
-            "initiator": 62
+            "initiator": 65
           },
           "agents": [
             "gekko",
@@ -10595,7 +10600,7 @@ window.valorantMajorData = {
           "team": "SEN",
           "year": 2021,
           "roles": {
-            "flex": 87,
+            "duelist": 87,
             "initiator": 84
           },
           "agents": [
