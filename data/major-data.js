@@ -5153,7 +5153,8 @@ window.valorantMajorData = {
           "team": "100T",
           "year": 2024,
           "roles": {
-            "flex": 90
+            "duelist": 90,
+            "sentinel": 84
           },
           "agents": [
             "jett",
@@ -13466,7 +13467,8 @@ window.valorantMajorData = {
           "team": "XSET",
           "year": 2022,
           "roles": {
-            "flex": 94
+            "duelist": 94,
+            "sentinel": 88
           },
           "agents": [
             "chamber",
