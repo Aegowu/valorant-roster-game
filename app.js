@@ -231,6 +231,7 @@ function randomPreviewDraw(finalDraw, reels) {
 
 async function animateDrawChange(finalDraw, reels) {
   setRollingState(true);
+  document.querySelector('[data-bind="candidates"]').innerHTML = "";
   for (let tick = 0; tick < 10; tick += 1) {
     setDrawDisplay(randomPreviewDraw(finalDraw, reels));
     await sleep(42 + tick * 12);
