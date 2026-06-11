@@ -15,8 +15,8 @@ const roles = [
 ];
 
 const regions = [
-  makeRegion("americas", "Americas"),
-  makeRegion("china", "China"),
+  makeRegion("americas", "AMER"),
+  makeRegion("china", "CN"),
   makeRegion("apac", "APAC"),
   makeRegion("emea", "EMEA")
 ].filter((region) => Object.keys(region.teams).length);
