@@ -355,7 +355,7 @@ function simulatePlacement(score, maxPlace) {
   // Build weights: place 1 gets the most weight for a high-score team.
   // Weight for place p = (maxPlace - p + 1) ^ strength
   // strength scales with score: low score (~62) strength ~0.6, high score (~99) strength ~2.5
-  const strength = 0.6 + ((score - 62) / 37) * 1.9;
+  const strength = 0.8 + ((score - 62) / 37) * 3.7;
   const weights = [];
   for (let p = 1; p <= maxPlace; p++) {
     weights.push(Math.pow(maxPlace - p + 1, strength));
