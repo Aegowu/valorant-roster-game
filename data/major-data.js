@@ -4,7 +4,8 @@ window.valorantMajorData = {
     2022,
     2023,
     2024,
-    2025
+    2025,
+    2026
   ],
   "events": [
     "2021:Champions",
@@ -20,14 +21,22 @@ window.valorantMajorData = {
     "2024:Masters Shanghai",
     "2025:Champions",
     "2025:Masters Bangkok",
-    "2025:Masters Toronto"
+    "2025:Masters Toronto",
+    "2026:Kickoff",
+    "2026:Masters 1",
+    "2026:Stage 1",
+    "2026:Masters 2",
+    "2026:Stage 2",
+    "2026:Champions"
   ],
   "regionSubs": {
     "APAC": "KR / JP / SEA / OCE",
     "Americas": "NA / BR / LATAM",
     "China": "CN",
     "EMEA": "EU / TR / MENA",
-    "Unknown": "Unknown"
+    "Unknown": "Unknown",
+    "AMER": "NA / BR / LATAM",
+    "CN": "CN"
   },
   "teamsToRegions": {
     "100T": "Americas",
@@ -57,7 +66,7 @@ window.valorantMajorData = {
     "GMB": "EMEA",
     "GX": "EMEA",
     "KC": "EMEA",
-    "KRÜ": "Americas",
+    "KR\u00dc": "Americas",
     "KRX": "Pacific",
     "LBR": "Americas",
     "LEV": "Americas",
@@ -93,84 +102,90 @@ window.valorantMajorData = {
     "XIA": "Pacific",
     "XLG": "China",
     "XSET": "Americas",
-    "ZETA": "Pacific"
+    "ZETA": "Pacific",
+    "AG": "CN",
+    "M8": "EMEA",
+    "NS": "APAC"
   },
   "regionTeams": {
-  "AMER": [
-    "100T",
-    "C9",
-    "EG",
-    "ENVY",
-    "FUR",
-    "G2",
-    "KRÜ",
-    "LBR",
-    "LEV",
-    "LOUD",
-    "MIBR",
-    "NIP",
-    "NRG",
-    "OPTC",
-    "SEN",
-    "SHK",
-    "TGRD",
-    "V1",
-    "VKS",
-    "XSET"
-  ],
-  "CN": [
-    "ASE",
-    "BLG",
-    "DRG",
-    "EDG",
-    "TE",
-    "WOL",
-    "XIA",
-    "XLG"
-  ],
-  "EMEA": [
-    "ACE",
-    "BBL",
-    "FNC",
-    "FPX",
-    "FUT",
-    "GIA",
-    "GLD",
-    "GMB",
-    "GX",
-    "KC",
-    "MKOI",
-    "NAVI",
-    "TH",
-    "TL",
-    "VIT"
-  ],
-  "APAC": [
-    "BME",
-    "CR",
-    "DFM",
-    "F4Q",
-    "FS",
-    "GE",
-    "GEN",
-    "KRX",
-    "NTH",
-    "NU",
-    "PRX",
-    "RRQ",
-    "SUP",
-    "T1",
-    "TLN",
-    "TS",
-    "VS",
-    "X10",
-    "ZETA"
-  ],
-  "Unknown": [
-    "Team",
-    "tarik"
-  ]
-},
+    "AMER": [
+      "100T",
+      "C9",
+      "EG",
+      "ENVY",
+      "FUR",
+      "G2",
+      "KR\u00dc",
+      "LBR",
+      "LEV",
+      "LOUD",
+      "MIBR",
+      "NIP",
+      "NRG",
+      "OPTC",
+      "SEN",
+      "SHK",
+      "TGRD",
+      "V1",
+      "VKS",
+      "XSET"
+    ],
+    "CN": [
+      "ASE",
+      "BLG",
+      "DRG",
+      "EDG",
+      "TE",
+      "WOL",
+      "XIA",
+      "XLG",
+      "AG"
+    ],
+    "EMEA": [
+      "ACE",
+      "BBL",
+      "FNC",
+      "FPX",
+      "FUT",
+      "GIA",
+      "GLD",
+      "GMB",
+      "GX",
+      "KC",
+      "MKOI",
+      "NAVI",
+      "TH",
+      "TL",
+      "VIT",
+      "M8"
+    ],
+    "APAC": [
+      "BME",
+      "CR",
+      "DFM",
+      "F4Q",
+      "FS",
+      "GE",
+      "GEN",
+      "KRX",
+      "NTH",
+      "NU",
+      "PRX",
+      "RRQ",
+      "SUP",
+      "T1",
+      "TLN",
+      "TS",
+      "VS",
+      "X10",
+      "ZETA",
+      "NS"
+    ],
+    "Unknown": [
+      "Team",
+      "tarik"
+    ]
+  },
   "playerYearTeams": {
     "AAAAY": {
       "2023": [
@@ -395,7 +410,7 @@ window.valorantMajorData = {
     },
     "bnj": {
       "2021": [
-        "KRÜ"
+        "KR\u00dc"
       ],
       "2022": [
         "NIP"
@@ -656,15 +671,15 @@ window.valorantMajorData = {
     },
     "DaveeyS": {
       "2023": [
-        "KRÜ"
+        "KR\u00dc"
       ]
     },
     "delz1k": {
       "2021": [
-        "KRÜ"
+        "KR\u00dc"
       ],
       "2022": [
-        "KRÜ"
+        "KR\u00dc"
       ]
     },
     "Demon1": {
@@ -961,7 +976,7 @@ window.valorantMajorData = {
         "VKS"
       ],
       "2024": [
-        "KRÜ"
+        "KR\u00dc"
       ]
     },
     "heybay": {
@@ -1173,16 +1188,16 @@ window.valorantMajorData = {
     },
     "keznit": {
       "2021": [
-        "KRÜ"
+        "KR\u00dc"
       ],
       "2022": [
-        "KRÜ"
+        "KR\u00dc"
       ],
       "2023": [
-        "KRÜ"
+        "KR\u00dc"
       ],
       "2024": [
-        "KRÜ"
+        "KR\u00dc"
       ]
     },
     "Khalil": {
@@ -1216,13 +1231,13 @@ window.valorantMajorData = {
     },
     "Klaus": {
       "2021": [
-        "KRÜ"
+        "KR\u00dc"
       ],
       "2022": [
-        "KRÜ"
+        "KR\u00dc"
       ],
       "2023": [
-        "KRÜ"
+        "KR\u00dc"
       ]
     },
     "Knight": {
@@ -1439,10 +1454,10 @@ window.valorantMajorData = {
     },
     "Mazino": {
       "2021": [
-        "KRÜ"
+        "KR\u00dc"
       ],
       "2022": [
-        "KRÜ"
+        "KR\u00dc"
       ],
       "2024": [
         "LEV"
@@ -1468,10 +1483,10 @@ window.valorantMajorData = {
         "LEV"
       ],
       "2023": [
-        "KRÜ"
+        "KR\u00dc"
       ],
       "2024": [
-        "KRÜ"
+        "KR\u00dc"
       ]
     },
     "Meteor": {
@@ -1561,7 +1576,7 @@ window.valorantMajorData = {
     },
     "mta": {
       "2024": [
-        "KRÜ"
+        "KR\u00dc"
       ]
     },
     "Munchkin": {
@@ -1603,13 +1618,13 @@ window.valorantMajorData = {
     },
     "NagZ": {
       "2021": [
-        "KRÜ"
+        "KR\u00dc"
       ],
       "2022": [
-        "KRÜ"
+        "KR\u00dc"
       ],
       "2023": [
-        "KRÜ"
+        "KR\u00dc"
       ]
     },
     "nAts": {
@@ -2002,7 +2017,7 @@ window.valorantMajorData = {
         "LEV"
       ],
       "2024": [
-        "KRÜ"
+        "KR\u00dc"
       ]
     },
     "SicK": {
@@ -3028,7 +3043,7 @@ window.valorantMajorData = {
     "Demon1": {
       "2023": {
         "duelist": 97,
-        "controller": 82,
+        "controller": 82
       },
       "2025": {
         "duelist": 78
@@ -6282,6 +6297,49 @@ window.valorantMajorData = {
           ],
           "rounds": 119
         }
+      ],
+      "2026": [
+        {
+          "name": "ZmjjKK",
+          "roles": {
+            "duelist": 81,
+            "sentinel": 84
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "CHICHOO",
+          "roles": {
+            "sentinel": 80
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "Smoggy",
+          "roles": {
+            "controller": 78
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "nobody",
+          "roles": {
+            "initiator": 77
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "cb",
+          "roles": {
+            "duelist": 69
+          },
+          "agents": [],
+          "rounds": 0
+        }
       ]
     },
     "EG": {
@@ -7411,6 +7469,49 @@ window.valorantMajorData = {
           ],
           "rounds": 113
         }
+      ],
+      "2026": [
+        {
+          "name": "eeiu",
+          "roles": {
+            "initiator": 84
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "koalanoob",
+          "roles": {
+            "flex": 81
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "nerve",
+          "roles": {
+            "controller": 75
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "artzin",
+          "roles": {
+            "sentinel": 78,
+            "flex": 74
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "alym",
+          "roles": {
+            "duelist": 78
+          },
+          "agents": [],
+          "rounds": 0
+        }
       ]
     },
     "FUT": {
@@ -7863,6 +7964,50 @@ window.valorantMajorData = {
             "astra"
           ],
           "rounds": 826
+        }
+      ],
+      "2026": [
+        {
+          "name": "jawgemo",
+          "roles": {
+            "duelist": 83
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "trent",
+          "roles": {
+            "initiator": 85
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "valyn",
+          "roles": {
+            "controller": 84
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "leaf",
+          "roles": {
+            "sentinel": 89,
+            "flex": 83
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "BABYBAY",
+          "roles": {
+            "duelist": 82,
+            "sentinel": 79
+          },
+          "agents": [],
+          "rounds": 0
         }
       ]
     },
@@ -8378,11 +8523,11 @@ window.valorantMajorData = {
         }
       ]
     },
-    "KRÜ": {
+    "KR\u00dc": {
       "2021": [
         {
           "name": "delz1k",
-          "team": "KRÜ",
+          "team": "KR\u00dc",
           "year": 2021,
           "roles": {
             "controller": 69
@@ -8398,7 +8543,7 @@ window.valorantMajorData = {
         },
         {
           "name": "Klaus",
-          "team": "KRÜ",
+          "team": "KR\u00dc",
           "year": 2021,
           "roles": {
             "flex": 84,
@@ -8414,7 +8559,7 @@ window.valorantMajorData = {
         },
         {
           "name": "Mazino",
-          "team": "KRÜ",
+          "team": "KR\u00dc",
           "year": 2021,
           "roles": {
             "flex": 75,
@@ -8433,7 +8578,7 @@ window.valorantMajorData = {
         },
         {
           "name": "NagZ",
-          "team": "KRÜ",
+          "team": "KR\u00dc",
           "year": 2021,
           "roles": {
             "flex": 77
@@ -8446,7 +8591,7 @@ window.valorantMajorData = {
         },
         {
           "name": "keznit",
-          "team": "KRÜ",
+          "team": "KR\u00dc",
           "year": 2021,
           "roles": {
             "duelist": 81
@@ -8461,7 +8606,7 @@ window.valorantMajorData = {
         },
         {
           "name": "bnj",
-          "team": "KRÜ",
+          "team": "KR\u00dc",
           "year": 2021,
           "roles": {
             "initiator": 67
@@ -8477,7 +8622,7 @@ window.valorantMajorData = {
       "2022": [
         {
           "name": "delz1k",
-          "team": "KRÜ",
+          "team": "KR\u00dc",
           "year": 2022,
           "roles": {
             "controller": 71
@@ -8492,7 +8637,7 @@ window.valorantMajorData = {
         },
         {
           "name": "keznit",
-          "team": "KRÜ",
+          "team": "KR\u00dc",
           "year": 2022,
           "roles": {
             "duelist": 72,
@@ -8510,7 +8655,7 @@ window.valorantMajorData = {
         },
         {
           "name": "Klaus",
-          "team": "KRÜ",
+          "team": "KR\u00dc",
           "year": 2022,
           "roles": {
             "initiator": 67,
@@ -8526,7 +8671,7 @@ window.valorantMajorData = {
         },
         {
           "name": "Mazino",
-          "team": "KRÜ",
+          "team": "KR\u00dc",
           "year": 2022,
           "roles": {
             "initiator": 82
@@ -8542,7 +8687,7 @@ window.valorantMajorData = {
         },
         {
           "name": "NagZ",
-          "team": "KRÜ",
+          "team": "KR\u00dc",
           "year": 2022,
           "roles": {
             "sentinel": 80
@@ -8559,7 +8704,7 @@ window.valorantMajorData = {
       "2023": [
         {
           "name": "DaveeyS",
-          "team": "KRÜ",
+          "team": "KR\u00dc",
           "year": 2023,
           "roles": {
             "sentinel": 79
@@ -8572,7 +8717,7 @@ window.valorantMajorData = {
         },
         {
           "name": "keznit",
-          "team": "KRÜ",
+          "team": "KR\u00dc",
           "year": 2023,
           "roles": {
             "duelist": 89
@@ -8585,7 +8730,7 @@ window.valorantMajorData = {
         },
         {
           "name": "Klaus",
-          "team": "KRÜ",
+          "team": "KR\u00dc",
           "year": 2023,
           "roles": {
             "initiator": 58
@@ -8597,7 +8742,7 @@ window.valorantMajorData = {
         },
         {
           "name": "Melser",
-          "team": "KRÜ",
+          "team": "KR\u00dc",
           "year": 2023,
           "roles": {
             "controller": 55
@@ -8611,7 +8756,7 @@ window.valorantMajorData = {
         },
         {
           "name": "NagZ",
-          "team": "KRÜ",
+          "team": "KR\u00dc",
           "year": 2023,
           "roles": {
             "controller": 61
@@ -8625,7 +8770,7 @@ window.valorantMajorData = {
       "2024": [
         {
           "name": "heat",
-          "team": "KRÜ",
+          "team": "KR\u00dc",
           "year": 2024,
           "roles": {
             "initiator": 77
@@ -8639,7 +8784,7 @@ window.valorantMajorData = {
         },
         {
           "name": "keznit",
-          "team": "KRÜ",
+          "team": "KR\u00dc",
           "year": 2024,
           "roles": {
             "duelist": 87
@@ -8653,7 +8798,7 @@ window.valorantMajorData = {
         },
         {
           "name": "Melser",
-          "team": "KRÜ",
+          "team": "KR\u00dc",
           "year": 2024,
           "roles": {
             "controller": 69
@@ -8667,7 +8812,7 @@ window.valorantMajorData = {
         },
         {
           "name": "mta",
-          "team": "KRÜ",
+          "team": "KR\u00dc",
           "year": 2024,
           "roles": {
             "initiator": 67
@@ -8681,7 +8826,7 @@ window.valorantMajorData = {
         },
         {
           "name": "Shyy",
-          "team": "KRÜ",
+          "team": "KR\u00dc",
           "year": 2024,
           "roles": {
             "sentinel": 80
@@ -9852,6 +9997,50 @@ window.valorantMajorData = {
           ],
           "rounds": 377
         }
+      ],
+      "2026": [
+        {
+          "name": "keiko",
+          "roles": {
+            "controller": 86,
+            "duelist": 84
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "skuba",
+          "roles": {
+            "sentinel": 87
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "brawk",
+          "roles": {
+            "initiator": 85,
+            "controller": 82
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "mada",
+          "roles": {
+            "duelist": 84
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "Ethan",
+          "roles": {
+            "initiator": 81
+          },
+          "agents": [],
+          "rounds": 0
+        }
       ]
     },
     "NTH": {
@@ -10490,6 +10679,49 @@ window.valorantMajorData = {
             "jett"
           ],
           "rounds": 743
+        }
+      ],
+      "2026": [
+        {
+          "name": "something",
+          "roles": {
+            "duelist": 95
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "Jinggg",
+          "roles": {
+            "duelist": 85,
+            "controller": 82
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "d4v41",
+          "roles": {
+            "sentinel": 89
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "f0rsakeN",
+          "roles": {
+            "flex": 93
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "invy",
+          "roles": {
+            "initiator": 85
+          },
+          "agents": [],
+          "rounds": 0
         }
       ]
     },
@@ -11202,6 +11434,48 @@ window.valorantMajorData = {
             "brimstone"
           ],
           "rounds": 45
+        }
+      ],
+      "2026": [
+        {
+          "name": "stax",
+          "roles": {
+            "initiator": 83
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "Munchkin",
+          "roles": {
+            "controller": 83
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "BuZz",
+          "roles": {
+            "duelist": 84
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "iZu",
+          "roles": {
+            "flex": 80
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "Meteor",
+          "roles": {
+            "sentinel": 83
+          },
+          "agents": [],
+          "rounds": 0
         }
       ]
     },
@@ -12122,6 +12396,48 @@ window.valorantMajorData = {
             "jett"
           ],
           "rounds": 121
+        }
+      ],
+      "2026": [
+        {
+          "name": "MiniBoo",
+          "roles": {
+            "duelist": 81
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "purp0",
+          "roles": {
+            "initiator": 77
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "wayne",
+          "roles": {
+            "controller": 81
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "kamo",
+          "roles": {
+            "duelist": 80
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "nAts",
+          "roles": {
+            "sentinel": 84
+          },
+          "agents": [],
+          "rounds": 0
         }
       ]
     },
@@ -13058,6 +13374,50 @@ window.valorantMajorData = {
           ],
           "rounds": 75
         }
+      ],
+      "2026": [
+        {
+          "name": "happywei",
+          "roles": {
+            "controller": 79,
+            "sentinel": 81
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "Lysoar",
+          "roles": {
+            "controller": 77
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "NoMan",
+          "roles": {
+            "duelist": 74,
+            "flex": 76
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "Rarga",
+          "roles": {
+            "duelist": 78
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "WsLeo",
+          "roles": {
+            "initiator": 70
+          },
+          "agents": [],
+          "rounds": 0
+        }
       ]
     },
     "XSET": {
@@ -13370,6 +13730,184 @@ window.valorantMajorData = {
             "raze"
           ],
           "rounds": 79
+        }
+      ]
+    },
+    "M8": {
+      "2026": [
+        {
+          "name": "marteen",
+          "roles": {
+            "duelist": 94
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "starxo",
+          "roles": {
+            "initiator": 84
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "Minny",
+          "roles": {
+            "sentinel": 83
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "bipo",
+          "roles": {
+            "duelist": 78
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "GLYPH",
+          "roles": {
+            "controller": 76
+          },
+          "agents": [],
+          "rounds": 0
+        }
+      ]
+    },
+    "AG": {
+      "2026": [
+        {
+          "name": "K1ra",
+          "roles": {
+            "duelist": 78,
+            "flex": 75
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "iamgrq",
+          "roles": {
+            "controller": 76,
+            "duelist": 69
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "Au1",
+          "roles": {
+            "sentinel": 71
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "Shr1mp",
+          "roles": {
+            "initiator": 72
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "f4ngeer",
+          "roles": {
+            "duelist": 80
+          },
+          "agents": [],
+          "rounds": 0
+        }
+      ]
+    },
+    "BBL": {
+      "2026": [
+        {
+          "name": "lovers rock",
+          "roles": {
+            "duelist": 82
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "Loita",
+          "roles": {
+            "controller": 80
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "Lar0k",
+          "roles": {
+            "duelist": 85
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "Crewen",
+          "roles": {
+            "sentinel": 79
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "Rose",
+          "roles": {
+            "initiator": 76
+          },
+          "agents": [],
+          "rounds": 0
+        }
+      ]
+    },
+    "NS": {
+      "2026": [
+        {
+          "name": "Francis",
+          "roles": {
+            "duelist": 85
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "Rb",
+          "roles": {
+            "controller": 82
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "Dambi",
+          "roles": {
+            "duelist": 95
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "Ivy",
+          "roles": {
+            "sentinel": 87
+          },
+          "agents": [],
+          "rounds": 0
+        },
+        {
+          "name": "Xross",
+          "roles": {
+            "initiator": 83
+          },
+          "agents": [],
+          "rounds": 0
         }
       ]
     }
