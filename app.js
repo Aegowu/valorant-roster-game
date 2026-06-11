@@ -22,8 +22,8 @@ const regionKeyMap = {
 };
 
 const regions = [
-  makeRegion("americas", "AMER"),
-  makeRegion("china", "CN"),
+  makeRegion("amer", "AMER"),
+  makeRegion("cn", "CN"),
   makeRegion("apac", "APAC"),
   makeRegion("emea", "EMEA")
 ].filter((region) => Object.keys(region.teams).length);
