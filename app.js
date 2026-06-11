@@ -565,13 +565,14 @@ function renderResult() {
   const yearSpread = Math.max(...years) - Math.min(...years);
   const validRatings = state.picks.map((pick) => pick.rating).filter((r) => Number.isFinite(r));
   const averageRating = validRatings.length ? validRatings.reduce((a, b) => a + b, 0) / validRatings.length : 70;
-  const score = Math.max(62, Math.min(99, Math.round(averageRating + teams * 1.5 + Math.max(0, 8 - yearSpread))));
+  const score = Math.max(60, Math.min(99, Math.round(averageRating + Math.max(0, 8 - yearSpread))));
 
   document.querySelector('[data-bind="score"]').textContent = score;
   document.querySelector('[data-bind="scoreText"]').textContent =
     score > 90 ? "A frightening international superteam." :
     score > 80 ? "Balanced, explosive and ready to complete." :
-    "High potential, but something is lacking.";
+    score > 70 ? "High potential, but something is lacking." :
+    "Underwhelming...";
 
   renderSimulation(score);
 }
