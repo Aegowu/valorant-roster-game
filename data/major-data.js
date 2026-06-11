@@ -2664,7 +2664,7 @@ window.valorantMajorData = {
         "controller": 82
       },
       "2024": {
-        "controller": 10
+        "controller": 72
       },
       "2025": {
         "controller": 74
@@ -2765,7 +2765,7 @@ window.valorantMajorData = {
       },
       "2022": {
         "controller": 82,
-        "initiator": 48
+        "initiator": 58
       },
       "2023": {
         "controller": 86
@@ -2793,10 +2793,10 @@ window.valorantMajorData = {
     "Boostio": {
       "2023": {
         "flex": 76,
-        "sentinel": 67
+        "sentinel": 77
       },
       "2024": {
-        "sentinel": 10
+        "sentinel": 70
       }
     },
     "BORKUM": {
@@ -2856,7 +2856,7 @@ window.valorantMajorData = {
         "initiator": 70
       },
       "2024": {
-        "initiator": 10
+        "initiator": 65
       },
       "2025": {
         "controller": 51
@@ -2909,7 +2909,7 @@ window.valorantMajorData = {
       },
       "2024": {
         "flex": 89,
-        "initiator": 10
+        "initiator": 86
       },
       "2025": {
         "flex": 80,
@@ -2994,7 +2994,7 @@ window.valorantMajorData = {
         "flex": 94
       },
       "2024": {
-        "flex": 10
+        "flex": 90
       }
     },
     "d3ffo": {
@@ -3114,7 +3114,7 @@ window.valorantMajorData = {
     },
     "Disguised": {
       "2025": {
-        "sentinel": 10
+        "sentinel": 50
       }
     },
     "dispenser": {
@@ -3143,7 +3143,7 @@ window.valorantMajorData = {
     },
     "eeiu": {
       "2024": {
-        "initiator": 10
+        "initiator": 80
       }
     },
     "effys": {
@@ -3339,7 +3339,7 @@ window.valorantMajorData = {
       },
       "2024": {
         "controller": 62,
-        "flex": 10
+        "flex": 61
       }
     },
     "happywei": {
@@ -3394,7 +3394,7 @@ window.valorantMajorData = {
     },
     "iZu": {
       "2024": {
-        "duelist": 10
+        "duelist": 75
       },
       "2025": {
         "duelist": 78,
@@ -3408,7 +3408,7 @@ window.valorantMajorData = {
     },
     "Jacob": {
       "2025": {
-        "initiator": 10
+        "initiator": 60
       }
     },
     "jammyz": {
@@ -3496,8 +3496,8 @@ window.valorantMajorData = {
         "controller": 71
       },
       "2024": {
-        "flex": 67,
-        "initiator": 10
+        "flex": 74,
+        "initiator": 77
       },
       "2025": {
         "initiator": 74
@@ -3783,7 +3783,7 @@ window.valorantMajorData = {
       },
       "2024": {
         "controller": 65,
-        "flex": 10
+        "flex": 66
       },
       "2025": {
         "sentinel": 69
@@ -3858,7 +3858,7 @@ window.valorantMajorData = {
         "initiator": 82
       },
       "2024": {
-        "controller": 10,
+        "controller": 75,
         "initiator": 72
       }
     },
@@ -4070,7 +4070,7 @@ window.valorantMajorData = {
     },
     "Nicc": {
       "2024": {
-        "initiator": 10
+        "initiator": 63
       },
       "2025": {
         "initiator": 69
@@ -4095,7 +4095,7 @@ window.valorantMajorData = {
         "controller": 59
       },
       "2024": {
-        "controller": 10
+        "controller": 60
       }
     },
     "nobody": {
@@ -4155,8 +4155,8 @@ window.valorantMajorData = {
     },
     "paTiTek": {
       "2024": {
-        "flex": 59,
-        "initiator": 10
+        "flex": 77,
+        "initiator": 74
       },
       "2025": {
         "initiator": 69
@@ -4280,7 +4280,7 @@ window.valorantMajorData = {
     },
     "Rossy": {
       "2024": {
-        "flex": 10
+        "flex": 73
       }
     },
     "runneR": {
@@ -4358,7 +4358,7 @@ window.valorantMajorData = {
         "duelist": 82
       },
       "2024": {
-        "duelist": 10
+        "duelist": 70
       }
     },
     "Sayf": {
@@ -4432,7 +4432,7 @@ window.valorantMajorData = {
     },
     "Shion7": {
       "2024": {
-        "initiator": 10
+        "initiator": 60
       }
     },
     "Shyy": {
@@ -4756,7 +4756,7 @@ window.valorantMajorData = {
     },
     "vo0kashu": {
       "2024": {
-        "sentinel": 10
+        "sentinel": 70
       }
     },
     "westside": {
@@ -4805,7 +4805,7 @@ window.valorantMajorData = {
     },
     "xccurate": {
       "2024": {
-        "sentinel": 10
+        "sentinel": 70
       }
     },
     "xenom": {
@@ -4853,7 +4853,7 @@ window.valorantMajorData = {
     "yetujey": {
       "2024": {
         "flex": 80,
-        "sentinel": 10
+        "sentinel": 76
       }
     },
     "YHchen": {
