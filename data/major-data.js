@@ -4984,7 +4984,7 @@ window.valorantMajorData = {
           "team": "100T",
           "year": 2021,
           "roles": {
-            "flex": 74
+            "flex": 79
           },
           "agents": [
             "skye",
@@ -5040,7 +5040,7 @@ window.valorantMajorData = {
           "team": "100T",
           "year": 2022,
           "roles": {
-            "flex": 60
+            "flex": 70
           },
           "agents": [
             "sage",
@@ -5112,7 +5112,7 @@ window.valorantMajorData = {
           "team": "100T",
           "year": 2024,
           "roles": {
-            "initiator": 10
+            "flex": 73
           },
           "agents": [
             "gekko",
@@ -5126,7 +5126,7 @@ window.valorantMajorData = {
           "team": "100T",
           "year": 2024,
           "roles": {
-            "controller": 10
+            "controller": 72
           },
           "agents": [
             "viper",
@@ -5139,7 +5139,7 @@ window.valorantMajorData = {
           "team": "100T",
           "year": 2024,
           "roles": {
-            "sentinel": 10
+            "sentinel": 70
           },
           "agents": [
             "killjoy",
@@ -5153,7 +5153,7 @@ window.valorantMajorData = {
           "team": "100T",
           "year": 2024,
           "roles": {
-            "flex": 10
+            "flex": 90
           },
           "agents": [
             "jett",
@@ -5167,7 +5167,7 @@ window.valorantMajorData = {
           "team": "100T",
           "year": 2024,
           "roles": {
-            "initiator": 10
+            "initiator": 80
           },
           "agents": [
             "sova",
@@ -5199,7 +5199,7 @@ window.valorantMajorData = {
           "team": "ACE",
           "year": 2021,
           "roles": {
-            "flex": 91
+            "flex": 93
           },
           "agents": [
             "jett",
@@ -5503,8 +5503,8 @@ window.valorantMajorData = {
           "team": "BLG",
           "year": 2025,
           "roles": {
-            "initiator": 70,
-            "flex": 71
+            "flex": 71,
+            "initiator": 70
           },
           "agents": [
             "viper",
@@ -5717,8 +5717,8 @@ window.valorantMajorData = {
           "team": "CR",
           "year": 2021,
           "roles": {
-            "sentinel": 76,
-            "flex": 72
+            "flex": 72,
+            "sentinel": 76
           },
           "agents": [
             "killjoy",
@@ -5748,8 +5748,8 @@ window.valorantMajorData = {
           "team": "CR",
           "year": 2021,
           "roles": {
-            "flex": 57,
-            "duelist": 62
+            "duelist": 62,
+            "flex": 57
           },
           "agents": [
             "skye",
@@ -5820,7 +5820,7 @@ window.valorantMajorData = {
           "team": "DRG",
           "year": 2024,
           "roles": {
-            "initiator": 10
+            "initiator": 63
           },
           "agents": [
             "sova",
@@ -5834,7 +5834,7 @@ window.valorantMajorData = {
           "team": "DRG",
           "year": 2024,
           "roles": {
-            "controller": 10
+            "controller": 60
           },
           "agents": [
             "viper",
@@ -5848,7 +5848,7 @@ window.valorantMajorData = {
           "team": "DRG",
           "year": 2024,
           "roles": {
-            "initiator": 10
+            "initiator": 60
           },
           "agents": [
             "harbor",
@@ -5875,7 +5875,7 @@ window.valorantMajorData = {
           "team": "DRG",
           "year": 2024,
           "roles": {
-            "sentinel": 10
+            "sentinel": 70
           },
           "agents": [
             "killjoy",
@@ -5903,7 +5903,7 @@ window.valorantMajorData = {
           "team": "DRG",
           "year": 2025,
           "roles": {
-            "sentinel": 75
+            "duelist": 78
           },
           "agents": [
             "vyse",
@@ -5999,7 +5999,7 @@ window.valorantMajorData = {
           "team": "EDG",
           "year": 2022,
           "roles": {
-            "flex": 79
+            "flex": 80
           },
           "agents": [
             "chamber",
@@ -6082,8 +6082,8 @@ window.valorantMajorData = {
           "team": "EDG",
           "year": 2023,
           "roles": {
-            "flex": 80,
-            "duelist": 72
+            "duelist": 72,
+            "flex": 80
           },
           "agents": [
             "breach",
@@ -6099,7 +6099,7 @@ window.valorantMajorData = {
           "team": "EDG",
           "year": 2023,
           "roles": {
-            "duelist": 85
+            "duelist": 87
           },
           "agents": [
             "jett",
@@ -6116,7 +6116,7 @@ window.valorantMajorData = {
           "team": "EDG",
           "year": 2024,
           "roles": {
-            "controller": 87
+            "controller": 89
           },
           "agents": [
             "cypher",
@@ -6148,8 +6148,8 @@ window.valorantMajorData = {
           "team": "EDG",
           "year": 2024,
           "roles": {
-            "initiator": 76,
-            "controller": 84
+            "controller": 84,
+            "initiator": 76
           },
           "agents": [
             "kayo",
@@ -6167,7 +6167,7 @@ window.valorantMajorData = {
           "team": "EDG",
           "year": 2024,
           "roles": {
-            "duelist": 82
+            "duelist": 94
           },
           "agents": [
             "raze",
@@ -6182,7 +6182,7 @@ window.valorantMajorData = {
           "team": "EDG",
           "year": 2024,
           "roles": {
-            "initiator": 74
+            "initiator": 78
           },
           "agents": [
             "breach",
@@ -6197,7 +6197,7 @@ window.valorantMajorData = {
           "year": 2024,
           "roles": {
             "controller": 62,
-            "flex": 10
+            "flex": 61
           },
           "agents": [
             "omen",
@@ -6214,8 +6214,8 @@ window.valorantMajorData = {
           "team": "EDG",
           "year": 2025,
           "roles": {
-            "controller": 90,
-            "sentinel": 68
+            "controller": 87,
+            "sentinel": 85
           },
           "agents": [
             "viper",
@@ -6259,7 +6259,7 @@ window.valorantMajorData = {
           "team": "EDG",
           "year": 2025,
           "roles": {
-            "duelist": 78
+            "duelist": 82
           },
           "agents": [
             "jett",
@@ -6350,7 +6350,7 @@ window.valorantMajorData = {
           "year": 2023,
           "roles": {
             "flex": 76,
-            "sentinel": 67
+            "sentinel": 77
           },
           "agents": [
             "astra",
@@ -6366,8 +6366,8 @@ window.valorantMajorData = {
           "team": "EG",
           "year": 2023,
           "roles": {
-            "initiator": 76,
-            "flex": 79
+            "flex": 79,
+            "initiator": 76
           },
           "agents": [
             "viper",
@@ -6381,7 +6381,8 @@ window.valorantMajorData = {
           "team": "EG",
           "year": 2023,
           "roles": {
-            "flex": 92
+            "duelist": 97,
+            "controller": 82
           },
           "agents": [
             "jett",
@@ -6396,7 +6397,7 @@ window.valorantMajorData = {
           "team": "EG",
           "year": 2023,
           "roles": {
-            "initiator": 81
+            "initiator": 86
           },
           "agents": [
             "skye",
@@ -6411,7 +6412,8 @@ window.valorantMajorData = {
           "team": "EG",
           "year": 2023,
           "roles": {
-            "controller": 80
+            "controller": 80,
+            "duelist": 87
           },
           "agents": [
             "raze",
@@ -6442,8 +6444,8 @@ window.valorantMajorData = {
           "team": "ENVY",
           "year": 2021,
           "roles": {
-            "sentinel": 56,
-            "flex": 69
+            "flex": 79,
+            "sentinel": 76
           },
           "agents": [
             "killjoy",
@@ -6572,8 +6574,8 @@ window.valorantMajorData = {
           "team": "FNC",
           "year": 2021,
           "roles": {
-            "initiator": 70,
-            "controller": 84
+            "controller": 84,
+            "initiator": 70
           },
           "agents": [
             "sova",
@@ -6588,8 +6590,8 @@ window.valorantMajorData = {
           "team": "FNC",
           "year": 2021,
           "roles": {
-            "flex": 79,
-            "duelist": 93
+            "duelist": 93,
+            "flex": 79
           },
           "agents": [
             "jett",
@@ -6634,8 +6636,8 @@ window.valorantMajorData = {
           "team": "FNC",
           "year": 2021,
           "roles": {
-            "flex": 82,
-            "controller": 69
+            "controller": 69,
+            "flex": 82
           },
           "agents": [
             "viper",
@@ -6651,8 +6653,8 @@ window.valorantMajorData = {
           "team": "FNC",
           "year": 2022,
           "roles": {
-            "initiator": 48,
-            "controller": 75
+            "controller": 82,
+            "initiator": 58
           },
           "agents": [
             "kayo",
@@ -6705,8 +6707,8 @@ window.valorantMajorData = {
           "team": "FNC",
           "year": 2022,
           "roles": {
-            "sentinel": 82,
-            "duelist": 83
+            "duelist": 83,
+            "sentinel": 86
           },
           "agents": [
             "killjoy",
@@ -6779,7 +6781,7 @@ window.valorantMajorData = {
           "team": "FNC",
           "year": 2023,
           "roles": {
-            "controller": 75
+            "controller": 86
           },
           "agents": [
             "brimstone",
@@ -6821,7 +6823,7 @@ window.valorantMajorData = {
           "team": "FNC",
           "year": 2023,
           "roles": {
-            "initiator": 95
+            "initiator": 97
           },
           "agents": [
             "fade",
@@ -6837,8 +6839,8 @@ window.valorantMajorData = {
           "team": "FNC",
           "year": 2024,
           "roles": {
-            "sentinel": 10,
-            "initiator": 81
+            "initiator": 81,
+            "sentinel": 82
           },
           "agents": [
             "killjoy",
@@ -6854,7 +6856,7 @@ window.valorantMajorData = {
           "team": "FNC",
           "year": 2024,
           "roles": {
-            "controller": 56
+            "controller": 79
           },
           "agents": [
             "omen",
@@ -6869,8 +6871,8 @@ window.valorantMajorData = {
           "team": "FNC",
           "year": 2024,
           "roles": {
-            "initiator": 10,
-            "flex": 89
+            "flex": 89,
+            "initiator": 86
           },
           "agents": [
             "viper",
@@ -6913,7 +6915,7 @@ window.valorantMajorData = {
           "team": "FNC",
           "year": 2024,
           "roles": {
-            "initiator": 10
+            "initiator": 80
           },
           "agents": [
             "fade",
@@ -6929,7 +6931,7 @@ window.valorantMajorData = {
           "team": "FNC",
           "year": 2025,
           "roles": {
-            "controller": 68
+            "controller": 76
           },
           "agents": [
             "omen",
@@ -6943,8 +6945,8 @@ window.valorantMajorData = {
           "team": "FNC",
           "year": 2025,
           "roles": {
-            "sentinel": 83,
-            "flex": 80
+            "flex": 80,
+            "sentinel": 83
           },
           "agents": [
             "cypher",
@@ -6960,7 +6962,7 @@ window.valorantMajorData = {
           "team": "FNC",
           "year": 2025,
           "roles": {
-            "initiator": 77
+            "initiator": 83
           },
           "agents": [
             "sova",
@@ -6973,7 +6975,7 @@ window.valorantMajorData = {
           "team": "FNC",
           "year": 2025,
           "roles": {
-            "duelist": 85
+            "duelist": 87
           },
           "agents": [
             "yoru",
@@ -6989,8 +6991,8 @@ window.valorantMajorData = {
           "team": "FNC",
           "year": 2025,
           "roles": {
-            "duelist": 86,
-            "sentinel": 79
+            "duelist": 84,
+            "sentinel": 86
           },
           "agents": [
             "iso",
@@ -7023,8 +7025,8 @@ window.valorantMajorData = {
           "team": "FPX",
           "year": 2022,
           "roles": {
-            "initiator": 63,
-            "controller": 53
+            "controller": 53,
+            "initiator": 63
           },
           "agents": [
             "fade",
@@ -7083,7 +7085,7 @@ window.valorantMajorData = {
           "team": "FPX",
           "year": 2022,
           "roles": {
-            "sentinel": 84
+            "sentinel": 85
           },
           "agents": [
             "viper",
@@ -7249,7 +7251,7 @@ window.valorantMajorData = {
           "year": 2024,
           "roles": {
             "controller": 65,
-            "flex": 10
+            "flex": 66
           },
           "agents": [
             "viper",
@@ -7537,8 +7539,8 @@ window.valorantMajorData = {
           "team": "FUT",
           "year": 2023,
           "roles": {
-            "sentinel": 70,
-            "flex": 73
+            "flex": 73,
+            "sentinel": 70
           },
           "agents": [
             "cypher",
@@ -7656,8 +7658,8 @@ window.valorantMajorData = {
           "team": "FUT",
           "year": 2024,
           "roles": {
-            "sentinel": 10,
-            "flex": 80
+            "flex": 80,
+            "sentinel": 76
           },
           "agents": [
             "cypher",
@@ -7831,8 +7833,8 @@ window.valorantMajorData = {
           "team": "G2",
           "year": 2024,
           "roles": {
-            "initiator": 10,
-            "flex": 67
+            "flex": 74,
+            "initiator": 77
           },
           "agents": [
             "viper",
@@ -7846,8 +7848,8 @@ window.valorantMajorData = {
           "team": "G2",
           "year": 2024,
           "roles": {
-            "sentinel": 10,
-            "flex": 73
+            "flex": 83,
+            "sentinel": 82
           },
           "agents": [
             "cypher",
@@ -7861,7 +7863,7 @@ window.valorantMajorData = {
           "team": "G2",
           "year": 2024,
           "roles": {
-            "initiator": 72
+            "initiator": 79
           },
           "agents": [
             "sova",
@@ -7875,7 +7877,7 @@ window.valorantMajorData = {
           "team": "G2",
           "year": 2024,
           "roles": {
-            "controller": 74
+            "controller": 81
           },
           "agents": [
             "astra",
@@ -7892,7 +7894,7 @@ window.valorantMajorData = {
           "team": "G2",
           "year": 2025,
           "roles": {
-            "duelist": 78
+            "duelist": 84
           },
           "agents": [
             "yoru",
@@ -7925,7 +7927,7 @@ window.valorantMajorData = {
           "team": "G2",
           "year": 2025,
           "roles": {
-            "sentinel": 85
+            "sentinel": 87
           },
           "agents": [
             "vyse",
@@ -7956,7 +7958,7 @@ window.valorantMajorData = {
           "team": "G2",
           "year": 2025,
           "roles": {
-            "controller": 80
+            "controller": 84
           },
           "agents": [
             "brimstone",
@@ -8018,7 +8020,7 @@ window.valorantMajorData = {
           "team": "GEN",
           "year": 2024,
           "roles": {
-            "controller": 79
+            "controller": 85
           },
           "agents": [
             "viper",
@@ -8033,7 +8035,7 @@ window.valorantMajorData = {
           "team": "GEN",
           "year": 2024,
           "roles": {
-            "initiator": 65
+            "initiator": 62
           },
           "agents": [
             "gekko",
@@ -8049,7 +8051,7 @@ window.valorantMajorData = {
           "year": 2024,
           "roles": {
             "duelist": 79,
-            "sentinel": 86
+            "sentinel": 89
           },
           "agents": [
             "killjoy",
@@ -8077,7 +8079,7 @@ window.valorantMajorData = {
           "team": "GEN",
           "year": 2024,
           "roles": {
-            "duelist": 84
+            "duelist": 92
           },
           "agents": [
             "jett",
@@ -8120,7 +8122,7 @@ window.valorantMajorData = {
           "team": "GEN",
           "year": 2025,
           "roles": {
-            "controller": 77
+            "controller": 82
           },
           "agents": [
             "omen"
@@ -8248,7 +8250,7 @@ window.valorantMajorData = {
           "team": "GLD",
           "year": 2022,
           "roles": {
-            "initiator": 85
+            "initiator": 88
           },
           "agents": [
             "fade",
@@ -8338,7 +8340,7 @@ window.valorantMajorData = {
           "team": "GMB",
           "year": 2021,
           "roles": {
-            "flex": 92
+            "sentinel": 92
           },
           "agents": [
             "viper",
@@ -8563,8 +8565,8 @@ window.valorantMajorData = {
           "year": 2021,
           "roles": {
             "flex": 75,
-            "sentinel": 65,
-            "initiator": 76
+            "initiator": 76,
+            "sentinel": 65
           },
           "agents": [
             "viper",
@@ -8658,8 +8660,8 @@ window.valorantMajorData = {
           "team": "KR\u00dc",
           "year": 2022,
           "roles": {
-            "initiator": 67,
-            "flex": 67
+            "flex": 67,
+            "initiator": 67
           },
           "agents": [
             "breach",
@@ -8847,8 +8849,8 @@ window.valorantMajorData = {
           "team": "KRX",
           "year": 2022,
           "roles": {
-            "sentinel": 78,
-            "duelist": 78
+            "duelist": 78,
+            "sentinel": 78
           },
           "agents": [
             "jett",
@@ -8943,7 +8945,7 @@ window.valorantMajorData = {
           "team": "KRX",
           "year": 2023,
           "roles": {
-            "controller": 81
+            "controller": 88
           },
           "agents": [
             "brimstone",
@@ -8957,8 +8959,8 @@ window.valorantMajorData = {
           "team": "KRX",
           "year": 2023,
           "roles": {
-            "initiator": 85,
-            "flex": 67
+            "flex": 67,
+            "initiator": 85
           },
           "agents": [
             "fade",
@@ -8989,8 +8991,8 @@ window.valorantMajorData = {
           "team": "KRX",
           "year": 2023,
           "roles": {
-            "initiator": 65,
-            "flex": 76
+            "flex": 76,
+            "initiator": 65
           },
           "agents": [
             "brimstone",
@@ -9075,7 +9077,7 @@ window.valorantMajorData = {
           "team": "KRX",
           "year": 2024,
           "roles": {
-            "controller": 76
+            "controller": 80
           },
           "agents": [
             "omen",
@@ -9105,8 +9107,8 @@ window.valorantMajorData = {
           "team": "KRX",
           "year": 2025,
           "roles": {
-            "sentinel": 75,
-            "duelist": 78
+            "duelist": 78,
+            "sentinel": 75
           },
           "agents": [
             "cypher",
@@ -9151,7 +9153,7 @@ window.valorantMajorData = {
           "team": "KRX",
           "year": 2025,
           "roles": {
-            "controller": 76
+            "controller": 80
           },
           "agents": [
             "omen",
@@ -9300,8 +9302,8 @@ window.valorantMajorData = {
           "team": "LEV",
           "year": 2022,
           "roles": {
-            "sentinel": 82,
-            "flex": 72
+            "flex": 72,
+            "sentinel": 82
           },
           "agents": [
             "chamber",
@@ -9316,7 +9318,7 @@ window.valorantMajorData = {
           "team": "LEV",
           "year": 2024,
           "roles": {
-            "duelist": 84
+            "duelist": 91
           },
           "agents": [
             "jett",
@@ -9359,7 +9361,7 @@ window.valorantMajorData = {
           "team": "LEV",
           "year": 2024,
           "roles": {
-            "controller": 10,
+            "controller": 75,
             "initiator": 72
           },
           "agents": [
@@ -9395,7 +9397,7 @@ window.valorantMajorData = {
           "team": "LOUD",
           "year": 2022,
           "roles": {
-            "duelist": 87
+            "duelist": 95
           },
           "agents": [
             "jett",
@@ -9410,7 +9412,7 @@ window.valorantMajorData = {
           "year": 2022,
           "roles": {
             "flex": 74,
-            "sentinel": 85
+            "sentinel": 92
           },
           "agents": [
             "viper",
@@ -9425,8 +9427,8 @@ window.valorantMajorData = {
           "team": "LOUD",
           "year": 2022,
           "roles": {
-            "sentinel": 69,
-            "controller": 89
+            "controller": 89,
+            "sentinel": 69
           },
           "agents": [
             "sage",
@@ -9443,7 +9445,7 @@ window.valorantMajorData = {
           "team": "LOUD",
           "year": 2022,
           "roles": {
-            "initiator": 83
+            "initiator": 86
           },
           "agents": [
             "chamber",
@@ -9460,7 +9462,7 @@ window.valorantMajorData = {
           "team": "LOUD",
           "year": 2022,
           "roles": {
-            "initiator": 83
+            "initiator": 93
           },
           "agents": [
             "sova",
@@ -9476,7 +9478,7 @@ window.valorantMajorData = {
           "team": "LOUD",
           "year": 2023,
           "roles": {
-            "duelist": 85
+            "duelist": 92
           },
           "agents": [
             "neon",
@@ -9505,7 +9507,7 @@ window.valorantMajorData = {
           "team": "LOUD",
           "year": 2023,
           "roles": {
-            "flex": 84
+            "sentinel": 89
           },
           "agents": [
             "viper",
@@ -9518,8 +9520,8 @@ window.valorantMajorData = {
           "team": "LOUD",
           "year": 2023,
           "roles": {
-            "flex": 50,
-            "initiator": 71
+            "flex": 70,
+            "initiator": 76
           },
           "agents": [
             "kayo",
@@ -9562,7 +9564,7 @@ window.valorantMajorData = {
           "team": "LOUD",
           "year": 2024,
           "roles": {
-            "flex": 89
+            "sentinel": 89
           },
           "agents": [
             "viper",
@@ -9621,8 +9623,8 @@ window.valorantMajorData = {
           "team": "MIBR",
           "year": 2025,
           "roles": {
-            "initiator": 43,
-            "flex": 74
+            "flex": 74,
+            "initiator": 43
           },
           "agents": [
             "breach",
@@ -9700,8 +9702,8 @@ window.valorantMajorData = {
           "team": "NAVI",
           "year": 2023,
           "roles": {
-            "initiator": 64,
-            "controller": 61
+            "controller": 61,
+            "initiator": 64
           },
           "agents": [
             "omen",
@@ -9750,7 +9752,7 @@ window.valorantMajorData = {
           "team": "NAVI",
           "year": 2023,
           "roles": {
-            "sentinel": 84
+            "sentinel": 87
           },
           "agents": [
             "cypher",
@@ -9873,7 +9875,7 @@ window.valorantMajorData = {
           "team": "NRG",
           "year": 2023,
           "roles": {
-            "initiator": 73
+            "initiator": 83
           },
           "agents": [
             "sova",
@@ -9886,7 +9888,7 @@ window.valorantMajorData = {
           "team": "NRG",
           "year": 2023,
           "roles": {
-            "flex": 70
+            "flex": 75
           },
           "agents": [
             "killjoy",
@@ -9900,7 +9902,7 @@ window.valorantMajorData = {
           "team": "NRG",
           "year": 2023,
           "roles": {
-            "controller": 83
+            "controller": 84
           },
           "agents": [
             "omen",
@@ -9933,7 +9935,7 @@ window.valorantMajorData = {
           "team": "NRG",
           "year": 2025,
           "roles": {
-            "flex": 85
+            "flex": 89
           },
           "agents": [
             "sova",
@@ -9946,7 +9948,7 @@ window.valorantMajorData = {
           "team": "NRG",
           "year": 2025,
           "roles": {
-            "initiator": 74
+            "initiator": 83
           },
           "agents": [
             "omen",
@@ -9960,7 +9962,7 @@ window.valorantMajorData = {
           "team": "NRG",
           "year": 2025,
           "roles": {
-            "duelist": 75
+            "duelist": 84
           },
           "agents": [
             "yoru",
@@ -9974,7 +9976,7 @@ window.valorantMajorData = {
           "team": "NRG",
           "year": 2025,
           "roles": {
-            "controller": 74
+            "controller": 87
           },
           "agents": [
             "harbor",
@@ -9988,7 +9990,7 @@ window.valorantMajorData = {
           "team": "NRG",
           "year": 2025,
           "roles": {
-            "sentinel": 81
+            "sentinel": 85
           },
           "agents": [
             "vyse",
@@ -10136,7 +10138,8 @@ window.valorantMajorData = {
           "team": "NU",
           "year": 2021,
           "roles": {
-            "flex": 85
+            "duelist": 69,
+            "initiator": 83
           },
           "agents": [
             "sova",
@@ -10194,7 +10197,7 @@ window.valorantMajorData = {
           "team": "OPTC",
           "year": 2022,
           "roles": {
-            "initiator": 77
+            "initiator": 82
           },
           "agents": [
             "sova",
@@ -10208,8 +10211,8 @@ window.valorantMajorData = {
           "team": "OPTC",
           "year": 2022,
           "roles": {
-            "sentinel": 63,
-            "initiator": 65
+            "initiator": 65,
+            "sentinel": 83
           },
           "agents": [
             "sage",
@@ -10256,8 +10259,8 @@ window.valorantMajorData = {
           "team": "OPTC",
           "year": 2022,
           "roles": {
-            "flex": 95,
-            "sentinel": 85
+            "duelist": 84,
+            "sentinel": 97
           },
           "agents": [
             "chamber",
@@ -10359,7 +10362,7 @@ window.valorantMajorData = {
           "team": "PRX",
           "year": 2022,
           "roles": {
-            "initiator": 80,
+            "initiator": 82,
             "sentinel": 76
           },
           "agents": [
@@ -10393,7 +10396,7 @@ window.valorantMajorData = {
           "team": "PRX",
           "year": 2022,
           "roles": {
-            "duelist": 79
+            "duelist": 82
           },
           "agents": [
             "reyna",
@@ -10426,7 +10429,7 @@ window.valorantMajorData = {
           "team": "PRX",
           "year": 2023,
           "roles": {
-            "flex": 80
+            "flex": 85
           },
           "agents": [
             "viper",
@@ -10440,7 +10443,7 @@ window.valorantMajorData = {
           "team": "PRX",
           "year": 2023,
           "roles": {
-            "flex": 76
+            "flex": 84
           },
           "agents": [
             "jett",
@@ -10456,7 +10459,7 @@ window.valorantMajorData = {
           "team": "PRX",
           "year": 2023,
           "roles": {
-            "duelist": 80
+            "duelist": 88
           },
           "agents": [
             "raze",
@@ -10515,7 +10518,7 @@ window.valorantMajorData = {
           "team": "PRX",
           "year": 2024,
           "roles": {
-            "flex": 74,
+            "flex": 82,
             "sentinel": 70
           },
           "agents": [
@@ -10532,7 +10535,7 @@ window.valorantMajorData = {
           "team": "PRX",
           "year": 2024,
           "roles": {
-            "flex": 78,
+            "flex": 87,
             "initiator": 72
           },
           "agents": [
@@ -10593,7 +10596,7 @@ window.valorantMajorData = {
           "team": "PRX",
           "year": 2024,
           "roles": {
-            "duelist": 69
+            "duelist": 84
           },
           "agents": [
             "raze",
@@ -10610,7 +10613,7 @@ window.valorantMajorData = {
           "team": "PRX",
           "year": 2025,
           "roles": {
-            "sentinel": 80
+            "sentinel": 82
           },
           "agents": [
             "viper",
@@ -10624,8 +10627,9 @@ window.valorantMajorData = {
           "team": "PRX",
           "year": 2025,
           "roles": {
-            "initiator": 83,
-            "controller": 77
+            "flex": 92,
+            "controller": 77,
+            "initiator": 83
           },
           "agents": [
             "omen",
@@ -10655,7 +10659,7 @@ window.valorantMajorData = {
           "team": "PRX",
           "year": 2025,
           "roles": {
-            "initiator": 76
+            "initiator": 79
           },
           "agents": [
             "fade",
@@ -10796,8 +10800,8 @@ window.valorantMajorData = {
           "team": "RRQ",
           "year": 2025,
           "roles": {
-            "sentinel": 69,
-            "flex": 65
+            "flex": 65,
+            "sentinel": 69
           },
           "agents": [
             "cypher",
@@ -10815,8 +10819,8 @@ window.valorantMajorData = {
           "team": "SEN",
           "year": 2021,
           "roles": {
-            "sentinel": 77,
-            "flex": 65
+            "flex": 65,
+            "sentinel": 77
           },
           "agents": [
             "sage",
@@ -10848,7 +10852,7 @@ window.valorantMajorData = {
           "team": "SEN",
           "year": 2021,
           "roles": {
-            "duelist": 82,
+            "duelist": 85,
             "flex": 78
           },
           "agents": [
@@ -10865,7 +10869,7 @@ window.valorantMajorData = {
           "team": "SEN",
           "year": 2021,
           "roles": {
-            "duelist": 98
+            "duelist": 99
           },
           "agents": [
             "reyna",
@@ -10909,7 +10913,7 @@ window.valorantMajorData = {
           "team": "SEN",
           "year": 2024,
           "roles": {
-            "initiator": 76
+            "initiator": 86
           },
           "agents": [
             "fade",
@@ -10924,6 +10928,7 @@ window.valorantMajorData = {
           "team": "SEN",
           "year": 2024,
           "roles": {
+            "duelist": 82,
             "initiator": 82
           },
           "agents": [
@@ -10938,7 +10943,7 @@ window.valorantMajorData = {
           "team": "SEN",
           "year": 2024,
           "roles": {
-            "duelist": 85
+            "duelist": 88
           },
           "agents": [
             "raze",
@@ -11033,8 +11038,8 @@ window.valorantMajorData = {
           "team": "SEN",
           "year": 2025,
           "roles": {
-            "flex": 60,
-            "sentinel": 74
+            "flex": 75,
+            "sentinel": 80
           },
           "agents": [
             "vyse",
@@ -11255,8 +11260,8 @@ window.valorantMajorData = {
           "team": "T1",
           "year": 2023,
           "roles": {
-            "initiator": 65,
-            "flex": 74
+            "flex": 74,
+            "initiator": 65
           },
           "agents": [
             "breach",
@@ -11272,7 +11277,7 @@ window.valorantMajorData = {
           "team": "T1",
           "year": 2024,
           "roles": {
-            "initiator": 10
+            "initiator": 65
           },
           "agents": [
             "sova",
@@ -11286,7 +11291,7 @@ window.valorantMajorData = {
           "team": "T1",
           "year": 2024,
           "roles": {
-            "duelist": 10
+            "duelist": 75
           },
           "agents": [
             "yoru",
@@ -11300,7 +11305,7 @@ window.valorantMajorData = {
           "team": "T1",
           "year": 2024,
           "roles": {
-            "flex": 10
+            "flex": 73
           },
           "agents": [
             "viper",
@@ -11313,7 +11318,7 @@ window.valorantMajorData = {
           "team": "T1",
           "year": 2024,
           "roles": {
-            "duelist": 10
+            "duelist": 70
           },
           "agents": [
             "jett",
@@ -11327,7 +11332,7 @@ window.valorantMajorData = {
           "team": "T1",
           "year": 2024,
           "roles": {
-            "sentinel": 10
+            "sentinel": 70
           },
           "agents": [
             "harbor",
@@ -11357,8 +11362,8 @@ window.valorantMajorData = {
           "team": "T1",
           "year": 2025,
           "roles": {
-            "flex": 83,
-            "duelist": 78
+            "duelist": 78,
+            "flex": 83
           },
           "agents": [
             "yoru",
@@ -11373,7 +11378,7 @@ window.valorantMajorData = {
           "team": "T1",
           "year": 2025,
           "roles": {
-            "sentinel": 78
+            "sentinel": 84
           },
           "agents": [
             "viper",
@@ -11693,7 +11698,7 @@ window.valorantMajorData = {
           "team": "Team",
           "year": 2025,
           "roles": {
-            "sentinel": 10
+            "sentinel": 50
           },
           "agents": [
             "cypher"
@@ -11705,7 +11710,7 @@ window.valorantMajorData = {
           "team": "Team",
           "year": 2025,
           "roles": {
-            "initiator": 10
+            "initiator": 60
           },
           "agents": [
             "gekko"
@@ -11741,7 +11746,8 @@ window.valorantMajorData = {
           "team": "Team",
           "year": 2025,
           "roles": {
-            "duelist": 10
+            "controller": 86,
+            "duelist": 76
           },
           "agents": [
             "jett"
@@ -11798,7 +11804,7 @@ window.valorantMajorData = {
           "team": "TGRD",
           "year": 2022,
           "roles": {
-            "initiator": 65
+            "initiator": 77
           },
           "agents": [
             "sova",
@@ -11812,7 +11818,7 @@ window.valorantMajorData = {
           "team": "TGRD",
           "year": 2022,
           "roles": {
-            "controller": 72
+            "controller": 79
           },
           "agents": [
             "viper",
@@ -11876,8 +11882,8 @@ window.valorantMajorData = {
           "team": "TH",
           "year": 2024,
           "roles": {
-            "duelist": 10,
-            "initiator": 74
+            "duelist": 83,
+            "initiator": 82
           },
           "agents": [
             "jett",
@@ -11909,8 +11915,8 @@ window.valorantMajorData = {
           "team": "TH",
           "year": 2024,
           "roles": {
-            "flex": 59,
-            "initiator": 10
+            "flex": 77,
+            "initiator": 74
           },
           "agents": [
             "viper",
@@ -11986,8 +11992,8 @@ window.valorantMajorData = {
           "team": "TH",
           "year": 2025,
           "roles": {
-            "initiator": 71,
-            "flex": 77
+            "flex": 82,
+            "initiator": 79
           },
           "agents": [
             "breach",
@@ -12039,8 +12045,8 @@ window.valorantMajorData = {
           "team": "TL",
           "year": 2021,
           "roles": {
-            "flex": 89,
-            "duelist": 86
+            "duelist": 86,
+            "flex": 89
           },
           "agents": [
             "sage",
@@ -12116,8 +12122,8 @@ window.valorantMajorData = {
           "team": "TL",
           "year": 2022,
           "roles": {
-            "sentinel": 79,
-            "initiator": 69
+            "initiator": 69,
+            "sentinel": 79
           },
           "agents": [
             "chamber",
@@ -12134,8 +12140,8 @@ window.valorantMajorData = {
           "team": "TL",
           "year": 2022,
           "roles": {
-            "flex": 88,
-            "duelist": 82
+            "duelist": 82,
+            "flex": 88
           },
           "agents": [
             "jett",
@@ -12199,8 +12205,8 @@ window.valorantMajorData = {
           "team": "TL",
           "year": 2023,
           "roles": {
-            "initiator": 68,
-            "flex": 61
+            "flex": 61,
+            "initiator": 68
           },
           "agents": [
             "breach",
@@ -12216,8 +12222,8 @@ window.valorantMajorData = {
           "team": "TL",
           "year": 2023,
           "roles": {
-            "sentinel": 76,
-            "flex": 80
+            "flex": 80,
+            "sentinel": 86
           },
           "agents": [
             "killjoy",
@@ -12259,8 +12265,8 @@ window.valorantMajorData = {
           "team": "TL",
           "year": 2023,
           "roles": {
-            "initiator": 74,
-            "flex": 61
+            "flex": 61,
+            "initiator": 74
           },
           "agents": [
             "skye",
@@ -12330,8 +12336,8 @@ window.valorantMajorData = {
           "team": "TL",
           "year": 2025,
           "roles": {
-            "sentinel": 89,
-            "flex": 76
+            "flex": 76,
+            "sentinel": 92
           },
           "agents": [
             "viper",
@@ -12360,7 +12366,7 @@ window.valorantMajorData = {
           "team": "TL",
           "year": 2025,
           "roles": {
-            "initiator": 67
+            "initiator": 81
           },
           "agents": [
             "sova",
@@ -12631,7 +12637,7 @@ window.valorantMajorData = {
           "team": "V1",
           "year": 2021,
           "roles": {
-            "controller": 67
+            "controller": 68
           },
           "agents": [
             "astra",
@@ -12851,7 +12857,7 @@ window.valorantMajorData = {
           "team": "VKS",
           "year": 2021,
           "roles": {
-            "initiator": 93
+            "initiator": 90
           },
           "agents": [
             "sova",
@@ -12978,7 +12984,7 @@ window.valorantMajorData = {
           "team": "VS",
           "year": 2021,
           "roles": {
-            "controller": 88
+            "controller": 90
           },
           "agents": [
             "astra",
@@ -13035,7 +13041,8 @@ window.valorantMajorData = {
           "team": "VS",
           "year": 2021,
           "roles": {
-            "initiator": 69
+            "duelist": 69,
+            "initiator": 83
           },
           "agents": [
             "skye",
@@ -13156,8 +13163,8 @@ window.valorantMajorData = {
           "team": "X10",
           "year": 2021,
           "roles": {
-            "flex": 83,
-            "duelist": 82
+            "duelist": 82,
+            "flex": 83
           },
           "agents": [
             "sage",
@@ -13204,9 +13211,9 @@ window.valorantMajorData = {
           "team": "XIA",
           "year": 2022,
           "roles": {
+            "controller": 76,
             "flex": 60,
-            "initiator": 70,
-            "controller": 76
+            "initiator": 70
           },
           "agents": [
             "sage",
@@ -13223,8 +13230,8 @@ window.valorantMajorData = {
           "team": "XIA",
           "year": 2022,
           "roles": {
-            "initiator": 76,
-            "duelist": 65
+            "duelist": 65,
+            "initiator": 76
           },
           "agents": [
             "sova",
@@ -13269,9 +13276,9 @@ window.valorantMajorData = {
           "team": "XIA",
           "year": 2022,
           "roles": {
-            "sentinel": 73,
             "flex": 65,
-            "initiator": 57
+            "initiator": 57,
+            "sentinel": 73
           },
           "agents": [
             "killjoy",
@@ -13306,8 +13313,8 @@ window.valorantMajorData = {
           "team": "XLG",
           "year": 2025,
           "roles": {
-            "sentinel": 79,
-            "controller": 77
+            "controller": 77,
+            "sentinel": 79
           },
           "agents": [
             "cypher",
@@ -13605,8 +13612,8 @@ window.valorantMajorData = {
           "team": "ZETA",
           "year": 2022,
           "roles": {
-            "flex": 70,
-            "duelist": 72
+            "duelist": 72,
+            "flex": 70
           },
           "agents": [
             "jett",
@@ -13622,8 +13629,8 @@ window.valorantMajorData = {
           "team": "ZETA",
           "year": 2022,
           "roles": {
-            "sentinel": 76,
-            "initiator": 93
+            "initiator": 93,
+            "sentinel": 76
           },
           "agents": [
             "chamber",
