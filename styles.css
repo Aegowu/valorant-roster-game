@@ -657,3 +657,113 @@ footer a {
     animation: none;
   }
 }
+
+/* ── Season Simulation ─────────────────────────────────────────────────────── */
+
+.sim-section {
+  width: min(100%, 520px);
+  margin: 0 auto 28px;
+}
+
+.sim-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.sim-title {
+  margin: 0;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+}
+
+.sim-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.sim-row {
+  display: grid;
+  grid-template-columns: 140px 80px 1fr;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border-radius: 6px;
+  border: 1px solid var(--line);
+  background: rgba(26, 26, 26, 0.88);
+}
+
+.sim-event {
+  font-size: 0.82rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+}
+
+.sim-place {
+  font-size: 1.1rem;
+  font-weight: 950;
+  text-align: center;
+}
+
+.sim-note {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.sim-qualify {
+  color: #4caf7d;
+}
+
+.sim-miss {
+  color: var(--red);
+}
+
+/* Placement tiers */
+.result-first {
+  border-color: rgba(255, 200, 50, 0.5);
+  background: rgba(255, 200, 50, 0.07);
+}
+.result-first .sim-place {
+  color: #ffc832;
+}
+
+.result-top3 {
+  border-color: rgba(255, 70, 85, 0.4);
+  background: rgba(255, 70, 85, 0.06);
+}
+.result-top3 .sim-place {
+  color: var(--red);
+}
+
+.result-mid .sim-place {
+  color: #ffffff;
+}
+
+.result-low .sim-place {
+  color: var(--muted);
+}
+
+.sim-dnq {
+  opacity: 0.5;
+}
+.sim-dnq .sim-place {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+@media (max-width: 760px) {
+  .sim-row {
+    grid-template-columns: 110px 60px 1fr;
+    gap: 6px;
+    padding: 9px 10px;
+  }
+}
