@@ -22,6 +22,7 @@ const regions = [
 ].filter((region) => Object.keys(region.teams).length);
 
 const teamYearRosters = buildTeamYearRosters();
+
 let state = createFreshState();
 
 function makeRegion(key, label) {
@@ -91,20 +92,16 @@ function makeDraw(regionOverride, yearOverride) {
   if (region && year && !teamsForRegionYear(region, year).length) {
     year = randomItem(validYearsForRegion(region));
   }
-
   if (!region && year) {
     region = randomItem(validRegionsForYear(year));
   }
-
   if (region && !year) {
     year = randomItem(validYearsForRegion(region));
   }
-
   if (!region && !year) {
     region = randomItem(regions.filter((item) => validYearsForRegion(item).length));
     year = region ? randomItem(validYearsForRegion(region)) : null;
   }
-
   if (!region || !year) return null;
 
   const teams = teamsForRegionYear(region, year);
@@ -140,6 +137,7 @@ function canRosterFillOpenRoles(draw) {
   const draftedPlayers = new Set(state.picks.map((pick) => pick.name));
   const availablePlayers = (teamYearRosters[draw.team]?.[draw.year] || [])
     .filter((player) => !draftedPlayers.has(player.name));
+
   const rolesToFill = openRoles()
     .map((role) => ({
       key: role.key,
@@ -152,7 +150,6 @@ function canRosterFillOpenRoles(draw) {
   const usedPlayers = new Set();
   const canAssignRoles = (roleIndex) => {
     if (roleIndex === rolesToFill.length) return true;
-
     return rolesToFill[roleIndex].players.some((player) => {
       if (usedPlayers.has(player.name)) return false;
       usedPlayers.add(player.name);
@@ -168,7 +165,6 @@ function canRosterFillOpenRoles(draw) {
 function rerollDrawOptions() {
   const draws = allValidDraws().filter((draw) => canRosterFillOpenRoles(draw));
   if (!state.draw) return draws;
-
   const currentKey = drawKey(state.draw);
   return draws.filter((draw) => drawKey(draw) !== currentKey);
 }
@@ -196,7 +192,7 @@ function drawSnapshot(draw = state.draw) {
 }
 
 function setDrawDisplay(draw) {
-  document.querySelector('[data-bind="regionKicker"]').textContent = `${draw.region.label} / ${draw.region.sub}`;
+  document.querySelector('[data-bind="regionKicker"]').textContent = draw.region.label;
   document.querySelector('[data-bind="region"]').textContent = draw.region.label;
   document.querySelector('[data-bind="team"]').textContent = draw.team;
   document.querySelector('[data-bind="year"]').textContent = draw.year;
@@ -212,37 +208,31 @@ function setRollingState(isRolling) {
 
 function randomPreviewDraw(finalDraw, reels) {
   const preview = drawSnapshot();
-
   if (reels.includes("region")) {
     preview.region = randomItem(validRegionsForYear(finalDraw.year)) || finalDraw.region;
   } else {
     preview.region = finalDraw.region;
   }
-
   if (reels.includes("year")) {
     preview.year = randomItem(validYearsForRegion(preview.region)) || finalDraw.year;
   } else {
     preview.year = finalDraw.year;
   }
-
   const teams = teamsForRegionYear(preview.region, preview.year);
   if (reels.includes("team") || reels.includes("region") || reels.includes("year")) {
     preview.team = randomItem(teams) || finalDraw.team;
   } else {
     preview.team = finalDraw.team;
   }
-
   return preview;
 }
 
 async function animateDrawChange(finalDraw, reels) {
   setRollingState(true);
-
   for (let tick = 0; tick < 10; tick += 1) {
     setDrawDisplay(randomPreviewDraw(finalDraw, reels));
     await sleep(42 + tick * 12);
   }
-
   state.draw = finalDraw;
   setDrawDisplay(finalDraw);
   await sleep(120);
@@ -265,6 +255,7 @@ function candidatesForDraw() {
         rating: player.ratings[playerRole.key],
         isOpen: openRoleKeys.has(playerRole.key) && !draftedPlayers.has(player.name)
       }));
+
     const primaryRole = roleOptions.find((role) => role.isOpen) || roleOptions[0] || roleForKey(player.naturalRole);
 
     return {
@@ -292,7 +283,6 @@ function setScreen(screen) {
 function renderSlots(container) {
   container.innerHTML = roles.map((role) => {
     const pick = state.picks.find((item) => item.roleKey === role.key);
-
     if (!pick) {
       return `
         <article class="slot is-open">
@@ -301,11 +291,9 @@ function renderSlots(container) {
         </article>
       `;
     }
-
     const tags = pick.roleTags?.length
       ? pick.roleTags.join(", ")
       : pick.role;
-
     return `
       <article class="slot is-filled">
         <span class="slot-role">${role.label}</span>
@@ -320,13 +308,16 @@ function renderSlots(container) {
 function renderGame() {
   if (!state.draw) state.draw = randomItem(rerollDrawOptions());
   if (!state.draw) return;
+
   document.querySelector(".spin-panel")?.classList.toggle("is-rolling", state.isRolling);
+
   renderSlots(document.querySelector('[data-bind="slots"]'));
 
   const openRoleLabels = openRoles().map((item) => item.label).join(" / ");
+
   document.querySelector('[data-bind="phase"]').textContent = "Draft";
   document.querySelector('[data-bind="pickCount"]').textContent = `Pick ${Math.min(state.picks.length + 1, 5)}/5`;
-  document.querySelector('[data-bind="regionKicker"]').textContent = `${state.draw.region.label} / ${state.draw.region.sub}`;
+  document.querySelector('[data-bind="regionKicker"]').textContent = state.draw.region.label;
   document.querySelector('[data-bind="region"]').textContent = state.draw.region.label;
   document.querySelector('[data-bind="team"]').textContent = state.draw.team;
   document.querySelector('[data-bind="year"]').textContent = state.draw.year;
@@ -355,11 +346,13 @@ function renderGame() {
 
 function renderResult() {
   renderSlots(document.querySelector('[data-bind="finalRoster"]'));
+
   const teams = new Set(state.picks.map((pick) => pick.team)).size;
   const years = state.picks.map((pick) => pick.year);
   const yearSpread = Math.max(...years) - Math.min(...years);
   const averageRating = state.picks.reduce((total, pick) => total + pick.rating, 0) / state.picks.length;
   const score = Math.max(62, Math.min(99, Math.round(averageRating + teams * 1.5 + Math.max(0, 8 - yearSpread))));
+
   document.querySelector('[data-bind="score"]').textContent = score;
   document.querySelector('[data-bind="scoreText"]').textContent =
     score > 90 ? "A frightening international superteam." :
@@ -375,7 +368,6 @@ async function draftPlayer(candidateId, selectedRoleKey) {
 
   const selectedRole = candidate.roleOptions.find((role) => role.key === selectedRoleKey && role.isOpen) ||
     candidate.roleOptions.find((role) => role.key === candidate.roleKey && role.isOpen);
-
   if (!selectedRole) return;
 
   state.picks.push({
@@ -416,7 +408,6 @@ async function handleAction(action) {
   if (action === "rerollDraw" && state.rerolls > 0) {
     const draw = randomItem(rerollDrawOptions());
     if (!draw) return;
-
     state.rerolls -= 1;
     await animateDrawChange(draw, ["region", "team", "year"]);
   }
