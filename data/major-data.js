@@ -96,7 +96,7 @@ window.valorantMajorData = {
     "ZETA": "Pacific"
   },
   "regionTeams": {
-  "Americas": [
+  "AMER": [
     "100T",
     "C9",
     "EG",
@@ -118,7 +118,7 @@ window.valorantMajorData = {
     "VKS",
     "XSET"
   ],
-  "China": [
+  "CN": [
     "ASE",
     "BLG",
     "DRG",
@@ -145,7 +145,7 @@ window.valorantMajorData = {
     "TL",
     "VIT"
   ],
-  "Pacific": [
+  "APAC": [
     "BME",
     "CR",
     "DFM",
