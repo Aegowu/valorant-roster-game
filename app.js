@@ -344,6 +344,166 @@ function renderGame() {
   `).join("");
 }
 
+// ─── Season Simulation ────────────────────────────────────────────────────────
+
+// Weighted random placement: score (62–99) biases toward top placements.
+// Higher score = more weight on lower place numbers (better finish).
+function simulatePlacement(score, maxPlace) {
+  // Build weights: place 1 gets the most weight for a high-score team.
+  // Weight for place p = (maxPlace - p + 1) ^ strength
+  // strength scales with score: low score (~62) strength ~0.6, high score (~99) strength ~2.5
+  const strength = 0.6 + ((score - 62) / 37) * 1.9;
+  const weights = [];
+  for (let p = 1; p <= maxPlace; p++) {
+    weights.push(Math.pow(maxPlace - p + 1, strength));
+  }
+  const total = weights.reduce((a, b) => a + b, 0);
+  let rand = Math.random() * total;
+  for (let p = 1; p <= maxPlace; p++) {
+    rand -= weights[p - 1];
+    if (rand <= 0) return p;
+  }
+  return maxPlace;
+}
+
+function placeLabel(place) {
+  if (place === 1) return "1st";
+  if (place === 2) return "2nd";
+  if (place === 3) return "3rd";
+  return `${place}th`;
+}
+
+function simulateSeason(score) {
+  const results = [];
+
+  // Kickoff — 8 teams, top 3 qualify for Masters 1
+  const kickoff = simulatePlacement(score, 8);
+  const kickoffQualifies = kickoff <= 3;
+  results.push({
+    event: "Kickoff",
+    place: kickoff,
+    maxPlace: 8,
+    qualified: kickoffQualifies,
+    qualifiesFor: "Masters 1",
+    shown: true
+  });
+
+  // Masters 1 — only if qualified from Kickoff
+  let masters1 = null;
+  if (kickoffQualifies) {
+    const place = simulatePlacement(score, 8);
+    masters1 = place;
+    results.push({
+      event: "Masters 1",
+      place,
+      maxPlace: 8,
+      shown: true
+    });
+  } else {
+    results.push({
+      event: "Masters 1",
+      place: null,
+      maxPlace: 8,
+      dnq: true,
+      shown: true
+    });
+  }
+
+  // Stage 1 — always played, top 3 qualify for Masters 2
+  const stage1 = simulatePlacement(score, 8);
+  const stage1Qualifies = stage1 <= 3;
+  results.push({
+    event: "Stage 1",
+    place: stage1,
+    maxPlace: 8,
+    qualified: stage1Qualifies,
+    qualifiesFor: "Masters 2",
+    shown: true
+  });
+
+  // Masters 2 — only if qualified from Stage 1
+  let masters2 = null;
+  if (stage1Qualifies) {
+    const place = simulatePlacement(score, 8);
+    masters2 = place;
+    results.push({
+      event: "Masters 2",
+      place,
+      maxPlace: 8,
+      shown: true
+    });
+  } else {
+    results.push({
+      event: "Masters 2",
+      place: null,
+      maxPlace: 8,
+      dnq: true,
+      shown: true
+    });
+  }
+
+  // Stage 2 — always played, feeds into Champions seeding
+  const stage2 = simulatePlacement(score, 8);
+  results.push({
+    event: "Stage 2",
+    place: stage2,
+    maxPlace: 8,
+    shown: true
+  });
+
+  // Champions — 16 teams, always simulated
+  const champions = simulatePlacement(score, 16);
+  results.push({
+    event: "Champions",
+    place: champions,
+    maxPlace: 16,
+    shown: true
+  });
+
+  return results;
+}
+
+function placementClass(place, maxPlace) {
+  if (place === null) return "result-dnq";
+  if (place === 1) return "result-first";
+  if (place <= 3) return "result-top3";
+  if (place <= Math.ceil(maxPlace / 2)) return "result-mid";
+  return "result-low";
+}
+
+function renderSimulation(score) {
+  const results = simulateSeason(score);
+  const container = document.querySelector('[data-bind="simulation"]');
+  if (!container) return;
+
+  container.innerHTML = results.map((r) => {
+    if (r.dnq) {
+      return `
+        <div class="sim-row sim-dnq">
+          <span class="sim-event">${r.event}</span>
+          <span class="sim-place">DNQ</span>
+          <span class="sim-note">Did not qualify</span>
+        </div>
+      `;
+    }
+    const cls = placementClass(r.place, r.maxPlace);
+    const qualNote = r.qualified === false
+      ? `<span class="sim-note sim-miss">Did not qualify for ${r.qualifiesFor}</span>`
+      : r.qualified === true
+        ? `<span class="sim-note sim-qualify">Qualified for ${r.qualifiesFor}</span>`
+        : "";
+    return `
+      <div class="sim-row ${cls}">
+        <span class="sim-event">${r.event}</span>
+        <span class="sim-place">${placeLabel(r.place)}</span>
+        ${qualNote}
+      </div>
+    `;
+  }).join("");
+}
+
+// ─── Result Screen ────────────────────────────────────────────────────────────
+
 function renderResult() {
   renderSlots(document.querySelector('[data-bind="finalRoster"]'));
 
@@ -358,7 +518,11 @@ function renderResult() {
     score > 90 ? "A frightening international superteam." :
     score > 80 ? "Balanced, explosive and ready for playoffs." :
     "High upside, but the comms room might get spicy.";
+
+  renderSimulation(score);
 }
+
+// ─── Draft Logic ──────────────────────────────────────────────────────────────
 
 async function draftPlayer(candidateId, selectedRoleKey) {
   if (state.isRolling) return;
@@ -410,6 +574,11 @@ async function handleAction(action) {
     if (!draw) return;
     state.rerolls -= 1;
     await animateDrawChange(draw, ["region", "team", "year"]);
+  }
+
+  if (action === "resimulate") {
+    const scoreEl = document.querySelector('[data-bind="score"]');
+    if (scoreEl) renderSimulation(parseInt(scoreEl.textContent, 10));
   }
 }
 
