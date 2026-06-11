@@ -574,7 +574,11 @@ function renderResult() {
     score > 70 ? "High potential, but something is lacking." :
     "Underwhelming...";
 
-  renderSimulation(score);
+  renderSimulation(score).then(() => {
+    document.querySelectorAll("[data-action]").forEach((btn) => {
+      btn.disabled = false;
+    });
+  });
 }
 
 // ─── Draft Logic ──────────────────────────────────────────────────────────────
@@ -597,12 +601,15 @@ async function draftPlayer(candidateId, selectedRoleKey) {
     rating: candidate.ratings[selectedRole.key]
   });
 
+  renderSlots(document.querySelector('[data-bind="slots"]'));
+
   if (state.picks.length === roles.length) {
     renderResult();
     setScreen("result");
     return;
   }
 
+  await sleep(400);
   const draw = randomItem(rerollDrawOptions());
   if (!draw) return;
   await animateDrawChange(draw, ["region", "team", "year"]);
