@@ -14,13 +14,6 @@ const roles = [
   { key: "flex", label: "Flex" }
 ];
 
-const regionKeyMap = {
-  "AMER": "Americas",
-  "CN": "China",
-  "APAC": "Pacific",
-  "EMEA": "EMEA"
-};
-
 const regions = [
   makeRegion("amer", "AMER"),
   makeRegion("cn", "CN"),
@@ -35,12 +28,11 @@ const teamYearRosters = buildTeamYearRosters();
 let state = createFreshState();
 
 function makeRegion(key, label) {
-  const dataKey = regionKeyMap[label] || label;
-  const regionTeamNames = majorData.regionTeams[dataKey] || [];
+  const regionTeamNames = majorData.regionTeams[label] || [];
   return {
     key,
     label,
-    sub: majorData.regionSubs[dataKey] || label,
+    sub: majorData.regionSubs[label] || label,
     teams: Object.fromEntries(regionTeamNames.map((team) => [
       team,
       YEARS.filter((year) => majorData.teamYearRosters[team]?.[year]?.length)
@@ -480,38 +472,89 @@ function placementClass(place, maxPlace) {
   if (place <= Math.ceil(maxPlace / 2)) return "result-mid";
   return "result-low";
 }
-
-function renderSimulation(score) {
+ 
+function simRowHTML(r, spinning = false) {
+  if (r.dnq) {
+    return `
+      <div class="sim-row sim-dnq">
+        <span class="sim-event">${r.event}</span>
+        <span class="sim-place">DNQ</span>
+        <span class="sim-note">Did not qualify</span>
+      </div>
+    `;
+  }
+  if (spinning) {
+    return `
+      <div class="sim-row sim-spinning">
+        <span class="sim-event">${r.event}</span>
+        <span class="sim-place sim-reel">—</span>
+        <span class="sim-note"></span>
+      </div>
+    `;
+  }
+  const cls = placementClass(r.place, r.maxPlace);
+  const qualNote = r.qualified === false
+    ? `<span class="sim-note sim-miss">Did not qualify for ${r.qualifiesFor}</span>`
+    : r.qualified === true
+      ? `<span class="sim-note sim-qualify">Qualified for ${r.qualifiesFor}</span>`
+      : "";
+  return `
+    <div class="sim-row ${cls} sim-revealed">
+      <span class="sim-event">${r.event}</span>
+      <span class="sim-place">${placeLabel(r.place)}</span>
+      ${qualNote}
+    </div>
+  `;
+}
+ 
+function randomPlaceLabel(maxPlace) {
+  return placeLabel(Math.ceil(Math.random() * maxPlace));
+}
+ 
+async function renderSimulation(score) {
   const results = simulateSeason(score);
   const container = document.querySelector('[data-bind="simulation"]');
   if (!container) return;
-
-  container.innerHTML = results.map((r) => {
+ 
+  // Render all rows as pending placeholders first
+  container.innerHTML = results.map((r) => `
+    <div class="sim-row sim-pending">
+      <span class="sim-event">${r.event}</span>
+      <span class="sim-place">···</span>
+      <span class="sim-note"></span>
+    </div>
+  `).join("");
+ 
+  // Animate each row one at a time
+  for (let i = 0; i < results.length; i++) {
+    const r = results[i];
+ 
     if (r.dnq) {
-      return `
-        <div class="sim-row sim-dnq">
-          <span class="sim-event">${r.event}</span>
-          <span class="sim-place">DNQ</span>
-          <span class="sim-note">Did not qualify</span>
-        </div>
-      `;
+      await sleep(300);
+      const rows = container.querySelectorAll(".sim-row");
+      rows[i].outerHTML = simRowHTML(r);
+      await sleep(200);
+      continue;
     }
-    const cls = placementClass(r.place, r.maxPlace);
-    const qualNote = r.qualified === false
-      ? `<span class="sim-note sim-miss">Did not qualify for ${r.qualifiesFor}</span>`
-      : r.qualified === true
-        ? `<span class="sim-note sim-qualify">Qualified for ${r.qualifiesFor}</span>`
-        : "";
-    return `
-      <div class="sim-row ${cls}">
-        <span class="sim-event">${r.event}</span>
-        <span class="sim-place">${placeLabel(r.place)}</span>
-        ${qualNote}
-      </div>
-    `;
-  }).join("");
+ 
+    // Spin the place label
+    const rows = container.querySelectorAll(".sim-row");
+    rows[i].className = "sim-row sim-spinning";
+    rows[i].querySelector(".sim-place").textContent = "—";
+ 
+    for (let t = 0; t < 10; t++) {
+      await sleep(60 + t * 15);
+      const currentRows = container.querySelectorAll(".sim-row");
+      const placeEl = currentRows[i]?.querySelector(".sim-place");
+      if (placeEl) placeEl.textContent = randomPlaceLabel(r.maxPlace);
+    }
+ 
+    // Reveal final result
+    const finalRows = container.querySelectorAll(".sim-row");
+    if (finalRows[i]) finalRows[i].outerHTML = simRowHTML(r);
+    await sleep(350);
+  }
 }
-
 // ─── Result Screen ────────────────────────────────────────────────────────────
 
 function renderResult() {
@@ -527,8 +570,8 @@ function renderResult() {
   document.querySelector('[data-bind="score"]').textContent = score;
   document.querySelector('[data-bind="scoreText"]').textContent =
     score > 90 ? "A frightening international superteam." :
-    score > 80 ? "Balanced, explosive and ready for playoffs." :
-    "High upside, but the comms room might get spicy.";
+    score > 80 ? "Balanced, explosive and ready to complete." :
+    "High potential, but something is lacking.";
 
   renderSimulation(score);
 }
