@@ -518,7 +518,8 @@ function renderResult() {
   const teams = new Set(state.picks.map((pick) => pick.team)).size;
   const years = state.picks.map((pick) => pick.year);
   const yearSpread = Math.max(...years) - Math.min(...years);
-  const averageRating = state.picks.reduce((total, pick) => total + pick.rating, 0) / state.picks.length;
+  const validRatings = state.picks.map((pick) => pick.rating).filter((r) => Number.isFinite(r));
+  const averageRating = validRatings.length ? validRatings.reduce((a, b) => a + b, 0) / validRatings.length : 70;
   const score = Math.max(62, Math.min(99, Math.round(averageRating + teams * 1.5 + Math.max(0, 8 - yearSpread))));
 
   document.querySelector('[data-bind="score"]').textContent = score;
