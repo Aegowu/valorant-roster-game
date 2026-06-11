@@ -610,6 +610,7 @@ async function draftPlayer(candidateId, selectedRoleKey) {
     return;
   }
 
+  document.querySelector('[data-bind="candidates"]').innerHTML = "";
   await sleep(400);
   const draw = randomItem(rerollDrawOptions());
   if (!draw) return;
